@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="KannadaReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fbd8b4b6-d2d1-4b5a-bd23-80a200509dea">
+	<parameter name="ParameterName" class="java.lang.String"/>
+	<parameter name="name" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<detail>
+		<band height="236">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="50" uuid="88da1358-58a4-4a54-b737-9b558776e482"/>
+				<textElement>
+					<font  size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ಕನ್ನಡ ಜಾಸ್ಪರ್ ಪಿಡಿಎಫ್ ಉದಾಹರಣೆ"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="95" width="100" height="30" uuid="5839fd84-6580-4d01-8bff-19408287ee43"/>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="205" y="193" width="100" height="30" uuid="536d2050-554c-4789-bf60-ca3800ad4495"/>
+				<textFieldExpression><![CDATA[$P{ParameterName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish08" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3de944bb-9176-495c-a0d4-c666d49cca19">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="50" y="20" width="477" height="80" uuid="fcf727af-965a-4d5e-8a4b-66da32420e2d"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[d. The company has absolute liberty to call upon the Borrower/s to comply with and pay all the statutory payments under Income Tax Act, Finance Act (Service Tax) and such other acts, as may be applicable to the borrower or has to be complied with by the Borrower from time to time, and all such contributions have to be made by the Borrower/s out of their own funds other than the Loan extended by the Company and provide proof of the same when asked for by the Company.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="100" width="500" height="25" uuid="111bdeb9-aabb-46f0-8606-212ed571185b"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[13. Charges Payable to the Company]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="123" width="477" height="205" uuid="e2fe68d6-ca1c-49da-8430-c8ae2ca76a2c"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>a.</b> The Borrower shall pay to the Company interest at the Rate of Interest stipulated by the Company from time to time at its sole discretion notwithstanding the ruling rate of interest appearing in the Schedule attached hereto.<br><br>
+<b>b.</b> The Borrower shall pay all types of taxes, charges, duties, processing fees, professional charges like legal and technical assessment of the property, stamp duties and penalties, if any, registration charges, etc. as are payable in connection with the Loan facility and this Agreement and the security created or to be created in connection with this Loan facility.<br><br>
+<b>c.</b> The Borrower will give suitable standing instructions to debit his/their savings/current account to recover the EMIs and the said standing instructions shall be irrevocable during the currency of the Loan facility. The Borrower shall be duty bound to pay the EMI on the due dates. Any delay in payment of the EMI on the due dates shall authorize the Company to charge the Borrower a Additional Interest as per the policy of the Company.<br><br>
+<b>d.</b> In the event the Borrower is desirous of prepaying any part (or full amount) of the credit facility or paying any part of the EMI before the due date, then such payment shall be subject to the Borrower paying such charges/fees as may be required by the Company notwithstanding the charges appearing in the Schedule attached hereto.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="333" width="500" height="25" uuid="be1a7436-4a5d-452f-9da5-5314c21903fa"/>
+				<textElement textAlignment="Center" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Rights of Company / Authorization to Company]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="355" width="500" height="25" uuid="4f279027-868d-43d5-a4d3-6f67674d438c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[<b>14.</b> The Borrower hereby authorizes the Company and acknowledges its rights with respect to the
+following acts:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="389" width="477" height="405" uuid="13b6fb81-3a97-4301-8465-4e4494fe9e92"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[a. To create a charge and security of the Borrower’s right, title and interest in such of the assets of the Borrower as the Company may deem fit and proper and for this purpose to execute such documents for and on behalf of the Borrower and pay all the necessary stamp duty and penalties (if any) to the government and to do all such acts, deeds and things, including approaching all the necessary authorities and/or persons, whether government, semi- government or otherwise, as may be required in this regard.<br><br>
+b. To sign further MOUs, agreements, sale deeds, deeds of transfer, deeds of modification/confirmation, share transfer forms and other documents for and on behalf of the Borrower to enforce the security in the event of default by Borrower and complete the sale without any specific orders and decrees.<br><br>
+c. To do all other deeds, matters and things incidental to and connected with the creation of the security for the Loan as the Company may consider necessary.<br><br>
+d. To obtain re-finance against the Loan as it may consider appropriate.<br><br>
+e. To enter the School / Business Premises for which the Loan has been utilized, inspect and supervise it and also inspect its books of accounts, registers and other records / documents maintained by the Borrower/s or their authorized representatives.<br><br>
+f. To cancel the undrawn / unavailed / unused portion of the Loan at any time during the subsistence of the Loan, without any further notice to the Borrower, for any reason whatsoever (either regulatory or otherwise).<br><br>
+g. At any time during the tenure of the Loan Agreement to revise / reschedule the repayment terms / amount of EMI or of any other amounts outstanding thereunder and the Borrower shall make all uture repayments to the Company according to such revised schedule on being notified by the Company of such revision or re -schedule.<br><br>
+h. Any delay or omission by the Company in exercising any of its rights, powers or remedies as the lender of the Loan under the Loan Agreement and other documents pursuant thereto shall not impair the right, power or remedy or be construed as its waiver or acquiesce by the Company.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="780" width="100" height="20" uuid="c442c042-9b34-40ab-ad13-cb24e2903c28"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[7]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

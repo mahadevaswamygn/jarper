@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="Noto Sans Kannada">
+        <normal><![CDATA[fonts/NotoSansKannada-Regular.ttf]]></normal>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <pdfEncoding><![CDATA[Cp1252]]></pdfEncoding>
+        <pdfEmbeddedSubset><![CDATA[false]]></pdfEmbeddedSubset>
+    </fontFamily>
+</fontFamilies>

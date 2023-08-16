@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish002" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9df997e8-6cfc-4566-b581-14cb8f7d3f29">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="30" width="140" height="20" uuid="9ff8047f-1dc6-4d85-87dc-27cdb0401794"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Loan ID:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="249" width="160" height="21" uuid="d128aecc-9878-4d35-a398-fe96e2fb717e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Loan Agreement]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="270" width="480" height="510" uuid="ac4c0ed2-6d3f-4cb1-88ab-cc5dfdfb5a5a"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[This Loan agreement made at the place on the day, month and year set out in the Schedule hereto between the Borrower whose name and address is stated in the Schedule below, hereinafter called the “Borrower” (which expression shall unless the context otherwise requires, includes the main applicant and all co-applicants, his/her/their heirs, executors, administrators) of One Part<br><br>
+				AND<br><br>
+				Varthana Finance Private Limited, a Non-Banking Finance Company, incorporated under the Companies Act 1956 and registered with the Reserve Bank of India, having its registered office at 5BC-110, 3rd Floor, Varasiddhi. Outer Ring Road, Service Road, 3rd Block, HRBR Layout, Kalyan Nagar, Bangalore-560043 operating under the brand name “Varthana”and having its corporate office at the address stated in the Schedule annexed to the agreement (hereinafter referred to as “Company”) (which expression shall unless repugnant to the context or meaning thereof be deemed to include a reference to it s successors and assigns) of the Second Part;<br><br>
+				The Borrower and the Company are hereinafter collectively referred to as “Parties” and individually as the “Party”<br><br>
+				WHEREAS the undersigned Borrower hereby agrees to avail from the Company and the Company agrees to grant/extend to the Borrower a credit facility, details whereof are contained in Schedule hereto, on the terms and conditions contained herein subject to the Borrower executing such documents and creating such security as may be required by the Company from time to time.<br><br>
+				NOW THIS AGREEMENT WITNESSETH AND IS HEREBY MUTUALLY AGREED, DECLARED, CONFIRMED AND RECORDED BY AND BETWEEN THE PARTIES HERETO AS FOLLOWS<br><br>
+				<b>Definitions:</b><br><br>
+				1. <b>“APPLICATION” </b>shall ean the application for the particular Loan made by the Borrower to the Company and all information, particulars and clarifications furnished by the Borrower to the Company from time to time in respect thereof.
+
+				]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="420" y="782" width="100" height="20" uuid="2661663c-424b-4dfb-9cca-f0d9f1421969"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

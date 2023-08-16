@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish05" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5f23abea-5a6c-4700-be27-91291b144935">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="27" y="320" width="500" height="140" uuid="73a9b874-7a51-44b0-93dd-d67b316be391"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The Borrower/s undertakes and agrees to pay the interest on the Loan free from any deduction whether on account of tax or otherwise. Should any applicable law at any time require any deduction or withholding to be made from a payment, Borrower’s liability in respect of the payment shall be for a revised amount which the Company would have received, had no such deduction or withholding been made. The Borrower also confirms that any withholding tax obligation, in respect of the interest payable on the facility whether under the Indian Law or the Laws of any other country applicable to the Borrower, would be the Borrower’s responsibility. The Borrower shall hold the Company harmless and fully indemnified for any claim which may be made in this regard by any tax or other authorities and undertake to pay forthwith any such demands which the Company may be made liable to pay. If the Borrower fails to pay the amount so demanded by the Company, then the Borrower hereby authorizes the Company to enforce the security created in their favour for the purpose of recovery of the said tax amount in certain cases or authorizes the Company to treat the same as paid on their behalf and debit such amount to the Borrower’s Loan account.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="20" width="457" height="30" uuid="765eb03c-fe13-4fd3-8249-51b57e330d16"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[2. If the Borrower has not commenced payment of EMI: on the total amount of the facility drawn prior to revision of the Index / Base rate or Prime lending rate.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="50" width="477" height="250" uuid="fa56fe2a-6dfc-4af6-89b4-dd3035d2ea2a"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>2.</b> Notwithstanding anything to the contrary contained in the Loan Agreement and/or the other Transaction documents, having regard to FRO for the time being, the Company, at its sole discretion, shall be entitled to increase the EMI amount suitably if: (i) the EMI is not adequate to cover interest payment in full, or (ii) the EMI results in the term of the facility exceeding the retirement age for the Borrower/s, as applicable ; or (iii) if so required by the Company in its sole discretion for any reason whatsoever from time to time. The Borrower/s shall be required to pay such increased EMI amount and/or the differential amount resultant as de termined by the Company in its sole discretion and intimated to the Borrower/s. The Borrower/s shall adhere to the procedure prescribed by the Company in its sole discretion and to do all such acts and deeds as the Company may require in order to give effect to such increased EMI<br>
+				<b>a.</b>  The Company may, in its sole discretion, having regard to the FROI, reduce the EMI amount or the total te or and in such event, the Borrower/s shall adhere to the procedure prescribed by the Company in its sole discretion and to do all such acts or deeds as the Company may require in order to give effect to such reduced EMI amount<br>
+<b>b.</b>  The Borrower/s will repay the Facility as stipulated herein, subject to any other changes in the Amortization schedule as communicated by the Company in writing to the Borrower/s.<br>
+<b>c.</b>  The Company may vary the Index rate or Primer lending rate from time to time in such manner as the Company may deem fit in its sole discretion.<br>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="300" width="163" height="20" uuid="751e8dd9-3fe5-4d9b-990f-f872cd44df49"/>
+				<textElement verticalAlignment="Top">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. Tax on Interest Payments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="460" width="163" height="30" uuid="952c94b3-3747-4e24-9723-ba1a4a18543c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. Principal Recovery]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="490" width="500" height="40" uuid="0d5c7d33-a7c6-48ad-a319-404ceed76514"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The principal amount will be the difference between the EMI and the interest amount calculated for the month. Repayment Allocation to Principal will be done as per the Allocation Order specified in Para 5 below.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="530" width="163" height="30" uuid="0b7d99bc-b82e-4b96-b1ea-188b6d42484d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[5. Allocation of Repayments]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="560" width="500" height="190" uuid="ffd13373-5c42-4694-a857-83f64af8ddd7"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Without prejudice to the Loan Agreement, any payment made by the Borrower/s to the Company under the Loan Agreement shall be appropriated by the Company in the following order.<br><br>
+1. Cheque/ECS/NACH Bounce Charges<br>
+2. Additional Interest<br>
+3. Any other charges incurred by the Company on behalf of the Borrower/s under the Loan<br>
+4. Interest portion of EMI<br>
+5. Principal portion of EMI<br>
+6. Partial / Full Pre-payment and connected Charges, if any<br><br>
+The Company reserves the right to refuse acceptance of post-dated cheques or such other instrument towards payments or settlement of credit facility. The company has rights to present the cheque/ECS/NACH multiple times for collecting overdue payment as and when borrower becomes delinquent.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="420" y="781" width="100" height="20" uuid="a2524248-080a-4434-a468-c4f6d3fe40aa">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Top"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

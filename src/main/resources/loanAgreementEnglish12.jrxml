@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish12" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7ae843ba-1962-4511-a304-236184ac30fc">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="70" y="20" width="457" height="90" uuid="2f9aa9a2-3170-42cb-8bc7-f7df6391e531"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[dues, including prepayment charges, if any.<br>
+13. In an Event of Default the Borrower/s agree and undertake not to prevent or obstruct the Company or its agents from taking poss ession of the Security (ies) assigned to the Loan.<br>
+14. The Borrower/s shall notify the Company regarding the change in his/her/their status as a Resident / Non-Resident Indian.<br>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="110" width="497" height="670" uuid="eebb482d-4d78-42e7-a7e2-226cc0129181"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The borrower/s declare and confirm that they are not a party to any litigation of any material character affecting the security and Borrower/s are not aware of any facts likely to give rise to such litigation or any material claims or enquiries from any tax authorities or other statutory authorities.<br><br>
+				IN WITNESS, WHEREOF THE BORROWER/S HAS/HAVE EXECUTED THESE PRESENTS ON
+THE DAY OF_________________________ AT___________________________<br><br><br>
+
+Signed and delivered by the within named Borrowers<br><br><br>
+
+Signature: _________________________<br>
+Name:<br><br><br>
+
+Signature: _________________________<br>
+Name:<br><br><br>
+
+Signature: _________________________<br>
+Name:<br><br><br>
+
+Signed and delivered
+FOR VARTHANA FINANCE PRIVATE LIMITED<br><br>
+(Authorized Signatory)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="782" width="100" height="20" uuid="bf74386f-98f9-4867-9f6c-d0dab0e690db">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[11]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

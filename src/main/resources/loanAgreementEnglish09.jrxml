@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish09" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="89f4665d-42c6-49ef-afb9-2b0ae366f693">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="27" y="20" width="500" height="25" uuid="8c4002a0-dd6c-4074-acf2-ce0f3855e519"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[15.Remedies of the Company]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="47" width="500" height="15" uuid="f22d2e6b-ef4b-45de-be24-1754be1cfaa4"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[a. Events of Default]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="62" width="477" height="438" uuid="3edff0fa-3152-4250-b0d8-55393bbb7e8e"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The following acts as set out below shall each constitute an “Event of Default” by the Borrower/s:<br><br>
+<b>i.</b> Borrower fails to pay to the Company any amount when due and payable under the Loan Agreement.<br>
+<b>ii.</b> Borrower is unable to or has admitted his inability to pay the dues.<br>
+<b>iii.</b> Any of the information provided by the Borrower/s to avail the Loan or any of their representations, warranties or declarations being found to be or becoming incorrect or untrue and / or any breacorh default in complying with all or any of the covenants, conditions or undertakings during the currency of the Loan.<br>
+<b>iv.</b> Failure by the Borrower/s to furnish to the Company such information as may be required by the Company from time to time.<br>
+<b>v.</b> Breach of any terms and conditions of the Loan Agreement or any other standard documents related to the credit facility availed by the Borrower.<br>
+<b>vi.</b> Any person, other than the Company commencing proceedings to declare the Borrower/s or if the Borrower/s have become subjeto ct insolvency, bankruptcy, reorganization, liquidation proceedings.<br>
+<b>vii.</b> Borrower(s) fail to create the security provided in the Loan Agreement and / or fail to provide additional security as intimated by the Company from time to time.<br>
+<b>viii.</b> Property is liable tobe confiscated, attached, taken into custody by any official, authority, or is subject to any execution proceedings.<br>
+<b>ix.</b> Property is endangered or has suffered total loss/damage due to any accident.<br>
+<b>x.</b> If the security is in jeopardy or ceases to have effect.<br>
+<b>xi.</b> The Borrower loses recognition for the educational institution from the relevant government authority.<br>
+<b>xii.</b> Death of the Borrower or any event which is likely to have the effect of the Borrower not being able to service the Loan.<br>
+<b>xiii.</b> An event of default howsoever described (or any event which with the giving of notice, lapse of time, determination of Materiality or fulfilment of any other applicable condition or any combination of the foregoing would constitute an event of default) occurs under any other agreement or document relating to any indebtedness of the Borrower with the Company or if any other lenders of the Borrower including financial institutions or banks with whom the Borrower has entered into agreements for financial assistance or any part thereof.<br>
+<b>xiv.</b> Any other event, which, in the Company’s sole opinion is likely to have materially adverse effect on the ability of the Borrower to make payments under this Agreement.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="498" width="477" height="30" uuid="8cd4bb45-6f47-4a81-aa7b-4351f9bd6082"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The decision of the Company as to whether or not an event of Default has occurred shall be final and binding upon the Borrower.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="530" width="500" height="15" uuid="2ee0ab8d-cbf0-4e51-b238-c29196b287e3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[b. The Company shall be entitled:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="550" width="477" height="230" uuid="6f28d16f-2dc3-4436-a20d-955358cdccec"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>i.</b> To recall the entire outstanding of the credit facility disbursed at any time at its own discretion, without any prejudice to any other rights, if ithas reason to believe that the credit facility was procured by improper declaration/information or the security offered is inadequate or affected in anyway due to non- payment of dues, improper maintenance or for any other reason of whatsoever nature.<br>
+<b>ii.</b> To stop disbursing future tranches, if any, of the Loan.<br>
+<b>iii.</b> To engage person/s or agencies at the risk and cost of the Borrower/s to collect the Borrower/s outstanding dues and / or to enforce any security (ies) and may furnish to such person/s or agencies the right and authority to perform and execute all acts, deeds, matters and things connected or incidental thereto as the Company thinks fit.<br>
+<b>iv.</b> To assign the debt, whether in full or part along with the underlying security, in favour of one or more entities on such terms and conditions at the Company’s discretion, without seeking consent from the Borrower.<br>
+<b>v.</b> To declare all sums outstanding under the facility (including principal, interest, costs, charges, expenses, etc.) to become due and payable forthw ith if the value of the property or any security (including the guarantees) created or tendered by the Borrower, in the sole discretion and the decision of the Company depreciates entitling the Company to call for further security.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="780" width="87" height="20" uuid="7c1eb81a-e38c-472a-a890-0d534a06c563">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[8]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

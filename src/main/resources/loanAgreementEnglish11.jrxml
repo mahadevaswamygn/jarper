@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish11" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ed3fe55b-e574-4b50-bd56-3da1c6c4f793">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="50" y="20" width="477" height="300" uuid="72d596f4-3832-4b2e-9b5d-992a68fa1e30"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>f.</b> Any notice or request required or permitted under the Loan Agreement to be given by either party to the other shall be only in writing and sent to the address of the other party as mentioned in the Loan<br><br>
+				<b>g.</b> The Borrower data collected by the Company may be used by the Company for the creation of new service offerings and/or in support of market research and/or marketing materials. Any borrower data used by the Company for these purposes will be anonymized and aggregated, ensuring protection of borrower privacy .<br><br>
+				Approval Letter annexed to Loan Agreement or in case of Borrower to the address of the Borrower/s last known to the Company.<br<br>
+<b>1. Governing Law and Jurisdiction</b><br><br>
+The provisions of this Agreement shall be governed by and construed in accordance with Indian Law and the parties hereby expressly agree that the courts at Bangalore shall have exclusive jurisdiction in relation to all matters concerning and relating to this Agreement.<br><br>
+<b>2. Borrower’s Representation & Declaration</b><br><br> The Borrower/s make the following representations and declarations and further confirm that they will continue to remain true, correct, valid and subsisting in every respect as of the date of the Loan Agreement through the date (s) of drawls under the Loan up to the date of complete repayment / payment in full of the Loan and all monies in respect thereof as per the Loan Agreement.<br><br>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="329" width="457" height="441" uuid="dd5e830f-3361-4a34-b599-d315cdaab3fe"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[1. The Borrower/s confirm having perused, understood and having agreed to the terms and conditions of this Agreement, including the Company’s method of calculating the interest and the EMI.<br>
+2. The Borrower/s shall be bound by and shall comply with all the terms and conditions of the Loan Approval Letter, which shall be deemed to be part of the Loan Agreement, as if the terms and conditions have been specifically incorporated therein.<br>
+3. The Borrower/s have given complete and correct information and details in the Application about themselves and the Security offered. The Borrower/s further confirm that no material change or alteration has taken place subsequent to the date of Application which would jeopardize Borrower/s capacity to pay / repay in respect of the Loan and / or the Security in any manner whatsoever.<br>
+4. The Borrower/s declare that the decision to avail the Loan has been taken based on the approval of the Board of the Trust/Society/Governing body managing the institution for which the loan is to be utilized and that all members / trustees of the Trust/Society/Governing body are aware of and have given their consensus to the terms and conditions of the Loan Agreement.<br>
+5. The Borrower/s will keep themselves aware of the rules of the Company, as pertain to the Loan, and in force from time to time.<br>
+6. The Borrower/s shall promptly and without requiring any notice or reminder from the Company, repay to the Company, the Loan in accordance with the Loan Agreement.<br>
+7. The Borrower/s declare that all the amounts including the amount of own contribution paid/payable in connection with the Loan / Security is/shall be paid through legitimate sources and does not/shall not constitute an offence of Money Laundering under the Prevention of Money Laundering Act, 2002.<br>
+8. The Borrower/s shall always have, until all their dues under the Loan Agreement and Other Documents are paid / repaid to the Company, a clear and marketable title to the Security, free from all encumbrances whatsoever.<br>
+9. The Borrower/s have no pending claims demands litigations or proceedings against any of them before any court or authority (public or private) and further warrant that there are no mortgages, charges, lien or other encumbrances in respect of the said Security.<br>
+10. The Borrower/s shall not induct any person on its board whose name is appearing in the list of Wilful Defaulters and in case such a person is found to be on its board, it would take expeditious and effective steps for removal of such person from its board.<br>
+11. The Borrowers liabilities under this agreement shall be joint and several, if there are two or more Borrowers.<br>
+12. The Borrower/s shall not leave India for employment or business or long stay without first fully repaying the Loan then outstanding due and payable with interest and other dues, including prepayment charges, if any<br>.
+13. In an Event of Default the Borrower/s agree and undertake not to prevent or obstruct the Company or its agents from taking poss ession of the Security (ies) assigned to the Loan.<br>
+14. The Borrower/s shall notify the Company regarding the change in his/her/their status as a Resident / Non-Resident Indian.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="782" width="100" height="20" uuid="9cb8d6f1-c702-487f-b89a-838fc751a1a7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[10]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

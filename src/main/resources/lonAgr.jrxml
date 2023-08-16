@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish03" pageWidth="595" pageHeight="790" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="11df912c-f084-4edc-ae0c-c926c58b404a">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <detail>
+        <band height="720" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <staticText>
+                <reportElement x="29" y="12" width="500" height="498" uuid="4b18b236-7644-4d13-916e-da94963c0b19"/>
+                <textElement textAlignment="Justified">
+                    <font size="9"/>
+                    <paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+                </textElement>
+                <text><![CDATA[5. “LOAN APPROVAL LETTER”means the letter issued by the Company about sanction of the Loan and shall include all amendments to the Loan Approval Letter issued by the Company from time to time and includes letter / s issued by Company from time to time amending the Interest Rate.
+6. “PRE EMI”means the interest due and payable by the Borro wer on the partly disbursed Loan
+amount till such time that the EMI on the fully disbursed Loan can begin.
+7. “PREPAYMENT”means the premature repayment of any instalments due or part payment of the outstanding Loan balance or full payment of the outstanding Loan balance as per the terms and conditions laid down by the company in that behalf and in force at the time of prepayment.
+8. “PROJECT REPORT”means the report prepared by the Relationship Manager of the Company based on the information and documents provided by the Borrower about the School / Place of Business for which the Loan applied by the Borrower is going to be utilized.
+9. “PROPERTY”shall mean the property more specifically described in the Schedule appearing below with all the common areas / easements/ privileges / development rights/benefits, fixtures and fittings, buildings and structures, present and future, all tangible and /or intangible properties, all accretions, additions, accessories, structures constructed or erected thereon,whether owned, acquired/occupaied or to be owned/acquired/occupied.
+10. “PURPOSE”means the purpose (s) for which the Loan has been agreed to be provided by the Company and as more particularly specified in the Loan Approval Letter and End Use Undertaking
+11. “RATE OF INTEREST(” ROI) means the rate of interest referred in the Agreement and as varied from time to time in terms of this Agreement
+12. “REPAYMENT” means the repayment of principal amount of the credit facility, interest thereon, commitment and/or any other charges, premium, fees or other dues payable in terms of this Agreement to the Company.
+i. In this Agreement, unless the context otherwise requires, the singular includes the plural and vice versa)
+ii. References to a gender shall include references to the female, male and neuter genders.
+13. “SECURITY”means the diverse security (ies) stipulated in the Loan Agreement and/or Loan Approval Letter which the Borrower is liable to create or procure and furnish in favour of the company to secure the due repayment of the Loan and payment of other month this agreement.
+14. DELINQUENT: means situation where borrower is late or overdue on EMI as per loan schedule. It is contractual obligation to make payment against a loan on due date as per repayment schedule.
+15. “FLOATING RATE OF INTEREST”or “FROI” means the interest rated decide by Company from time to time as its Lending rate and applied with spread / margin, if any, as may be decided by Company, on the loan of the borrower pursuant to this agreement and shall be communicated to Borrower accordingly.
+16. “INDEX / BASE RATEor PRIME LENDING RATE”means the rate of interest fixed by the Company from time to time as its Index rate or Prime Lending Rate. Company has a right to change Index rate or Prime Lending rate based on its internal factors and the same will be notified to the Borrower/s accordingly.
+17. “ADDITIONAL INTEREST” means interest levied by Company on delay in payment of the EMI or any other amounts due and payable by the Borrower to the Company
+18. “RESET PERIOD” means Monthly or Bi -Monthly or Quarterly or Half yearly during which the Index rate or Primer lending rate is changed]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="29" y="530" width="500" height="90" uuid="fe4f5610-55b4-4247-9f3b-2183d30122f3"/>
+                <text><![CDATA[1. Terms and Conditions:
+1.1 The Company may, subject to the Borrower agreeing to the covenants and undertakings as pertaining to the Loan and based on the details provided in the Application made by the Borrower for the said Loan and subject to the terms and conditions in the Loan Agreement, Loan Approval Letter and based on other documents executed or tendered by the Borrower in relation to the said Loan, l end to the Borrower the said Loan.]]></text>
+            </staticText>
+        </band>
+    </detail>
+</jasperReport>

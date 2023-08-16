@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish005" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ea9773e9-69cc-4b62-90a4-352052437133">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="37" y="15" width="480" height="735" uuid="51737a90-f983-41c9-bcad-ec48991a52b5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Interest on the Loan shall begin to accrue from the date of debit to the Company’s Bank Account simultaneously with the Company’s disbursement of the Loan by issuing Pay Order / Demand Draft or otherwise, without the Company concerning itself with the receipt of such disbursement by the beneficiary / recipient and with the realisation of such Pay Order / Demand Draft or the time taken in such realisation.<br>
+The interest will be computed based on the principal outstanding balance on a daily basis. This interest amount will be debited to the facility account itself thereby recovering the interest component of the EMI. Excess funds over and above the EMI deposited by the Borrower/s into the account will be adjusted against the principal outstanding, unless instructed by the Borrower to consider it as an advance EMI. On the other hand, if sufficient funds are not deposited into the account then the interest debited will show as an unauthorized overdraft and the account will be categorized as a delinquent account.<br><br>
+<b>2.1 FLOATING RATE OF INTEREST (FROI):</b><br><br>
+<b>1.</b> If the rate of interest applicable to the Borrower/s is Floating Rate of Interest, the following shall apply;<br>
+<a>a.</a> The FROI shall be changed within each Reset Period, based on the then prevailing Index rate or Prime lending rate and the Borrower/s shall thereafter pay interest on the loan at such new rate. The Company will change the rate on the first day of the month/ bi monthly / quarterly /half yearly following the Reset period in which the Index / Base rate or Prime lending rate is changed.<br>
+<a>b.</a> If the Company changes the FROI prior to the disbursement of the full facility within Reset period, the weighted average of the different FROI shall be applicable to the Facility forthwith from the date of such increase or decrease till the first day of the month following the Reset period in which Index / Base rate or Prime Lending rate is changed.<br>
+<b>c.</b> The FROI to the facility shall be on the basis of Index / Base rate or Prime lending rate prevailing on the date of final disbursement.<br>
+<b>d.</b> The FROI prevailing on the date of Facility or as changed from time to time shall be applied as follows:<br>
+<b>1.</b> If the Borrower/s has already commenced payment of EMI before the beginning of the Reset period in which Index /Base rate or Prime lending rate has been revised: on the outstanding principal amount of the Facility as at the beginning of the next Reset Period, or<br>
+<b>2.</b> If the Borrower has not commenced payment of EMI: on the total amount of the facility drawn prior to revision of the Index / Base rate or Prime lending rate.<br><br>
+<b>2.</b> Notwithstanding anything to the contrary contained in the Loan Agreement and/or the other Transaction documents, having regard to FRO for the time being, the Company, at its sole discretion, shall be entitled to increase the EMI amount suitably if: (i) the EMI is not adequate to cover interest payment in full, or (ii) the EMI results in the term of the facility exceeding the retirement age for the Borrower/s, as applicable ; or (iii) if so required by the Company in its sole discretion for any reason whatsoever from time to time. The Borrower/s shall be required to pay such increased EMI amount and/or the differential amount resultant as de termined by the Company in its sole discretion and intimated to the Borrower/s. The Borrower/s shall adhere to the procedure prescribed by the Company in its sole discretion and to do all such acts and deeds as the Company may require in order to give effect to such increased EMI
+
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="be7e30e2-59e6-402e-934c-b95f670e206a"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="667" width="467" height="119" uuid="b3659e18-a119-4a2e-a0fd-a4fd2c9e811a"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>a.</b> The Company may, in its sole discretion, having regard to the FROI, reduce the EMI amount or the total tenor and in such event, the Borrower/s shall adhere to the procedure prescribed by the Company in its sole discretion and to do all such acts or deeds as the Company may require in order to give effect to such reduced EMI amount.<br>
+<b>b.</b> The Borrower/s will repay the Facility as stipulated herein, subject to any other changes in the Amortization schedule as communicated by the Company in writing to the Borrower/s.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

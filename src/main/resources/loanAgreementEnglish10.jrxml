@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish10" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ab4ae2cb-5aef-4304-b36b-7511167b93cf">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="27" y="153" width="500" height="15" uuid="52038151-3dce-41cd-a388-e2864c66878c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[16. Arbitration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="20" width="477" height="130" uuid="03df3bac-3c7b-4da7-92d9-7f1df3bffae6"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>vi.</b> To insure the property offered as security against any eventuality on behalf of the Borrower and recover the premium and other associated charges paid by the Company to the insurance company from the Borrower.<br>
+				<b>vii.</b> To sell, give on rent, or otherwise deal with the security (ies) taken in possession by public auction or private contract or private treaty, without being liable for any loss, and to apply the net proceeds thereof towards recovery of outstanding Loan and all other dues under the Loan Agreement. The Borrower/s agree to accept the Company’s accounts in respect of such sale, hire or dealing as conclusive<br>
+<b>viii.</b> To take any other action as it may deem fit for recovery of its dues and enforcement of the securities]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="175" width="477" height="57" uuid="2871efe9-d1a8-499d-99a2-282e6a63c3e8"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Disputes, if any, arising in the context of this agr eement or in respect of any rights or obligations arising out of this Agreement shall be resolved by arbitration by a sole arbitrator appointed by the Company in accordance with the Arbitration and Conciliation Act of 1996. The place of proceedings will be Bangalore and shall be carried out in English language.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="231" width="500" height="15" uuid="4d1d691a-32ff-4d4b-a048-a9227a9ae1f8"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[17.Effective Date of Agreement]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="251" width="477" height="100" uuid="490ab4ee-f991-4a92-b32a-e7bf05c7f6e8"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>a.</b> This Agreement shall not create any right, duty or obligation of whatsoever nature unless the same has been accepted by the Company. The Company shall be deemed hato ve accepted its rights, duties and obligations contained herein upon execution of this agreement by the Company.<br><br>
+<b>b.</b> The Agreement shall be binding on the Borrower and the Company on and from the execution hereof. This Agreement shall be deemed to be in full force and effect till such time as all monies due and payable to the Company under this Agreement have been repaid in full together with all interests, costs, charges due and payable thereon.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="352" width="500" height="15" uuid="feb22ae8-9920-4e34-b339-d8e572e9708f"/>
+				<textElement textAlignment="Left" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[18. Miscellaneous]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="383" width="477" height="397" uuid="47946752-d277-481f-a3f5-701f3a443f39"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>a.</b> The Borrower authorizes the Company to send information/communication pertaining to the Loanthrough electronic media like email or SMS (Short Messaging Service). The Borrower understands and acknowledges that any miscommunication or failure in receipt of any electronic communication shall not be deemed to be a waiver or modification of the obligations of the Borrower as per the terms and conditions of this Agreement.<br><br>
+<b>b.</b> The Borrower agrees that the Company shall be free to disclose his name or other details to person(s)/agency(ies) situated in India or abroad which are duly authorized by the Company to assist in the Company’s operations or for offering services/products or for prevention of fraud (directly/indirectly) or to credit bureaus (e.g. CIBIL, Highmark, Equifax, Experian) and any other agency authorized in this behalf by the regulator, to the regulator or to entities engaged in debt collection/recovery or to legal practitioner(s) and to whomsoever the Company in its interest deems it fit and appropriate.<br><br>
+
+<b>c.</b> The Borrower agrees that the Company may enter into securitization/portfolio sell down transactions with other financial institutions at its discretion. The Company shall be entitled to sell, assign, discount or transfer the Company’s rights and obligations under this agreement to any person(s) of the Company’s choice in whole or in part and in such manner and on such terms as the Company may decide. Any such sale, assignment or transfer shall conclusively bind the Borrower.<br><br>
+<b>d.</b> The Borrower agrees that in case the Company is required to make anypayments such as stamp duty, penalty , registration charges and/or any other charges and duties on and in relation to the Agreement, the security documents or any other documents, whether at the time of execution or thereafter then the Company shall be entitled/authorized to recover the same from the Borrower.<br><br>
+<b>e.</b> Notwithstanding anything stated elsewhere in this Agreement the continuation of the Loan shall be at the sole and absolute discretion of the Company. The company may at any time at its sole discretion and without assigning any reason call up to the Borrower to pay back the outstanding Loan and thereupon the Borrower shall, within 7 days of being so called upon, pay the whole of the Borrower’s outstanding to the Company without any delay or demur.<br><br>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="782" width="100" height="20" uuid="3299e33a-90ba-4b53-88ba-8424952b0293">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[9]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

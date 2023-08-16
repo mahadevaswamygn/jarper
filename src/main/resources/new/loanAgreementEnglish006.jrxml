@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="50" y="22" width="467" height="38" uuid="988854e5-1f72-4858-966f-fc227421b0da"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>c.</b> The Company may vary the Index rate or Primer lending rate from time to time in such
+manner as the Company may deem fit in its sole discretion.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="60" width="477" height="390" uuid="2feae8ff-a029-488d-a855-4646ee93b6db"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>3. Tax on Interest Payments</b><br><br>
+The Borrower/s undertakes and agrees to pay the interest on the Loan free from any deduction whether on account of tax or otherwise. Should any applicable law at any time require any deduction or withholding to be made from a payment, Borrower’s liability in respect of the payment shall be for a revised amount which the Company would have received, had no such deduction or withholding been made. The Borrower also confirms that any withholding tax obligation, in respect of the interest payable on the facility whether under the Indian Law or the Laws of any other country applicable to the Borrower, would be the Borrower’s responsibility. The Borrower shall hold the Company harmless and fully indemnified for any claim which may be made in this regard by any tax or other authorities and undertake to pay forthwith any such demands which the Company may be made liable to pay. If the Borrower fails to pay the amount so demanded by the Company, then the Borrower hereby authorizes the Company to enforce the security created in their favour for the purpose of recovery of the said tax amount in certain cases or authorizes the Company to treat the same as paid on their behalf and debit such amount to the Borrower’s Loan account.<br><br>
+<b>4. Principal Recovery</b><br><br>
+The principal amount will be the difference between the EMI and the interest amount calculated for the month. Repayment Allocation to Principal will be done as per the Allocation Order specified in Para 5 below.<br><br>
+<b>5. Allocation of Repayments</b><br><br>
+
+
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="408" width="477" height="170" uuid="11033083-cb3e-40c1-81af-2870bf9f0673"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Without prejudice to the Loan Agreement, any payment made by the Borrower/s to the Company under the Loan Agreement shall be appropriated by the Company in the following order.<br>
+1. Cheque/ECS/NACH Bounce Charges<br>
+2. Additional Interest<br>
+3. Any other charges incurred by the Company on behalf of the Borrower/s under the Loan<br>
+4. Interest portion of EMI<br>
+5. Principal portion of EMI<br>
+6. Partial / Full Pre-payment and connected Charges, if any<br]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="549" width="477" height="251" uuid="cc792a5b-29c9-4550-8e5f-8c0d1c4f5840"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The Company reserves the right to refuse acceptance of post-dated cheques or such other instrument towards payments or settlement of credit facility. The company has rights to present the cheque/ECS/NACH multiple times for collecting overdue payment as and when borrower becomes delinquent.<br><br>
+<b>6.Pre-EMI</b><br><br>
+The EMI will begin after the Loan has been fully disbursed. The Borrower agrees to pay the Pre- EMI at the applicable interest rate on the partly disbursed Loan amounts till the Loan is fully disbursed and the EMI begins.<br><br>
+<b>7. Pre-payment</b><br><br>
+The Company at its sole discretion and on such terms as to prepayment or part prepayment permit acceleration of EMIs or prepayment at the request of the Borrower. The Borrower may prepay up to 25% of the principal outstanding without any charges. Outstanding to be considered for computing 25% will be as on April 1 of the financial year. However, if the Loan is fully prepaid within 6 months of making the part payment then the part payment made will also be charged as per the applicable pre - payment charges. Part prepayment or full prepayment will be permitted only after completion of at least 6 EMIs. If customer intends to foreclose the loan within 6 months from date of disbursement, then Foreclosure charges of 5% is applicable on outstanding loan balance.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[5]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

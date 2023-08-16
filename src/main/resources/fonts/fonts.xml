@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+    <fontFamily name="kannadaFonts">
+        <normal><![CDATA[fonts/NotoSerifKannada-VariableFont_wght.ttf]]></normal>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+</fontFamilies>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgrementEnglish02" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c595a070-6e9e-4127-bcc3-907550894ca0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="298" width="500" height="17" uuid="43424b55-fdb3-46b8-b46f-5da8f62c539b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LOAN AGREEMENT]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="30" y="20" width="160" height="20" uuid="ee7a592d-1449-4521-9cb1-8cf05a274a20"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="30" y="20" width="55" height="20" uuid="4d4c4893-d571-4fb8-a1ac-18f5cd0963f7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Loan ID:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="317" width="460" height="83" uuid="84e968d3-6ed2-4a49-995c-6f4eeb0e1e77">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[This Loan agreement made at the place on the day, month and year set out in the Schedule hereto between the Borrower whose name and address is stated in the Schedule below, hereinafter called the “Borrower” (which expression shall unless the context otherwise requires, includes the main applicant and all co-applicants, his/her/their heirs, executors, administrators) of One Part<br><br>
+				AND]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="403" width="460" height="76" uuid="a467761b-2495-43f3-b3ad-e9c8a9548670">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[<b>Varthana Finance Private Limited</b>, a Non-Banking Finance Company, incorporated under the Companies Act 1956 and registered with the Reserve Bank of India, having its registered office at 5BC-110, 3rd Floor, Varasiddhi. Outer Ring Road, Service Road, 3rd Block, HRBR Layout,Kalyan Nagar, Bangalore-560043 operating under the brand name <b>“Varthana”</b>and having its corporate office at the address stated in the Schedule annexed to the agreement (hereinafter referred to as “Company”) (which expression shall unless repugnant to the context or meaning thereof be deemed to include a reference to it s successors and assigns) of the Second Part;]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="487" width="460" height="30" uuid="ed4b3630-858f-49e6-ac0f-16b5d39bcb78"/>
+				<textElement markup="html">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[The <b>Borrower and the Company</b> are hereinafter collectively referred to as <b>“Parties”</b> and individually as the <b>“Party”</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="525" width="460" height="54" uuid="27691556-0202-4ceb-8d0c-1a728a58438b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[WHEREAS the undersigned Borrower hereby agrees to avail from the Company and the
+Company agrees to grant/extend to the Borrower a credit facility, details whereof are contained
+in Schedule hereto, on the terms and conditions contained herein subject to the Borrower
+executing such documents and creating such security as may be required by the Company from
+time to time.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="587" width="480" height="40" uuid="f0c16f48-1d32-4c3e-8aae-aa74dc4a296e"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[NOW THIS AGREEMENT WITNESSETH AND IS HEREBY MUTUALLY AGREED,
+DECLARED,
+CONFIRMED AND RECORDED BY AND BETWEEN THE PARTIES HERETO AS FOLLOWS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="629" width="100" height="20" uuid="66d06b3d-dd25-4d46-bef1-9fa1df9717ea"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Definitions:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="651" width="480" height="101" uuid="ee6e0b0c-6986-4ad1-9f81-3e83bd6b9152"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[1. <b>“APPLICATION”</b>shall mean the application for the particular Loan made by the Borrower to the Company and all information, particulars and clarifications furnished by the Borrower to the Company from time to time in respect thereof.<br>
+ 2. <b>“AGREEMENT”</b> shall mean this Loan agreement entered between the Borrower and the Company governing the terms and conditions of this Loan.<br>
+ 3. <b>“DUE DATE”</b>shall mean the date(s) on which any amounts in respect of the Loan including principal, interest or other month fall due in terms of the relevant Loan agreement.<br>
+ 4. <b>“EMI”</b> (Equated Monthly Instalment) means the amount of monthly payment consisting of principal and interest to be paid by the Borrower to the Company to pay back the Loan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="781" width="60" height="21" uuid="b9c5bb04-0d0a-4bd0-8983-af8db988241f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgrrementKannada13" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="95983e9f-ab45-45d6-88f0-c0f9f0a05c3b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="90" width="490" height="50" uuid="6e318d64-0e30-4190-9f7c-883ff3a39be2"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ಅಡಮಾನಕ್ಕೆ ಬಾಧಿಸುವ ಯಾವುದೇ ವಾಸ್ತವಿಕ ಸಂಗತಿಗಳ ಯಾವುದೇ ಬಾಧ್ಯತೆಗೆ ತಾವು ಪಕ್ಷಗಾರರಾಗಿಲ್ಲ ಎಂದು ಸಾಲಗಾರರು ಘೋ ಷಿಸುತ್ತಾರೆ ಮತ್ತು ದೃಢೀ ಕರಿಸುತ್ತಾರೆ ಮತ್ತು ಯಾವುದೇ ತೆರಿಗೆ ಪ್ರಾಧಿಕಾರಗಳು ಅಥವಾ ಇತರ ಶಾಸನಾತ್ಮಕ ಪ್ರಾಧಿಕಾರಗಳಿಂದ ಯಾವುದೇ ದಾವೆ ಅಥವಾ ವಾಸ್ತವಿಕ ಕ್ಲೇಮ್ಗಳು ಅಥವಾ ವಿಚಾರಣೆಗಳು ದಾಖಲಾಗುವ ಯಾವುದೇ ವಾಸ್ತವಾಂಶಗಳ ಬಗ್ಗೆ ಸಾಲಗಾರರು ತಿಳಿದುಕೊಂಡಿಲ್ಲ.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="20" width="480" height="70" uuid="6d290c86-5f06-4074-9369-a51879adddcc"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[13. ವ್ಯತ್ಯ ದ ಘಟನೆ ಸಂಭವಿಸಿದಾಗ, ಸಾಲಕ್ಕೆ ನಿಯೋ ಜಿಸಿದ ಅಡಮಾನ(ಗಳ) ಸ್ವಾಧೀ ನವನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದರಿಂದ ಕಂಪನಿ ಅಥವಾ ಅದರ ಏಜೆಂಟರನ್ನು ತಡೆಯುವುದು ಅಥವಾ ಅಡ್ಡಿಪಡಿಸುವುದನ್ನು ಮಾಡುವುದಿಲ್ಲಎಂದು ಸಾಲಗಾರರು ಸಮ್ಮತಿಸುತ್ತಾರೆ ಮತ್ತು ಅಂಗೀ ಕರಿಸುತ್ತಾರೆ.<br>
+14. ನಿವಾಸಿ / ನಿವಾಸಿಯೇ ತರ ಭಾರತೀ ಯ ಸ್ಥಿತಿಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಕಂಪನಿಗೆ ಸಾಲಗಾರರು ಸೂಚನೆ ನೀ ಡಬೇ ಕು.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="160" width="500" height="520" uuid="4922451c-3469-4925-8976-0e5cc7f19af6"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ಸಾಕ್ಷಿಯಾಗಿ, ಇವುಗಳನ್ನು ________________________ ದಿನದಂದು _________________________ ಸ್ಥಳದಲ್ಲಿ ಸಾಲಗಾರರು
+ಜಾರಿಗೊಳಿಸಿದ್ದಾರೆ.<br><br>
+ಹೆಸರಿಸಿದ ಸಾಲಗಾರರಿಂದ ಸಹಿ ಮಾಡಲ್ಪಟ್ಟಿದೆ ಮತ್ತು ವಿತರಿಸಲಾಗಿದೆ,<br><br>
+ಸಹಿ: _________________________<br>
+ಹೆಸರು:<br><br><br>
+ಸಹಿ: _________________________<br>
+ಹೆಸರು:<br><br><br>
+ಸಹಿ: _________________________<br>
+ಹೆಸರು:<br><br><br>
+ಸಹಿ ಮಾಡಿದ ಮತ್ತು ವಿತರಿಸಿದ<br>
+<b>ವರ್ತ ನ ಫೈ ನಾನ್ಸ ಪ್ರೈಪ್ರ ವೇ ಟ್ ಲಿಮಿಟೆಡ್ ಪರವಾಗಿ</b><br><br>
+(ಅಧಿಕೃತ ಸಹಿದಾರರು)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="782" width="100" height="20" uuid="6378818d-7ca7-4145-aecb-3f607b47ddc2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[13]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

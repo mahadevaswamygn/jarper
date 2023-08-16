@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="LoanAgreementEnglish01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="591b1b2f-9cd3-4ad5-9f6e-27025c980173">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="350" y="20" width="180" height="20" uuid="8a75b3f6-70a9-4fbf-a803-d5ccf6222fe3"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Agreement No.:___________________]]></text>
+			</staticText>
+			<image>
+				<reportElement x="216" y="230" width="130" height="120" uuid="6e884f64-f4ec-469b-9562-43cab85f9b1b"/>
+				<imageExpression><![CDATA["https://s3.ap-south-1.amazonaws.com/com.rbi.circular/test/Varthana+Logo+2022+-+White_1.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="180" y="360" width="200" height="30" uuid="5d750fee-f66e-463f-b44c-a31b477e2417"/>
+				<textElement textAlignment="Center">
+					<font size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LOAN AGREEMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="390" width="260" height="20" uuid="9f0de867-70a8-43fa-93d5-ba1c1134780c"/>
+				<textElement textAlignment="Center">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[VARTHANA FINANCE PRIVATE LIMITED]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish07" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ab5a2c1e-2660-40cb-9b99-4b21d80c2aba">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="50" y="20" width="477" height="170" uuid="1e719dcb-0eb2-4253-bec2-94a6b0602ce6"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[d) All security furnished by the Borrower to the Company shall remain a continuing security to the Company binding upon the Borrower and shall:<br><br>
+i. Not be discharged by any intermediate payment by the Borrower or any settlement of accounts by the Borrower.<br>
+ii. Be in addition to and not in derogation of any other security which the Company at any time hold in respect of the Borrowers ‘dues.<br>
+iii. Be available to the Company until all accounts between the Company and the Borrower are ultimately settled.<br><br>
+e) If at any time during the currency of the Loan Agreement, the Company is of the opinion that the value of the security is not adequate or sufficient for the purpose of securing the due repayment of the Loan, and monies due thereon, the Company shall be entitled to call for any additional security by notice in writing and the Borrower shall be bound to comply with the said notice and provide any additional security or execute any further mortgage satisfactory to the Company within 30 days from the date of the receipt of the notice.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="195" width="500" height="25" uuid="2610a16c-c7ed-4ba8-8a2e-bb2a692406ec"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[10. Cross Collateral]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="220" width="477" height="140" uuid="3ac10770-0911-43ee-b11d-35d35c90df0a"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The Borrower acknowledges that in the event of Repayment by the Borrower of the Loan and other amounts due under this Agreement but there being any outstanding by the Borrower under any other financial facility availed of by the Borrower from the Company or any outstanding dues payable to the Company by the Borrower in his/her/its capacity as a guarantor or otherwise, then in such event, the Company shall not be obliged to release the security created by the Borrower under this Agreement and the Borrower hereby authorizes the Company to extend the security to covseucr h outstanding financial facility. Likewise, in the event of there being any outstanding by the Borrower under this Agreement, the Company shall not be obliged to release the security created by the Borrower for any other financial facility availed of by the Borrower from the Company and the Borrower undertakes to extend such security to cover the outstanding due under this Agreement.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="360" width="500" height="25" uuid="44518b89-e358-40cb-90ff-621ad6fed338"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[11. Hypothecation of Vehicles]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="385" width="477" height="65" uuid="eead545e-a9af-4169-b307-aa95229dc645"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[The Borrower’s vehicle offered as security by the Borrower will be hypothecated in the name of the Company. The Company shall be entitled to take possession of the hypothecated Vehicle(s) irrespective of whether the entire Loan amount has been recalled, whenever, in the absolute discretion of the Company, there is likelihood of any money not being paid by the Borrower(s) or the Company's security jeopardized.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="453" width="500" height="25" uuid="79c6a374-e435-42bd-9608-e71932c14450"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[12. Conditions for Disbursement -]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="480" width="477" height="322" uuid="c6585156-03a1-4bf5-ac24-b5dec893a822"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[a. Disbursements under the Loan shall be made subject to the fulfilment and compliance of the Loan Agreement and all other standard documents and writings executed by the Borrower and as specified by the Company, including the following:<br><br>
+i. No event of default has occurred or is subsisting>br>
+ii. The Borrower furnishing the evidence that the disbursement requested is required by the Borrower for the purpose for which the Loan was initially approved.<br>
+iii. The Borrower furnishing such documents, evidences and writings as may be required in connection with the requested disbursement.<br>
+iv. No circumstances shall have occurred which in the opinion of the Company may make it impossible for the Borrowers to fulfil the obligations under documents executed as per the Loan Agreement and other standard documents executed by the Borrower for availing this Loan.<br>
+v. The Borrower delivering the evidence to the Company’s satisfaction that all consents, approvals and permissions required to avail the Loan and to comply with all documentation related to availing the Loan including creation of security is completed.<br><br>
+b. The disbursement shall be deemed to have been made to the Borrower on the date of the Cheque or the Payment advice or Pay order/Demand Draft or Transfer, as the case may be, under which such disbursement shall have been made irrespective of the date on which the disbursement may have been received in to the Borrower’s account.<br><br>
+c. The disbursement shall be made in tranches for all construction and other similar projects after completion of the agreed milestones.<br><br>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="780" width="100" height="20" uuid="17eef1e4-7930-4893-ba0a-47a8cc36af7c"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[6]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

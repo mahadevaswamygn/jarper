@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish003" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="98fd8672-ef82-4ca6-92b2-cdbc104ff137">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="37" y="30" width="480" height="550" uuid="28b6930e-cd9d-4dc2-9847-d2acd6b4884e"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[the Company and all information, particulars and clarifications furnished by the Borrower to the Company from time to time in respect thereof.<br>
+2. <b>“AGREEMENT”</b> shall mean this Loan agreement entered between the Borrower and the Company governing the terms and conditions of this Loan.<br>
+3. <b>“DUE DATE”</b>shall mean the date(s) on which any amounts in respect of the Loan including principal, interest or other month fall due in terms of the relevant Loan agreement.<br>
+4.<b> “EMI”</b> (Equated Monthly Instalment) means the amount of monthly payment consisting of principal and interest to be paid by the Borrower to the Company to pay back the Loan.<br>
+5. “LOAN APPROVAL LETTER”means the letter issued by the Company about sanction of the Loan and shall include all amendments to the Loan Approval Letter issued by the Company from time to time and includes letter / s issued by Company from time to time amending the Interest Rate.<br>
+6. <b>“PRE EMI”</b>means the interest due and payable by the Borro wer on the partly disbursed Loan amount till such time that the EMI on the fully disbursed Loan can begin.<br>
+7. <b>“PREPAYMENT”</b>means the premature repayment of any instalments due or part payment of the outstanding Loan balance or full payment of the outstanding Loan balance as per the terms and conditions laid down by the company in that behalf and in force at the time of prepayment.<br>
+8. <b>“PROJECT REPORT”</b>means the report prepared by the Relationship Manager of the Company based on the information and documents provided by the Borrower about the School / Place of Business for which the Loan applied by the Borrower is going to be utilized.<br>
+9. <b>“PROPERTY”</b>shall mean the property more specifically described in the Schedule appearing below with all the common areas / easements/ privileges / development rights/benefits, fixtures and fittings, buildings and structures, present and future, all tangible and /or intangible properties, all accretions, additions, accessories, structures constructed or erected thereon, whether owned, acquired/occupied or to be owned/acquired/occupied.<br>
+10. <b>“PURPOSE”</b>means the purpose (s) for which the Loan has been agreed to be provided by the Company and as more particularly specified in the Loan Approval Letter and End Use Undertaking.<br>
+11. <b>“RATE OF INTEREST”</b>( ROI) means the rate of interest referred in the Agreement and as varied from time to time in terms of this Agreement.<br>
+12. <b>“REPAYMENT”</b> means the repayment of principal amount of the credit facility, interest thereon, commitment and/or any other charges, premium, fees or other dues payable in terms of this Agreement to the Company.<br>
+
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="548" width="467" height="65" uuid="a96688c6-92eb-42e4-82ed-ddb637978191"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[i. In this Agreement, unless the context otherwise requires, the singular includes the plural and vice versa)<br><br>
+ii. References to a gender shall include references to the female, male and neuter genders.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="618" width="480" height="184" uuid="4a166fa5-0ae3-4b42-b145-523fd9c0391c"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[13. <b>“SECURITY”</b>means the diverse security (ies) stipulated in the Loan Agreement and/or Loan Approval Letter which the Borrower is liable to create or procure and furnish in favour of the company to secure the due repayment of the Loan and payment of other month this agreement.<br>
+				14. <b>DELINQUENT:</b> means situation where borrower is late or overdue on EMI as per loan schedule. It is contractual obligation to make payment against a loan on due date as per repayment schedule.<br>
+15. <b>“FLOATING RATE OF INTEREST”or “FROI”</b> means the interest rated decide by Company from time to time as its Lending rate and applied with spread / margin, if any, as may be decided by Company, on the loan of the borrower pursuant to this agreement and shall be communicated to Borrower accordingly.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="420" y="782" width="100" height="20" uuid="991a60f2-67e8-4616-a108-4543fdc9a2fb"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[2]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

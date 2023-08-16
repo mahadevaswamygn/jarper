@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgrrementKannada04" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5325c860-05e5-49fb-ad07-054137f595d8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="27" y="20" width="500" height="80" uuid="5dde9658-d219-448f-96ad-4aeb4a281019"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10" fontName="KannadaFont" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+				</textElement>
+				<text><![CDATA[ದೈ ನಂದಿನ ಆಧಾರದಲ್ಲಿ ಅಸಲು ಬಾಕಿ ಬ್ಯಾಲೆನ್ಸ ಆಧಾರದಲ್ಲಿ ಬಡ್ಡಿಯನ್ನು ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ. ಈ ಬಡ್ಡಿ ಮೊತ್ತವನ್ನು ಸೌಲಭ್ಯ ಖಾತೆಗೆ ಡೆಬಿಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ಈ ಮೂಲಕ EMI ಬಡ್ಡಿ ಅಂಶವನ್ನು ವಸೂಲಾತಿ ಮಾಡಲಾಗುತ್ತದೆ. ಖಾತೆಗೆ ಸಾಲಗಾರರು ಠೇ ವಣಿ ಮಾಡಿದ EMI ಗಿಂತ ಹೆಚ್ಚಿನ ಮೊತ್ತವನ್ನು, ಮುಂಗಡ EMI ಎಂದು ಸಾಲಗಾರರು ಸೂಚಿಸಿರದ ಹೊರತು ಅಸಲು ಬಾಕಿಯಲ್ಲಿ ಹೊಂದಿಸಲಾಗುತ್ತದೆ. ಇನ್ನೊಂದೆಡೆ, ಸಾಕಷ್ಟು ಮೊತ್ತವನ್ನು ಖಾತೆಗೆ ಠೇ ವಣಿ ಮಾಡದಿದ್ದರೆ, ಠೇ ವಣಿ ಮಾಡಿದ ಬಡ್ಡಿಯು ಅನಧಿಕೃತ ಓವರ್ಡ್ರಾಫ್ಟಎಂದು ತೋ ರಿಸುತ್ತದೆ ಮತ್ತು ಖಾತೆಯನ್ನು ನಿಷ್ಕ್ರಿಯ ಖಾತೆ ಎಂದು ವರ್ಗೀ ಕರಿಸಲ್ಪಡುತ್ತದೆ.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="109" width="500" height="261" uuid="b70de1ea-1f24-43bd-8a45-77ca232ac4ac"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10" fontName="KannadaFont" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+				</textElement>
+				<text><![CDATA[<b>2.1 ಫ್ಲೋಟಿಂಗ್ ಬಡ್ಡಿ ದರ (FROI):</b><br><br>
+<b>1.</b> ಬಡ್ಡಿ ದರವು ಸಾಲಗಾರರ ಫ್ಲೋಟಿಂಗ್ ಬಡ್ಡಿ ದರಕ್ಕೆ ಅನ್ವಯಿಸಿದರೆ, ಈ ಮುಂದಿನದು ಅನ್ವಯಿಸುತ್ತದೆ;<br><br>
+<b>a.</b> FROI ಪ್ರತಿ ರಿಸೆಟ್ ಅವಧಿಯಲ್ಲಿ, ಆ ಇರುವ ಇಂಡೆಕ್ಸ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲ ದರವನ್ನು ಆಧರಿಸಿ ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಸಾಲಗಾರರು ಅದರ ನಂತರ ಆ ಹೊಸ ದರದಲ್ಲಿ ಬಡ್ಡಿ ಪಾವತಿ ಮಾಡಬೇ ಕು. ಇಂಡೆಕ್ಸ / ಮೂಲ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲ ದರ ಬದಲಾದ ರಿಸೆಟ್ ಅವಧಿಯ ನಂತರದಲ್ಲಿ ಮಾಸಿಕ / ದ್ವೈದ್ವ ಮಾಸಿಕ / ತ್ರೈತ್ರ ಮಾಸಿಕ / ಅರ್ಧ ವಾರ್ಷಿ ಕದ ಮೊದಲ ದಿನ ಕಂಪನಿಯು ದರವನ್ನು ಬದಲಿಸುತ್ತದೆ.<br><br>
+<b>b.</b> ರಿಸೆಟ್ ಅವಧಿಯಲ್ಲಿ ಸಂಪೂರ್ಣ ಸೌಲಭ್ಯದ ಬಟವಾಡೆಗೂ ಮೊದಲು FROI ಅನ್ನು ಕಂಪನಿಯು ಬದಲಿಸಿದರೆ, ವ್ಯತ್ಯಾಸದ FROI ಲೆಕ್ಕ ಹಾಕಿದ ಸರಾಸರಿಯನ್ನು ಅಂತಹ ಏರಿಕೆ ಅಥವಾ ಇಳಿಕೆಯಿಂದ ರಿಸೆಟ್ ಅವಧಿಯಲ್ಲಿ ಇಂಡೆಕ್ಸ / ಬೇ ಸ್ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲದ ದರ ಬದಲಾಗುವ ತಿಂಗಳಿನ ಮೊದಲ ದಿನಾಂಕದವರೆಗೆ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ.<br><br>
+<b>c.</b> ಸೌಲಭ್ಯಕ್ಕೆ FROI ಅಂತಿಮ ಬಟವಾಡೆಯ ದಿನಾಂಕದಂದು ಇರುವ ಇಂಡೆಕ್ಸ / ಮೂಲ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲದ ದರವನ್ನು ಆಧರಿಸಿರುತ್ತದೆ.<br><br>
+<b>d.</b> ಸೌಲಭ್ಯದ ದಿನಾಂಕದಂದು ಇರುವ ಅಥವಾ ಕಾಲಕಾಲಕ್ಕೆ ಬದಲಾಗುವ FROI ಅನ್ನು ಈ ಕೆಳಗಿನಂತೆ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="378" width="487" height="80" uuid="3997cbc7-6e8f-4382-8be3-3fa511d9759b"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10" fontName="KannadaFont" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+				</textElement>
+				<text><![CDATA[1. ಇಂಡೆಕ್ಸ / ಮೂಲ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲದ ದರ ಪರಿಷ್ಕರಿಸಿರುವ ರಿಸೆಟ್ ಅವಧಿಯ ಆರಂಭಕ್ಕೂ ಮುನ್ನ EMI ಪಾವತಿಯನ್ನು ಸಾಲಗಾರರು ಆರಂಭಿಸಿದ್ದರೆ: ಮುಂದಿನ ರಿಸೆಟ್ ಅವಧಿ ಆರಂಭವಾಗುವವರೆಗೆ ಸೌಲಭ್ಯದ ಬಾಕಿ ಅಸಲು ಮೊತ್ತದ ಮೇ ಲೆ ಅಥವಾ<br><br>
+2. EMI ಪಾವತಿಯನ್ನು ಸಾಲಗಾರರು ಆರಂಭಿಸಿಲ್ಲದಿದ್ದರೆ: ಇಂಡೆಕ್ಸ / ಮೂಲ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲದ ದರದ ಪರಿಷ್ಕರಣೆಗೂ ಮೊದಲು ಪಡೆದಿರುವ ಸೌಲಭ್ಯಕ್ಕೆ ಒಟ್ಟು ಮೊತ್ತದ ಮೇ ಲೆ.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="467" width="500" height="313" uuid="5e8f270c-f757-4404-9b7b-c9fd9459e387"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="10" fontName="KannadaFont" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+				</textElement>
+				<text><![CDATA[<b>2.</b> ಸಾಲ ಕರಾರು ಮತ್ತು/ಅಥವಾ ಇತರ ವಹಿವಾಟು ದಾಖಲೆಗಳಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ಯಾವುದಕ್ಕೂ ಸಂಬಂಧಿಲ್ಲದಂತೆ, ತಾತ್ಕಾಲಿಕವಾಗಿ FRO ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ, ಕಂಪನಿಯು ತನ್ನ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು, ಈ ಸನ್ನಿವೇ ಶದಲ್ಲಿ EMI ಮೊತ್ತವನ್ನು ಹೆಚ್ಚಿಸಲು ಅರ್ಹ ವಾಗಿದೆ: (i) EMI ಸಂಪೂರ್ಣ ಬಡ್ಡಿ ಪಾವತಿಯನ್ನು ಕವರ್ ಮಾಡಲು ಸೂಕ್ತವಾಗಿಲ್ಲ ಅಥವಾ (ii) ಸಾಲಗಾರರಿಗೆ ನಿವೃತ್ತಿ ವಯಸ್ಸನ್ನು ಸೌಲಭ್ಯವು ಮೀ ರುವುದಕ್ಕೆ EMI ಕಾರಣವಾದರೆ, ಅನ್ವಯಿಸಿದಂತೆ; ಅಥವಾ (iii) ಹಾಗಿದ್ದಲ್ಲಿ ಕಂಪನಿಯು ಅಗತ್ಯವಿದ್ದಲ್ಲಿ, ತನ್ನ ಏಕಪಕ್ಷೀಯ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು ಯಾವುದೇ ಕಾರಣಕ್ಕೆ ಕಾಲಕಾಲಕ್ಕೆ. ಕಂಪನಿ ತನ್ನ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು ಇಂತಹ ಹೆಚ್ಚಳಗೊಳಿಸಿದ ಮತ್ತು ಸಾಲಗಾರರಿಗೆ ಸೂಚನೆ ನೀ ಡಿದ EMI ಮೊತ್ತ ಮತ್ತು/ಅಥವಾ ವ್ಯತ್ಯಾಸದ ಮೊತ್ತವನ್ನು ಪಾವತಿ ಮಾಡಬೇ ಕು. ಕಂಪನಿ ತನ್ನ ಏಕಪಕ್ಷೀಯ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು ವಿಧಾನಕ್ಕೆ ಸಾಲಗಾರರು ಬದ್ಧವಾಗಬೇ ಕು ಮತ್ತು ಇಂತಹ ಏರಿಕೆ ಮಾಡಿದ EMI ಜಾರಿಗೆ ಬರಲು ಕಂಪನಿಗೆ ಅಗತ್ಯವಿರುವ ಎಲ್ಲವನ್ನೂ ಮಾಡಬೇ ಕು.<br><br>
+				<b>a.</b> ಕಂಪನಿಯು ತನ್ನ ಏಕಪಕ್ಷೀಯ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು, FROI ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ EMI ಮೊತ್ತವನ್ನು ಅಥವಾ ಒಟ್ಟು ಅವಧಿಯನ್ನು ಕಡಿಮೆ ಮಡಬಹುದು ಮತ್ತು ಇಂತಹ ಸಂದರ್ಭ ದಲ್ಲಿ, ತನ್ನ ಏಕಪಕ್ಷೀಯ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು ಕಂಪನಿಯು ಶಿಫಾರಸು ಮಾಡಿದ ಕ್ರಮಕ್ಕೆ ಸಾಲಗಾರರು ಬದ್ಧವಾಗಬೇ ಕು ಮತ್ತು ಇಂತಹ ಇಳಿಕೆ ಮಾಡಿದ EMI ಮೊತ್ತವನ್ನು ಜಾರಿಗೊಳಿಸಲು ಕಂಪನಿಯು ಇಂತಹ ಕೃತ್ಯಗಳು ಅಥವಾ ಒಪ್ಪಂದಗಳನ್ನು ಮಾಡಡಬೇ ಕು<br><br>
+<b>b.</b> ಸಾಲಗಾರರಿಗೆ ಲಿಖಿತವಾಗಿ ಕಂಪನಿಯಿಂದ ಸಂವಹನ ನಡೆಸಿದಂತೆ ಅಮೊರ್ಟೈ ಸೇ ಶನ್ ಷೆಡ್ಯೂಲ್ನಲ್ಲಿ ಇತರ ಬದಲಾವಣೆಗಳಿಗೆ ಒಳಪಟ್ಟು, ಇಲ್ಲಿ ನಿಗದಿಸಿದ ಸೌಲಭ್ಯವನ್ನು ಸಾಲಗಾರರು ಮರುಪಾವತಿ ಮಾಡುತ್ತಾರೆ.<br><br>
+<b>c.</b> ಕಂಪನಿ ತನ್ನ ಏಕಪಕ್ಷೀಯ ವಿವೇ ಚನೆಗೆ ಒಳಪಟ್ಟು ಸೂಕ್ತಎನಿಸಿದ ರೀ ತಿಯಲ್ಲಿ ಕಾಲಕಾಲಕ್ಕೆ ಇಂಡೆಕ್ಸ ದರ ಅಥವಾ ಪ್ರೈಪ್ರ ಮ್ ಸಾಲದ ದರವನ್ನು ಕಂಪನಿಯು ಬದಲಿಸಬಹುದು.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="782" width="100" height="20" uuid="28f20a29-5a26-484c-8efd-07173c2a2adb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
