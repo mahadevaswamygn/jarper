@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="18" width="477" height="192" uuid="2feae8ff-a029-488d-a855-4646ee93b6db"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[prepay up to 25% of the principal outstanding without any charges. Outstanding to be considered for computing 25% will be as on April 1 of the financial year. However, if the Loan is fully prepaid within 6 months of making the part payment then the part payment made will also be charged as per the applicable pre - payment charges. Part prepayment or full prepayment will be permitted only after completion of at least 6 EMIs. If customer intends to foreclose the loan within 6 months from date of disbursement, then Foreclosure charges of 5% is applicable on outstanding loan balance.<br><br>
+
+<b>8.Insurance </b><br><br>
+The Borrower will have an option to take Credit Insurance through the Company’s pre approved plan or an insurance plan approved by the Company.<br><br>
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="221" width="457" height="310" uuid="11033083-cb3e-40c1-81af-2870bf9f0673"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[i. The Company requires the Applicant to take Credit Life Insurance cover calculated on gross replacement value which is adjusted annually to cover death and /or disability through the Company’s approved plan or an insurance plan which is approved by the Company.<br>
+ii. The Borrower to undergo for medical testing as advised by insurance company, failing which policy may deemed as terminated and hence borrower will not be covered under insurance plan.<br>
+iii. The Borrower also understands that insurance claim amount would be debited to Loan account and accepts that in the event of disability or death, fire and damage that are not covered by the insurer, the Applicant will continue to be liable for any shortfall in the full outstanding Loan balance.<br>
+iv. The Credit Insurance Premium will be one-time fee which may be added to the Loan amount if customer desires or may be deducted from the Loan amount. The Borrower hereby gives their consent for theCompany to on their behalf and add the insurance premium to the Loan principal.<br><br>
+The Loan agreed to be provided shall be subjected to additional terms and conditions as the Company may from time to time stipulate in respect of the particular type of Loan due to change in market / financial / regulatory conditions or otherwise.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="487" width="477" height="20" uuid="4fd8a3f1-057e-45c6-8e01-a37913f3b088"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>9.Security (applicable for secured Loan only)</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="521" width="467" height="278" uuid="04d4b329-04c7-45c5-ad74-cebe16eb5d07"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[a) The Borrower shall create such security as may be required by the Company and in such form and manner as the Company may in its sole discretion determine for and in relation to the payment of all amounts by the Borrower under this Agreement. In addition to that, the Borrower shall make available to the Company such documents and in such form and manner as may be considered appropriate by the Company at its sole discretion to create and/or perfect such security.<br>
+b) The Borrower shall not sell, charge, lease, surrender, assign, transfer, rent, further, encumber, or otherwise however alienate transfer, create interest in favour of other person or deal with in the security so created or any part thereof or permit any charge, encumbrance or lien of any kind whatsoever to be created over such security during the continuation of the obligations under this Agreement.<br>
+c) The security created by the Borrower will, if so required by the Company, be insured against loss, fire, earthquake, floods and other damages with an insurance company and the relevant municipal taxes, dues to the government and outgoings of the- co operative society and all kinds of dues connected with such security would be paid in time and nothing shall be done which will adversely affect the security in any manner whatsoever.<br>
+d) All security furnished by the Borrower to the Company shall remain a continuing security to the Company binding upon the Borrower and shall:
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

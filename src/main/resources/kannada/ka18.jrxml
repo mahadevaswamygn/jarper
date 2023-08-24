@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ka01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d76f185f-a52d-4e0b-b4d5-c34690c45cfd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="place" class="java.lang.String"/>
+	<parameter name="signOfPerson1" class="java.lang.String"/>
+	<parameter name="nameOfPerson1" class="java.lang.String"/>
+	<parameter name="nameOfPerson2" class="java.lang.String"/>
+	<parameter name="nameOfPerson3" class="java.lang.String"/>
+	<parameter name="signOfPerson2" class="java.lang.String"/>
+	<parameter name="signOfPerson3" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="0" y="0" width="560" height="802" uuid="cbbeee7c-6d79-4b16-8809-3dca963c8b4e"/>
+				<imageExpression><![CDATA["https://s3.ap-south-1.amazonaws.com/com.camreport-staging/LOAN_AGREEMENT_KANNADA/0018.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="153" y="429" width="100" height="20" uuid="b73d85f0-4ee2-4d83-bdcb-3a49a8f42c6b"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="295" y="429" width="100" height="20" uuid="b89b6067-db6f-4dfa-be8d-99a387e9a0b8"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="541" width="152" height="15" uuid="766986cb-b418-499a-96b2-55fb5671f484"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson1}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="88" y="556" width="107" height="1" uuid="97523163-324e-42b2-bb84-167490853bc5"/>
+			</line>
+			<textField>
+				<reportElement x="93" y="560" width="147" height="15" uuid="eac9b57d-b9dc-4049-b4c2-e493522cafde"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="86" y="595" width="154" height="15" uuid="10ff942a-b8dd-4f40-aacf-fe892f0ae3b3"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="647" width="100" height="15" uuid="6e3f0f63-fee7-46a7-97a3-984029256cd4"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="614" width="150" height="15" uuid="76922b66-d23d-46bb-b9c6-370138720061"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="668" width="150" height="15" uuid="82a24acd-431c-4ecf-9125-5263e9a902a2"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

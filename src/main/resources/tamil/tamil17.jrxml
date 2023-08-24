@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="tamil01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="666dc1eb-0f36-4da5-bf99-9c92d2f3a885">
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="place" class="java.lang.String"/>
+	<parameter name="varthanaOfficer" class="java.lang.String"/>
+	<parameter name="nameOfPerson1" class="java.lang.String"/>
+	<parameter name="nameOfPerson2" class="java.lang.String"/>
+	<parameter name="nameOfPerson3" class="java.lang.String"/>
+	<parameter name="signOfPerson2" class="java.lang.String"/>
+	<parameter name="signOfPerson1" class="java.lang.String"/>
+	<parameter name="signOfPerson3" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="-20" y="-20" width="595" height="822" uuid="f3df2572-518c-4d79-8105-fc1f5e42536c"/>
+				<graphicElement fill="Solid"/>
+				<imageExpression><![CDATA["/home/mahadeva/Documents/pdfImages/thamil/images/thamil017.jpg"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="387" y="109" width="120" height="1" uuid="e8a32b85-f4bf-4e12-96f9-73006880772d"/>
+			</line>
+			<line>
+				<reportElement x="121" y="183" width="120" height="1" uuid="f5e523a5-f77b-4233-a8ea-7dfdac421784"/>
+			</line>
+			<line>
+				<reportElement x="123" y="233" width="120" height="1" uuid="ceed383f-20ac-4fd6-8a2c-046e098cdd17"/>
+			</line>
+			<line>
+				<reportElement x="124" y="271" width="120" height="1" uuid="40b27c7f-3e98-492a-a2d6-a42d73f073a4"/>
+			</line>
+			<textField>
+				<reportElement x="388" y="90" width="119" height="18" uuid="4d60d534-2ecb-4502-b4db-2396e1791299"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="102" width="175" height="19" uuid="aaec4107-a18c-4d2a-9ec8-4f9c598a5155"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="350" width="200" height="20" uuid="cae27486-b105-4e46-8f62-c9e399609bc3"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{varthanaOfficer}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="121" y="163" width="149" height="20" uuid="056901cf-80bb-43b8-96e7-8d9e2895446e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="123" y="212" width="149" height="20" uuid="e17facd3-19e5-46f7-b3d0-a7732476ae6e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="125" y="250" width="149" height="20" uuid="5fef3788-6721-4974-86a7-ee4e97fa4eed"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="87" y="187" width="180" height="15" uuid="adfdc0c1-25c7-42d9-a24c-5887d650b2de"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="89" y="236" width="180" height="15" uuid="0e9980b3-6aa2-462e-92bb-124b12287a6c"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="274" width="180" height="15" uuid="7d4cbabe-82eb-42b3-b56f-ce086b26461a"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

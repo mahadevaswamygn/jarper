@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="place" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="signOfPerson1" class="java.lang.String"/>
+	<parameter name="signOfPerson2" class="java.lang.String"/>
+	<parameter name="signOfPerson3" class="java.lang.String"/>
+	<parameter name="nameOfPerson1" class="java.lang.String"/>
+	<parameter name="nameOfPerson2" class="java.lang.String"/>
+	<parameter name="nameOfPerson3" class="java.lang.String"/>
+	<parameter name="varthanaOfficer" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[13]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="368" width="476" height="432" uuid="107b0c2e-588a-4e57-9cb6-e3d0aa6497d9"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The borrower/s declare and confirm that they are not a party to any litigation of any material character affecting the security and Borrower/s are not aware of any facts likely to give rise to such litigation or any material claims or enquiries from any tax authorities or other statutory authorities.<br><br>
+IN WITNESS, WHEREOF THE BORROWER/S HAS/HAVE EXECUTED THESE PRESENTS ON THE DAY OF_________________________ AT___________________________<br><br>
+Signed and delivered by the within named Borrowers<br><br>
+Signature: _________________________<br>
+Name:<br><br><br>
+
+Signature: _________________________<br>
+Name:<br><br><br>
+
+Signature: _________________________<br>
+Name:<br><br>
+
+Signed and delivered<br>
+<b>FOR VARTHANA FINANCE PRIVATE LIMITED</b><br><br>
+
+(Authorized Signatory)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="21" width="456" height="379" uuid="13df43d0-0151-4bc5-bf78-4819f6b7b99f"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[7. The Borrower/s declare that all the amounts including the amount of own contribution paid/payable in connection with the Loan / Security is/shall be paid through legitimate sources and does not/shall not constitute an offence of Money Laundering under the Prevention of Money Laundering Act, 2002.<br>
+8. The Borrower/s shall always have, until all their dues under the Loan Agreement and Other Documents are paid / repaid to the Company, a clear and marketable title to the Security, free from all encumbrances whatsoever.<br>
+9. The Borrower/s have no pending claims demands litigations or proceedings against any of them before any court or authority (public or private) and further warrant that there are no mortgages, charges, lien or other encumbrances in respect of the said Security.<br>
+10. The Borrower/s shall not induct any person on its board whose name is appearing in the list of Wilful Defaulters and in case such a person is found to be on its board, it would take expeditious and effective steps for removal of such person from its board.<br>
+11. The Borrowers liabilities under this agreement shall be joint and several, if there are two or more Borrowers.<br>
+12. The Borrower/s shall not leave India for employment or business or long stay without first fully repaying the Loan then outstanding due and payable with interest and other dues, including prepayment charges, if any.<br>
+13. In an Event of Default the Borrower/s agree and undertake not to prevent or obstruct the Company or its agents from taking poss ession of the Security (ies) assigned to the Loan.<br>
+14. The Borrower/s shall notify the Company regarding the change in his/her/their status as a Resident / Non-Resident Indian.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="86" y="439" width="117" height="20" uuid="6440092f-7eea-4367-a9d6-66078727adf7"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="440" width="120" height="20" uuid="506e3542-5b51-4ebd-b639-d91a256974ff"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="91" y="504" width="120" height="20" uuid="68d50539-011e-4bdb-9e66-32cf35cda784"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="568" width="120" height="20" uuid="c52eb815-f9f6-43cb-aec6-f7c275e5d07d"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="633" width="120" height="20" uuid="1c32be38-9743-447b-aa2c-5a558b450600"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="529" width="131" height="13" uuid="98c8647e-2836-472c-b8e7-c040639b270f"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="77" y="594" width="131" height="13" uuid="b9c9eabc-9cc0-4f1c-9c16-85ca7ef55771"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="78" y="658" width="131" height="13" uuid="9f36b621-e3de-492c-bb56-3dfd5b233354"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="44" y="724" width="170" height="20" uuid="17eb81db-b24a-4cf7-8c92-a63144aec075"/>
+				<textFieldExpression><![CDATA[$P{varthanaOfficer}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

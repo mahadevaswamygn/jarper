@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[12]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="20" width="476" height="460" uuid="107b0c2e-588a-4e57-9cb6-e3d0aa6497d9"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[shall be at the sole and absolute discretion of the Company. The company may at any time at its sole discretion and without assigning any reason call up to the Borrower to pay back the outstanding Loan and thereupon the Borrower shall, within 7 days of being so called upon, pay the whole of the Borrower’s outstanding to the Company without any delay or demur.<br><br>
+<b>f.</b> Any notice or request required or permitted under the Loan Agreement to be given by either party to the other shall be only in writing and sent to the address of the other party as mentioned in the Loan.<br><br>
+<b>g.</b> The Borrower data collected by the Company may be used by the Company for the creation of new service offerings and/or in support of market research and/or marketing materials. Any borrower data used by the Company for these purposes will be anonymized and aggregated, ensuring protection of borrower privacy . Approval Letter annexed to Loan Agreement or in case of Borrower to the address of the Borrower/s last known to the Company.<br><br>
+<b>1. Governing Law and Jurisdiction</b><br><br>
+The provisions of this Agreement shall be governed by and construed in accordance with Indian Law and the parties hereby expressly agree that the courts at Bangalore shall have exclusive jurisdiction in relation to all matters concerning and relating to this Agreement.<br><br>
+<b>2. Borrower’s Representation & Declaration</b><br><br>
+The Borrower/s make the following representations and declarations and further confirm that they will continue to remain true, correct, valid and subsisting in every respect as of the date of the Loan Agreement through the date (s) of drawls under the Loan up to the date of complete repayment / payment in full of the Loan and all monies in respect thereof as per the Loan Agreement.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="461" width="456" height="339" uuid="13df43d0-0151-4bc5-bf78-4819f6b7b99f"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. The Borrower/s confirm having perused, understood and having agreed to the terms and conditions of this Agreement, including the Company’s method of calculating the interest and the EMI.<br>
+2. The Borrower/s shall be bound by and shall comply with all the terms and conditions of the Loan Approval Letter, which shall be deemed to be part of the Loan Agreement, as if the terms and conditions have been specifically incorporated therein.<br>
+3. The Borrower/s have given complete and correct information and details in the Application about themselves and the Security offered. The Borrower/s further confirm that no material change or alteration has taken place subsequent to the date of Application which would jeopardize Borrower/s capacity to pay / repay in respect of the Loan and / or the Security in any manner whatsoever.<br>
+4. The Borrower/s declare that the decision to avail the Loan has been taken based on the approval of the Board of the Trust/Society/Governing body managing the institution for which the loan is to be utilized and that all members / trustees of the Trust/Society/Governing body are aware of and have given their consensus to the terms and conditions of the Loan Agreement.<br>
+5. The Borrower/s will keep themselves aware of the rules of the Company, as pertain to the Loan, and in force from time to time.<br>
+6. The Borrower/s shall promptly and without requiring any notice or reminder from the Company, repay to the Company, the Loan in accordance with the Loan Agreement.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

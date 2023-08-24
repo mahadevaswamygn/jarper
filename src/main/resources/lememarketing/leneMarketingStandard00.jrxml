@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="leinMarketingStandard" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5a9ae6f8-86db-4529-91d9-7dcdd3f575e1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="intentOfProperty" class="java.lang.String"/>
+	<parameter name="addressOfProperty" class="java.lang.String"/>
+	<parameter name="approvedLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<parameter name="barrowName" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="748" splitType="Stretch">
+			<staticText>
+				<reportElement x="14" y="149" width="30" height="20" uuid="d7a1647b-9065-406f-ace1-16ffc4875aed"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="44" y="149" width="150" height="20" uuid="4c784b0c-c618-4c7a-b1e9-93fac59398de"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="179" width="206" height="31" uuid="bd75c486-7a73-410e-af39-8c7afb291802"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[To,<br>The Sub Registrar/Tehsildar,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="264" width="516" height="75" uuid="81ccae34-2136-41fd-bd65-aea5caf287d8"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Dear Sir,<br><br>Re: Marking of Pledge on the Property bearing No.<b>____________________</b>measuring the extent of "+"<u>"+$P{intentOfProperty}+"Situated  at: "+$P{addressOfProperty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="339" width="516" height="40" uuid="ae4c10a7-939f-4f34-9006-e7b98b70057e"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[This is with reference to the above mentioned subject, it is submitted to your good self as per the following]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="388" width="500" height="80" uuid="a512330e-ab4b-46fc-8071-5db63c4a2585"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["We have extended a loan/credit facility of Rs. " + $P{approvedLoanAmountIncludingInsurance}+ " to the " + $P{barrowName} + " Mr.Ms./Sh. " + $P{wonerOfProperty} + " under which he/she agreed to the provide pledge/lien of the property bearing no. <b>__________________.____________________</b>measuring the extent of "+ $P{intentOfProperty} + " Situated at: " + $P{addressOfProperty} + " which is contained in the sanction letter that was issued to the borrower."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="388" width="16" height="20" uuid="fc442938-5ab4-4cfc-84c4-01a9986f4a1a"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[1.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="475" width="500" height="50" uuid="9d0fd2c7-8030-4904-b6c0-1b7996ba67f1"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That Mr./Ms./Sh. " + $P{wonerOfProperty} + " is the absolute owner of the aforesaid property by way of Inheritance / Purchase vide Sale Deed dated <b>____________</b>, on which the pledge/lien is to be marked."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="475" width="16" height="20" uuid="1196212c-802e-4334-a444-4981d283f937"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[2.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="525" width="500" height="40" uuid="8e331101-4aa9-486c-9a0c-79345345c937"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That Mr./Ms./Sh. " + $P{wonerOfProperty} + " has agreed to place a lien/pledge in our favour on the aforesaid property."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="525" width="16" height="20" uuid="88dc74e0-cea6-4234-b9be-8d2d30f7e814"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[3.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="565" width="500" height="40" uuid="7fbdbe3b-798c-4c55-a084-b05030714c27"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That letter issued to you by Mr./Ms./Sh. " + $P{wonerOfProperty} + " for marking the pledge/lien in our favour is enclosed."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="565" width="16" height="20" uuid="3ae317d3-0595-4e70-b1b2-8821d5746cfd"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[4.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="606" width="500" height="50" uuid="35075d22-d063-4d1f-a075-9142ea3a99d6"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That the Lien to be marked in favour of: Name of the Institution: <b>Varthana Finance Pvt. Ltd.</b> (registered Non Banking Finance Company having its registered office at Varasiddhi Complex, 3rd Floor, 5BC-110, Service Road, 3rd Block, HRBR Layout, Bangalore, 560043"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="605" width="16" height="20" uuid="8a4b414e-a286-45b8-a65b-b22403430424"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[5.]]></text>
+			</staticText>
+			<line>
+				<reportElement x="14" y="220" width="140" height="1" uuid="d8545223-e5cc-4f40-8453-6790c5cf00de"/>
+			</line>
+			<line>
+				<reportElement x="15" y="237" width="140" height="1" uuid="4d545725-9d74-49b5-9e9c-d25c48d8a9ca"/>
+			</line>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

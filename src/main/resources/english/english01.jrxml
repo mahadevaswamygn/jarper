@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="english00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="270fbe3e-9fd8-4459-bcc8-97f7180db6fe">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="agreementNumber" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="371" y="23" width="180" height="18" uuid="54bb26b8-90d3-4cfd-983d-2d1f85749cf0"/>
+				<text><![CDATA[Agreement No:___________________]]></text>
+			</staticText>
+			<image scaleImage="FillFrame" evaluationTime="Master">
+				<reportElement x="180" y="220" width="200" height="130" uuid="d2700deb-d22d-4301-a84b-9eb527301b08"/>
+				<imageExpression><![CDATA["https://f2.leadsquaredcdn.com/t/varthana/content/common/images/WhatsApp%20Template%205.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="150" y="370" width="260" height="30" uuid="616c482e-d38e-42e8-9a76-2764cfc13209"/>
+				<textElement>
+					<font size="25" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LOAN AGREEMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="403" width="400" height="30" uuid="cfe4ae47-4184-4b3e-88e2-37506cb40d20"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VARTHANA FINANCE PRIVATE LIMITED]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="450" y="13" width="100" height="20" uuid="bdd74264-e37f-4b93-ac82-cf978e4d500f"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{agreementNumber}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

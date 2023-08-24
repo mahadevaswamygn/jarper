@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="oriya03" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="579b835d-ac25-4558-9011-3d88d0b4ff4d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="place" class="java.lang.String"/>
+	<parameter name="signOfPerson1" class="java.lang.String"/>
+	<parameter name="signOfPerson3" class="java.lang.String"/>
+	<parameter name="signOfPerson2" class="java.lang.String"/>
+	<parameter name="nameOfPerson2" class="java.lang.String"/>
+	<parameter name="nameOfPerson1" class="java.lang.String"/>
+	<parameter name="nameOfPerson3" class="java.lang.String"/>
+	<parameter name="varthanaOfficer" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<image scaleImage="FillFrame" evaluationTime="Master">
+				<reportElement x="-20" y="-20" width="595" height="820" uuid="d1942769-9fe6-4c17-bbf2-8e0d7979e561"/>
+				<imageExpression><![CDATA["/home/mahadeva/Documents/pdfImages/oriya/or13.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="394" y="368" width="100" height="20" uuid="a8f0ca01-9e3f-4d6d-8604-47bd35b6eb04"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="391" width="90" height="12" uuid="9674dab6-1b4c-42ec-8bb6-30eaa0bb9936"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="463" width="100" height="12" uuid="bdd60f38-43af-4828-b469-065dc79f9b90"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="520" width="100" height="12" uuid="73e4f130-5e8f-4180-8103-07402f771ed2"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="89" y="562" width="100" height="12" uuid="7efb6d27-e915-4f18-a4ee-8eec223020a3"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{signOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="79" y="478" width="100" height="12" uuid="170920b0-8c07-42c0-aa54-aedb35d79bb7"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="535" width="100" height="12" uuid="288bc16c-264d-47cc-a12d-3c5eb291db0a"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="578" width="100" height="12" uuid="e0434ba2-396d-4351-a19a-56303dd13c37"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$P{nameOfPerson3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="667" width="170" height="30" uuid="c70f649f-7918-41db-b515-34ca2a7ad526"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{varthanaOfficer}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

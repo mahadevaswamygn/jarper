@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="memorandumOfEntry00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="963151fc-ca27-4814-a68e-866edac878df">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="50" width="534" height="13" uuid="fddad4cb-8a0f-48c1-84d7-2f3bd1962873">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[MEMORANDUM OF ENTRY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="210" y="62" width="130" height="1" uuid="09c9d3ae-dcb8-43bb-a934-4fc2e6d57f36"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="64" width="534" height="13" uuid="701d8e35-9a78-49f7-a537-828ef0d61306">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[BY WAY OF CONSTRUCTIVE DELIVERY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="181" y="77" width="192" height="1" uuid="6e5e22c7-7dbc-43a5-8e86-5ed5277dd12f"/>
+			</line>
+			<textField>
+				<reportElement x="10" y="90" width="535" height="70" uuid="62f3dbf5-5b10-440e-a2a5-d679cd864e2f"/>
+				<textElement textAlignment="Left">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["On this day of " + $P{date} + ", 2021____, 1. Mr./Ms. " + $P{wonerOfProperty} + " 2. Mr./Ms.___________________________, 3. Mr./Ms.________________________________ (‘Mortgagor’) attended the office of Varthana Finance Pvt Limited (“VFPL”) specified in the First Schedule hereunder written, at the office specified in the First Schedule hereunder written."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="180" width="534" height="440" uuid="f3e020c7-cf50-4d74-8e81-7046ae790490"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The Borrower/Mortgagor stated that the documents of title, evidence, deeds and writings more particularly described in Part A of the Second Schedule hereunder written (hereinafter called &quot;the existing title deeds&quot;) in respect of the immovable properties more particularly described in the Third Schedule hereunder written, of the person(s) (the “Borrower”) more particularly described in the First Schedule hereunder written, were deposited on the _______ day of ____________, 20___ and further deposited by way of constructive delivery on the ________ day of ____________, 2021 by the Borrower with VFPL in order to create security, by way of mortgage / joint mortgage by deposit of title deeds, on all the Borrower’s immovable properties more particularly described in the Third Schedule hereunder written together with all buildings and structures thereon or permanently fastened to anything attached to the earth, both present and future,<br><br>
+The Mortgagor on the same day accorded and gave oral consent to continue to hold and retain the existing title deeds more particularly described in the Second Schedule hereunder written as and by way of mortgage / joint mortgage by deposit of the existing title deeds by way of constructive delivery on the Mortgagor&#39;s immovable properties more particularly described in the Third Schedule hereunder written together with all buildings and structures thereon or permanently fastened to anything attached to the earth, both present and future, (hereinafter collectively referred to as the “said immovable properties&quot;),	<br><br>
+The Mortgagor on the same day also deposited certain additional documents of title, evidence, deeds and writings more particularly described in Part B of the Second Schedule hereunder written in respect of the said immovable properties as and by way of a mortgage by deposit of title deeds (the “additional title deeds&quot;) to secure the aforesaid assistance.<br><br>
+Whilst giving such oral consent and making the deposit of additional title deeds the Mortgagor stated that he/she did so in his / her capacity as an authorized official of the Borrower / Absolute owner of the Mortgaged property /easement rights with intent to create security on the said immovable properties as aforesaid.
+
+
+				]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="596" width="534" height="30" uuid="60832f84-cdb0-4970-bf3e-0763fc1541b1"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>IN WITNESS WHEREOF</b> this Memorandum of Entry has been duly executed and unconditionally delivered as a deed on the date mentioned above.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="672" width="255" height="30" uuid="f71a40e5-7545-4bb8-95b8-076719a33d2a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Signature of Co-borrowers and Mortgagers]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

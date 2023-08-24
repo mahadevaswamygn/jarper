@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[9]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="69" y="20" width="447" height="530" uuid="107b0c2e-588a-4e57-9cb6-e3d0aa6497d9"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>a.</b> To create a charge and security of the Borrower’s right, title and interest in such of the assets of the Borrower as the Company may deem fit and proper and for this purpose to execute such documents for and on behalf of the Borrower and pay all the necessary stamp duty and penalties (if any) to the government and to do all such acts, deeds and things, including approaching all the necessary authorities and/or persons, whether government, semi- government or otherwise, as may be required in this regard.<br>
+<b>b.</b> To sign further MOUs, agreements, sale deeds, deeds of transfer, deeds of modification/confirmation, share transfer forms and other documents for and on behalf of the Borrower to enforce the security in the event of default by Borrower and complete the sale without any specific orders and decrees.<br>
+<b>c.</b> To do all other deeds, matters and things incidental to and connected with the creation of the security for the Loan as the Company may consider necessary.<br>
+<b>d.</b> To obtain re-finance against the Loan as it may consider appropriate.<br>
+<b>e.</b> To enter the School / Business Premises for which the Loan has been utilized, inspect and supervise it and also inspect its books of accounts, registers and other records / documents maintained by the Borrower/s or their authorized representatives.<br>
+<b>f.</b> To cancel the undrawn / unavailed / unused portion of the Loan at any time during the subsistence of the Loan, without any further notice to the Borrower, for any reason whatsoever (either regulatory or otherwise).<br>
+<b>g.</b> At any time during the tenure of the Loan Agreement to revise / reschedule the repayment terms / amount of EMI or of any other amounts outstanding thereunder and the Borrower shall make all future repayments to the Company according to such revised schedule on being notified by the Company of such revision or re -schedule.<br>
+<b>h.</b> Any delay or omission by the Company in exercising any of its rights, powers or remedies as the lender of the Loan under the Loan Agreement and other documents pursuant thereto shall not impair the right, power or remedy or be construed as its waiver or acquiesce by the Company.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="473" width="477" height="326" uuid="5031e185-cf28-419f-9925-c08e4b5e70ce"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>15.Remedies of the Company</b><br><br>
+<b>a. Events of Default</b><br>
+The following acts as set out below shall each constitute an “Event of Default” by the Borrower/s:<br>
+<b>i.</b> Borrower fails to pay to the Company any amount when due and payable under the Loan Agreement.<br>
+<b>ii.</b> Borrower is unable to or has admitted his inability to pay the dues.<br>
+<b>iii.</b> Any of the information provided by the Borrower/s to avail the Loan or any of their representations, warranties or declarations being found to be or becoming incorrect or untrue and / or any breacorh default in complying with all or any of the covenants, conditions or undertakings during the currency of the Loan.<br>
+<b>iv</b>. Failure by the Borrower/s to furnish to the Company such information as may be required by the Company from time to time.<br>
+<b>v.</b> Breach of any terms and conditions of the Loan Agreement or any other standard documents related to the credit facility availed by the Borrower.<br>
+<b>vi.</b> Any person, other than the Company commencing proceedings to declare the Borrower/s or if the Borrower/s have become subjeto ct insolvency, bankruptcy, reorganization, liquidation proceedings.<br>
+<b>vii.</b> Borrower(s) fail to create the security provided in the Loan Agreement and / or fail to provide additional security as intimated by the Company from time to time.<br>
+<b>viii.</b> Property is liable tobe confiscated, attached, taken into custody by any official, authority, or is subject to any execution proceedings.<br>
+<b>ix.</b> Property is endangered or has suffered total loss/damage due to any accident.<br>
+<b>x.</b> If the security is in jeopardy or ceases to have effect.<br>
+<b>xi.</b> The Borrower loses recognition for the educational institution from the relevant government authority.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

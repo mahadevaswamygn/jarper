@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="memorandumOfEntry00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="963151fc-ca27-4814-a68e-866edac878df">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<parameter name="branchOfficeAddress" class="java.lang.String"/>
+	<parameter name="borrowerName" class="java.lang.String"/>
+	<parameter name="borrowerAddress" class="java.lang.String"/>
+	<parameter name="finalLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<parameter name="finalLoanAmountIncludingInsuranceInWords" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="50" width="534" height="13" uuid="fddad4cb-8a0f-48c1-84d7-2f3bd1962873">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[THE FIRST SCHEDULE ABOVE REFERRED TO]]></text>
+			</staticText>
+			<line>
+				<reportElement x="168" y="64" width="220" height="1" uuid="09c9d3ae-dcb8-43bb-a934-4fc2e6d57f36"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="66" width="534" height="13" uuid="701d8e35-9a78-49f7-a537-828ef0d61306">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[(DETAILS OF OFFICE, ETC.)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="212" y="79" width="130" height="1" uuid="6e5e22c7-7dbc-43a5-8e86-5ed5277dd12f"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="110" width="158" height="20" uuid="3c3c48a4-788d-4841-9f66-2417a4d9da03"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Date of Execution]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="110" width="377" height="20" uuid="d36d1a37-386d-498e-b114-1f849af38f8d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="130" width="158" height="20" uuid="2da6e511-d704-4d4d-bb51-f932535dcacf"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Place of Execution]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="130" width="377" height="20" uuid="77382fd1-c206-4e19-b66f-e6b4db1ad923"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="110" width="370" height="20" uuid="48dd36f0-85fc-48eb-8d9d-3f5a55efae49"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="150" width="158" height="70" uuid="f7b01af1-bb04-43c5-b865-b82b68e81a46"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="150" width="377" height="70" uuid="f758585c-cadc-4e98-9ebc-97992bf7fc48"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="152" width="366" height="68" uuid="b0764bf9-21d7-439f-9609-a7cfe4953138">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["Varthana Finance Pvt Limited<br>Branch Office: "+$P{branchOfficeAddress}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="220" width="158" height="160" uuid="14c23984-cb45-4676-9822-75a18ff84e43"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="220" width="377" height="160" uuid="9cd8025d-94a2-477f-8591-4ac2a4de12d2"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="222" width="366" height="18" uuid="e8f1ee03-0046-433e-9c31-1cf6764afea0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$P{borrowerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="174" y="240" width="366" height="140" uuid="fe368a78-7085-40bb-8d79-ea379d1d1c41"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$P{borrowerAddress}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="380" width="158" height="70" uuid="da27d221-a1d1-42cc-9a8b-04eed8a35f42"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[ Loan Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="380" width="377" height="70" uuid="d6d49b79-4605-417a-9707-654a120f8ada"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="382" width="366" height="68" uuid="066540d7-80ad-4b18-93a2-ab6145c66530">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["Rs." + $P{finalLoanAmountIncludingInsurance} + "<br><br><br> (Rupees " + $P{finalLoanAmountIncludingInsuranceInWords} + " Only)"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="154" width="158" height="58" uuid="981fa859-09e3-4414-a58a-5bc92c925672"/>
+				<text><![CDATA[Branch Address of the Bank (Mortgagee)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="223" width="149" height="157" uuid="bc4a7bdd-b69a-410e-bd8d-ac334f70197a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Name of the Borrower and Address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="470" width="158" height="160" uuid="3e357929-d610-4c04-a44a-c33857de85e2"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="470" width="377" height="160" uuid="a11288e9-8ccd-403a-8601-a04cef1e843f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="472" width="366" height="158" uuid="66e81bb2-9da2-4b38-8cc7-6f39cabc0e2f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html"/>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="473" width="149" height="158" uuid="0905ef75-24fc-4dd5-943e-8b76f2645ad4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Name of the Borrower and Address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="450" width="158" height="20" uuid="ce94d02a-ffb6-4b9e-a066-ccac6551794d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Loan Agreement date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="450" width="377" height="20" uuid="d6c99c5a-6121-459a-a6ea-8bbe3dbe6416"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="630" width="158" height="70" uuid="e9e4d5d5-c18d-41cb-a5af-b3da83d3da15"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="634" width="149" height="66" uuid="66b32170-7cb5-4541-9b8f-6e2c312b451e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Date of Mortgage Deed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="630" width="377" height="70" uuid="fe8017a0-f323-4746-87a2-722302abfa49"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

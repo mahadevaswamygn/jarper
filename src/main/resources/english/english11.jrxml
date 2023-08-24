@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="20" width="476" height="360" uuid="107b0c2e-588a-4e57-9cb6-e3d0aa6497d9"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[provide additional security as intimated by the Company from time to time.<br>
+<b>viii.</b> Property is liable tobe confiscated, attached, taken into custody by any official, authority, or is subject to any execution proceedings.<br>
+<b>ix.</b> Property is endangered or has suffered total loss/damage due to any accident.<br>
+<b>x.</b> If the security is in jeopardy or ceases to have effect.<br>
+<b>xi.</b> The Borrower loses recognition for the educational institution from the relevant government authority.<br>
+<b>xii.</b> Death of the Borrower or any event which is likely to have the effect of the Borrower not being able to service the Loan.<br>
+<b>xiii.</b> An event of default howsoever described (or any event which with the giving of notice, lapse of time, determination of Materiality or fulfilment of any other applicable condition or any combination of the foregoing would constitute an event of default) occurs under any other agreement or document relating to any indebtedness of the Borrower with the Company or if any other lenders of the Borrower including financial institutions or banks with whom the Borrower has entered into agreements for financial assistance or any part thereof.<br>
+<b>xiv.</b> Any other event, which, in the Company’s sole opinion is likely to have materially adverse effect on the ability of the Borrower to make payments under this Agreement.<br><br>
+The decision of the Company as to whether or not an event of Default has occurred shall be final and binding upon the Borrower.<br><br>
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="344" width="476" height="458" uuid="5031e185-cf28-419f-9925-c08e4b5e70ce"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>b. The Company shall be entitled:</b><br><br>
+<b>i.</b> To recall the entire outstanding of the credit facility disbursed at any time at its own discretion, without any prejudice to any other rights, if ithas reason to believe that the credit facility was procured by improper declaration/information or the security offered is inadequate or affected in anyway due to non- payment of dues, improper maintenance or for any other reason of whatsoever nature.<br>
+<b>ii.</b> To stop disbursing future tranches, if any, of the Loan.<br>
+<b>iii.</b> To engage person/s or agencies at the risk and cost of the Borrower/s to collect the Borrower/s outstanding dues and / or to enforce any security (ies) and may furnish to such person/s or agencies the right and authority to perform and execute all acts, deeds, matters and things connected or incidental thereto as the Company thinks fit.<br>
+<b>iv.</b> To assign the debt, whether in full or part along with the underlying security, in favour of one or more entities on such terms and conditions at the Company’s discretion, without seeking consent from the Borrower.<br>
+<b>v.</b> To declare all sums outstanding under the facility (including principal, interest, costs, charges, expenses, etc.) to become due and payable forthw ith if the value of the property or any security (including the guarantees) created or tendered by the Borrower, in the sole discretion and the decision of the Company depreciates entitling the Company to call for further security.<br>
+<b>vi.</b> To insure the property offered as security against any eventuality on behalf of the Borrower and recover the premium and other associated charges paid by the Company to the insurance company from the Borrower.<br>
+<b>vii.</b> To sell, give on rent, or otherwise deal with the security (ies) taken in possession by public auction or private contract or private treaty, without being liable for any loss, and to apply the net proceeds thereof towards recovery of outstanding Loan and all other dues under the Loan Agreement. The Borrower/s agree to accept the Company’s accounts in respect of such sale, hire or dealing as conclusive.<br>
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

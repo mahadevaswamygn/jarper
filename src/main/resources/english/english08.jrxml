@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish006" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b0a61d54-30a6-4aa7-985c-708e39995811">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="18" width="477" height="232" uuid="2feae8ff-a029-488d-a855-4646ee93b6db"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[to the Company binding upon the Borrower and shall:<br>
+i. Not be discharged by any intermediate payment by the Borrower or any settlement of accounts by the Borrower.<br>
+ii. Be in addition to and not in derogation of any other security which the Company at any time hold in respect of the Borrowers ‘dues.<br>
+iii. Be available to the Company until all accounts between the Company and the Borrower are ultimately settled.<br><br>
+e) If at any time during the currency of the Loan Agreement, the Company is of the opinion that the value of the security is not adequate or sufficient for the purpose of securing the due repayment of the Loan, and monies due thereon, the Company shall be entitled to call for any additional security by notice in writing and the Borrower shall be bound to comply with the said notice and provide any additional security or execute any further mortgage satisfactory to the Company within 30 days from the date of the receipt of the notice.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="780" width="100" height="20" uuid="bfa3b257-cb05-4fb5-9d44-48413f41b24f"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="250" width="477" height="20" uuid="4fd8a3f1-057e-45c6-8e01-a37913f3b088"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>10. Cross Collateral</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="279" width="447" height="191" uuid="107b0c2e-588a-4e57-9cb6-e3d0aa6497d9"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The Borrower acknowledges that in the event of Repayment by the Borrower of the Loan and other amounts due under this Agreement but there being any outstanding by the Borrower under any other financial facility availed of by the Borrower from the Company or any outstanding dues payable to the Company by the Borrower in his/her/its capacity as a guarantor or otherwise, then in such event, the Company shall not be obliged to release the security created by the Borrower under this Agreement and the Borrower hereby authorizes the Company to extend the security to covseucr h outstanding financial facility. Likewise, in the event of there being any outstanding by the Borrower under this Agreement, the Company shall not be obliged to release the security created by the Borrower for any other financial facility availed of by the Borrower from the Company and the Borrower undertakes to extend such security to cover the outstanding due under this Agreement.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="474" width="477" height="20" uuid="5031e185-cf28-419f-9925-c08e4b5e70ce"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>11. Hypothecation of Vehicles</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="505" width="447" height="84" uuid="758a03ca-8c50-42ee-93fe-9fde93927029"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The Borrower’s vehicle offered as security by the Borrower will be hypothecated in the name of the Company. The Company shall be entitled to take possession of the hypothecated Vehicle(s) irrespective of whether the entire Loan amount has been recalled, whenever, in the absolute discretion of the Company, there is likelihood of any money not being paid by the Borrower(s) or the Company's security jeopardized.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="39" y="600" width="477" height="20" uuid="c7c573f6-c0e1-4ae4-afcf-d4d7eed6331e"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>12. Conditions for Disbursement -</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="632" width="447" height="148" uuid="6a3c5eb3-c6f1-4a0b-8b2e-e7899f7ded95"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[<b>a.</b> Disbursements under the Loan shall be made subject to the fulfilment and compliance of the Loan Agreement and all other standard documents and writings executed by the Borrower and as specified by the Company, including the following:<br><br>
+<b>i.</b> No event of default has occurred or is subsisting.<br>
+<b>ii.</b> The Borrower furnishing the evidence that the disbursement requested is required by the Borrower for the purpose for which the Loan was initially approved.<br>
+<b>iii.</b> The Borrower furnishing such documents, evidences and writings as may be required in connection with the requested disbursement.<br>
+<b>iv.</b>]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -2,6 +2,7 @@
 <!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanAgreementEnglish002" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9df997e8-6cfc-4566-b581-14cb8f7d3f29">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="loanId" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -21,7 +22,7 @@
 				<textElement verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Loan ID:]]></text>
+				<text><![CDATA[ Loan ID:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="200" y="249" width="160" height="21" uuid="d128aecc-9878-4d35-a398-fe96e2fb717e"/>
@@ -51,6 +52,11 @@
 				<textElement textAlignment="Right"/>
 				<text><![CDATA[1]]></text>
 			</staticText>
+			<textField>
+				<reportElement x="90" y="30" width="89" height="20" uuid="bdc12773-cfd7-4787-89c7-c76021bacc9d"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{loanId}]]></textFieldExpression>
+			</textField>
 		</band>
 	</detail>
 </jasperReport>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="leinMarketingStandard" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5a9ae6f8-86db-4529-91d9-7dcdd3f575e1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="branchName" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="748" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="130" width="503" height="40" uuid="def1d658-7ef9-4ccf-8714-68a037ead8c7"/>
+				<textElement textAlignment="Justified">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[The above pledge/lien shall be valid till a letter discharging the said pledge/lien is issued by us. Please mark the pledge/lien in our favour and send the confirmation at the earliest.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="185" width="503" height="30" uuid="1415bd24-8fa3-413c-b525-8449e72cfcb1"/>
+				<text><![CDATA[Please note that lien is to be vacated only at our request and not otherwise.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="240" width="163" height="50" uuid="0787fe72-0a86-4693-b925-b1b3e0c7372f"/>
+				<textElement markup="html"/>
+				<text><![CDATA[Thanking you,<br><br>Yours sincerely]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="320" width="17" height="14" uuid="2d909a6e-43b0-410b-81fc-03f0f9665b52">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement markup="html"/>
+				<text><![CDATA[Mr.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="18" y="382" width="233" height="30" uuid="8ef75f1b-eac2-4368-b453-1d50db596c0b"/>
+				<textFieldExpression><![CDATA[$P{branchName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="18" y="426" width="32" height="20" uuid="adcf0986-7a1d-4e15-9f4a-fa83da315e68"/>
+				<text><![CDATA[Place:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="446" width="35" height="20" uuid="594ab7b5-872f-458f-a20e-31c8ff087d35">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Dated:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="50" y="436" width="103" height="1" uuid="b543e9da-a4d3-4b79-beb0-e3d7b243d3b1"/>
+			</line>
+			<line>
+				<reportElement x="54" y="455" width="103" height="1" uuid="bd9d5923-bf3f-4f75-a385-6a52ffe07939"/>
+			</line>
+			<line>
+				<reportElement x="36" y="329" width="103" height="1" uuid="89537bcb-85d8-4471-9f44-e9fe4a210347"/>
+			</line>
+			<staticText>
+				<reportElement x="18" y="334" width="121" height="17" uuid="cf26f1a8-aa6d-45d9-b0d1-ff1c40850d7d"/>
+				<text><![CDATA[(Authorized Signatory)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="17" y="361" width="234" height="20" uuid="6961429d-28f6-4de4-a3a0-b5161304267e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Varthana Finance Pvt. Ltd.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>
