@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="dsraDeclarationjrxml" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dc60ddc9-63a5-40cc-a4fd-fbf8898e6969">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="60" width="160" height="20" uuid="75cabbcb-8bd4-4af7-98de-aae7f48ea4bc"/>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="130" width="470" height="20" uuid="edc0da41-54d6-4717-9fd7-173c197fae26"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Declaration for Maintaining Debt Serve Reserve Account (DSRA)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="124" y="146" width="306" height="1" uuid="c3e2294b-f7d9-4acf-bc1d-6dd9d838f7b9"/>
+			</line>
+			<staticText>
+				<reportElement x="40" y="190" width="470" height="230" uuid="ba90133d-ef50-4022-b135-63adf8f83f94"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Loan No :<br><br>
+We hereby agree to deduct ____ EMIs from the disbursement amount and transfer it to the Debt service reserve account (DSRA) maintained by the company. The amount transferred to the DSRA account can be adjusted towards the last ____ EMIs of my loan account. We are also aware that there is an incremental IRR of _______ % over and above the contract interest rate of the term loan with DSRA and the company is not liable to pay any interest for the amount transferred to the DSRA.<br><br>
+We agree to maintain the DSRA amount at all times. If for some reason there is delay from our side to repay our EMI on the due date, the company may adjust the DSRA amount towards the repayment. In such a situation, we will ensure that the DSRA account is replenished before the end of the month, failing which it can be considered as an event of default.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="446" width="84" height="20" uuid="02855654-933d-441b-86c5-773bf7822618"/>
+				<text><![CDATA[Applicant Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="466" width="110" height="20" uuid="4bc3b760-7a61-4cbd-bcca-0d0df8612ce2"/>
+				<text><![CDATA[Applicant Signature:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="124" y="456" width="100" height="1" uuid="ef9bdd31-9c83-45c5-8c5f-f942afe2f1e5"/>
+			</line>
+			<line>
+				<reportElement x="143" y="477" width="100" height="1" uuid="3b6ce4bd-2948-4806-a4d5-f2c5785fe6c5"/>
+			</line>
+			<staticText>
+				<reportElement x="40" y="510" width="100" height="20" uuid="c35b8148-1104-4bef-8943-801cb8d42b6a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Co-applicant Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="530" width="123" height="20" uuid="a861acb7-cef6-4769-b9b9-9a6fc1477101">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[Co-applicant Signature:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="138" y="520" width="100" height="1" uuid="b862dfbf-3b3b-4f5f-a77c-4081b6dec781"/>
+			</line>
+			<line>
+				<reportElement x="157" y="541" width="100" height="1" uuid="2af1a01b-9f9d-4fdc-84f6-ec0ce7c13e4f"/>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

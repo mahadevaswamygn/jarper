@@ -61,8 +61,6 @@ public class MemorandumOfEntryService {
         prints.add(jasperPrint03);
 
 
-
-
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         JRPdfExporter exporter = new JRPdfExporter();
         exporter.setExporterInput(SimpleExporterInput.getInstance(prints));

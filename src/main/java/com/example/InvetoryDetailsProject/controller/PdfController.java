@@ -39,6 +39,9 @@ public class PdfController {
     @Autowired
     MemorandumOfEntryService memorandumOfEntryService;
 
+    @Autowired
+    DSRADeclarationService dsraDeclarationService;
+
     @GetMapping("/generate-pdf")
     public String generatePdf() throws JRException, IOException {
         reportService.generateHindi();
@@ -89,6 +92,12 @@ public class PdfController {
     @GetMapping(value = "/get-MemorandumOfEntry-pdf")
     public String getMemorandumOfEntryPdf() throws JRException, IOException {
         memorandumOfEntryService.getMemorandumOfEntryPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-DSRA-Declaration-pdf")
+    public String getDSRADeclarationPdf() throws JRException, IOException {
+        dsraDeclarationService.getDSRADeclarationPdf();
         return "success";
     }
 }
