@@ -42,6 +42,27 @@ public class PdfController {
     @Autowired
     DSRADeclarationService dsraDeclarationService;
 
+    @Autowired
+    MITCImportentTermsAndConditionsService mitcImportentTermsAndConditionsService;
+
+    @Autowired
+    MotdService motdService;
+
+    @Autowired
+    DisbursementRequestService disbursementRequestService;
+
+    @Autowired
+    BoardResolutionService boardResolutionService;
+
+    @Autowired
+    SupplymentoryService supplymentoryService;
+
+    @Autowired
+    SIMPLEMORTGAGEDEEDService simplemortgagedeedService;
+
+    @Autowired
+    LoanScheduleService loanScheduleService;
+
     @GetMapping("/generate-pdf")
     public String generatePdf() throws JRException, IOException {
         reportService.generateHindi();
@@ -98,6 +119,47 @@ public class PdfController {
     @GetMapping(value = "/get-DSRA-Declaration-pdf")
     public String getDSRADeclarationPdf() throws JRException, IOException {
         dsraDeclarationService.getDSRADeclarationPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-MICTImportentTermsAndConditions-pdf")
+    public String getMICTImportentTermsAndConditionsPdf() throws JRException, IOException {
+        mitcImportentTermsAndConditionsService.getMICTImportentTermsAndConditionsPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-MOTD-pdf")
+    public String getMOTDPdf() throws JRException, IOException {
+       motdService.getMOTDPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-DisbursementRequest-pdf")
+    public String getDisbursementRequestPdf() throws JRException, IOException {
+        disbursementRequestService.getDisbursementRequestPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-BoardResolution-pdf")
+    public String getBoardResolutionPdf() throws JRException, IOException {
+        boardResolutionService.getBoardResolutionPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-Supplymentory-pdf")
+    public String getSupplymentoryPdf() throws JRException, IOException {
+        supplymentoryService.getSupplymentoryPdf();
+        return "success";
+    }
+    @GetMapping(value = "/get-simplemortgagedeed-pdf")
+    public String getsimplemortgagedeedPdf() throws JRException, IOException {
+        simplemortgagedeedService.getSIMPLEMORTGAGEDEEDPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-loanSchedule-pdf")
+    public String getloanSchedulePdf() throws JRException, IOException {
+        loanScheduleService.getloanSchedulePdf();
         return "success";
     }
 }

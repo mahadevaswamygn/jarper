@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="mitc00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d8583bf-c84c-4f70-9564-7148211010c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="32" width="150" height="48" uuid="05312931-566a-43af-afeb-277fac88285b"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="32" width="330" height="48" uuid="617f38bb-6d60-426d-aed4-378f3cf4ebe1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="35" width="145" height="35" uuid="c7f76f6e-1783-4f32-bde2-f5c4760facb7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="35" width="324" height="45" uuid="89b07d32-8f1d-4773-8f85-456bb99a59ea">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[and/or its directors/partners/co-applicants, as applicable, as defaulters in such manner and through such media as the company and/or RBI may, in their absolute discretion, think fit.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="80" width="150" height="70" uuid="adb0d28b-80af-4f27-9bf2-82fa76db43db"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="80" width="330" height="70" uuid="fa175b9c-e41c-4e5a-89e7-0941939e57ae">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="83" width="145" height="60" uuid="161516a8-5c6d-45b7-907e-690f30ccdb38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[Disclosures]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="83" width="324" height="77" uuid="83400da0-d467-40c3-a2d9-df33488e721a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[VFPL is authorized to disclose from time to time any information relating to the loan to any credit bureau (Existing or Future) approved by Government of India and Reserve Bank of India without any notice to the borrower. VFPL is also authorized to make inquiries with any Credit Bureau and get the applicants’ Credit Information Report.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="150" width="150" height="152" uuid="541bbb90-f07e-4a2c-a1d7-c6b190bbc97b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="150" width="330" height="152" uuid="5d020803-4aae-40e2-a62f-51bb69517c76">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="153" width="145" height="57" uuid="833c3dfb-4783-49c3-a345-41c2f91cc593">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Electronic Communication]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="153" width="324" height="187" uuid="c6069b30-d73e-4a21-908f-32999f2185d8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Borrower(s) specifically agree to execute, receive and/or obtain any and all loan related documents &quot;Electronic Communications&quot; (as defined herein) via VFPL or its authorised e-signature facility /service provider. The term &quot;Electronic Communications&quot; includes, but is not limited to any and all current and future letters/communications relating to the loan sanction letter, loan terms and condition, MITC, welcome letter., etc. Borrower accept Electronic Communications provided via VFPL or its authorised service provider as reasonable and proper notice, for the purpose of any and all laws, rules, and regulations, and agree that such electronic form fully satisfies any requirement that such communications be provided to the Borrower in writing or in a form that Borrower may keep.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="302" width="150" height="118" uuid="bfe8aee1-a67c-4ccb-8f2f-1d7cb513388c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="302" width="330" height="118" uuid="5df4f3f9-4942-46e5-961f-6d07f12627e8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="305" width="145" height="57" uuid="d4039539-d3ce-48d7-9f6c-99d4648a9e53">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Dispute resolution]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="305" width="324" height="125" uuid="704d96b4-8381-4389-a19f-34fcc9c20727">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Disputes, if any, arising in the context of educational/Term loan or in respect of any rights or obligations arising out of the loan agreement between the borrower and the Company shall be resolved by arbitration by a sole arbitrator appointed by the Company in accordance with the Arbitration and Conciliation Act of 1996. The place of proceedings will be at Bangalore and proceedings shall be carried out in English language.<br><br>
+				Courts at Bangalore shall have exclusive jurisdiction in relation to all matters concerning and relating to the Disputes.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="420" width="150" height="90" uuid="25b73399-45a2-4cf6-aa68-dba42a9fbb25"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="420" width="330" height="90" uuid="d39dedfd-5fdf-4e5e-b245-f5cff3926a96">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="423" width="145" height="57" uuid="eda5cd32-bf4c-4276-b2b3-9d5ab91dee68">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Other important terms and conditions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="423" width="324" height="87" uuid="342041f5-fc20-484e-88a7-1b9eb2a8fa30">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Liability of Borrower to be Joint and Several: In cases where the Loan is provided to more than one Borrower, then the liability of the Borrower to repay the Loan together with interest and all other amounts and to observe the terms and conditions of the Agreement/ and any other agreement(s), document(s) made between the Borrower and the VFPL in respect of the Loan is joint and several.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="520" width="467" height="70" uuid="eb1402df-1640-4a3e-bbbd-199c4f1feb17"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[* The aforesaid fee / charges are subject to change at the VFPL’s discretion. The Borrowers are requested to refer to the latest schedule of charges and the “Fair Practice Code” section of the VFPL’s website,<a href="www.varthana.com">www.varthana.com</a> , or at the VFPL’s branch office at the time of availing the services.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

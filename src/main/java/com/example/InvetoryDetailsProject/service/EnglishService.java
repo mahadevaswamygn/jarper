@@ -23,10 +23,11 @@ public class EnglishService {
         parameters02.put("loanId", "Li1234sdd");
 
         List<JasperPrint> prints = new ArrayList<>();
-        JasperReport jasperReport01 = JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/english/english01.jrxml");
+        String filePath="https://s3.ap-south-1.amazonaws.com/com.varthana.studentloan-staging/SchoolLoans/english/english01.jrxml";
+        JasperReport jasperReport01 = JasperCompileManager.compileReport(filePath);
         JasperPrint jasperPrint01 = JasperFillManager.fillReport(jasperReport01, parameters01, new JREmptyDataSource());
         prints.add(jasperPrint01);
-        JasperReport jasperReport02 = JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/english/english02.jrxml");
+        JasperReport jasperReport02 = JasperCompileManager.compileReport("https://s3.ap-south-1.amazonaws.com/com.varthana.studentloan-staging/SchoolLoans/english/english02.jrxml");
         JasperPrint jasperPrint02 = JasperFillManager.fillReport(jasperReport02, parameters02, new JREmptyDataSource());
         prints.add(jasperPrint02);
 
@@ -38,7 +39,7 @@ public class EnglishService {
                 pageNum = "0" + pageNum;
             }
             String fileName = "english" + pageNum + ".jrxml";
-            JasperReport jasperReport = JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/english/" + fileName);
+            JasperReport jasperReport = JasperCompileManager.compileReport("https://s3.ap-south-1.amazonaws.com/com.varthana.studentloan-staging/SchoolLoans/english/" + fileName);
 
             print = JasperFillManager.fillReport(jasperReport, parameters, new JREmptyDataSource());
             prints.add(print);
@@ -55,7 +56,7 @@ public class EnglishService {
         parameters14.put("nameOfPerson3", "Mahadeva Swamy GN");
         parameters14.put("varthanaOfficer","manjunatha");
 
-        JasperReport jasperReport14 = JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/english/english14.jrxml");
+        JasperReport jasperReport14 = JasperCompileManager.compileReport("https://s3.ap-south-1.amazonaws.com/com.varthana.studentloan-staging/SchoolLoans/english/english14.jrxml");
         JasperPrint jasperPrint14 = JasperFillManager.fillReport(jasperReport14, parameters14, new JREmptyDataSource());
         prints.add(jasperPrint14);
 
@@ -70,7 +71,7 @@ public class EnglishService {
         exporter.setConfiguration(configuration);
         exporter.exportReport();
         byte[] bytes = byteArrayOutputStream.toByteArray();
-        OutputStream out = new FileOutputStream("/home/mahadeva/Desktop/english.pdf");
+        OutputStream out = new FileOutputStream("/home/mahadeva/Desktop/englishs3.pdf");
         out.write(bytes);
         out.close();
     }

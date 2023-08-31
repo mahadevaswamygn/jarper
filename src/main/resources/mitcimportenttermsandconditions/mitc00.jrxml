@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="mitc00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d8583bf-c84c-4f70-9564-7148211010c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="46" width="490" height="22" uuid="b77716ee-ae5c-422b-a415-4b0cd34d7227"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Most Important Terms and Conditions [MITC] applicable for Educational/Term loan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="75" width="480" height="64" uuid="232a35da-e46e-47d6-85f0-3f7e113d51a9"/>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[These Most Important Terms and Conditions [MITC] governing the educational/term loan and the same are binding on the Borrower(s)/Guarantor(s). These terms and conditions are further described in educational loan/Term Loan sanction letter agreement under relevant sections / schedules and should be read in conjunction with those mentioned in the Loan Agreement :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="78" y="64" width="392" height="1" uuid="ef1aba54-317c-4516-b5fe-8bec64db9a09"/>
+			</line>
+			<staticText>
+				<reportElement x="30" y="140" width="150" height="30" uuid="05312931-566a-43af-afeb-277fac88285b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="140" width="330" height="30" uuid="617f38bb-6d60-426d-aed4-378f3cf4ebe1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="143" width="145" height="24" uuid="c7f76f6e-1783-4f32-bde2-f5c4760facb7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Lender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="143" width="324" height="24" uuid="89b07d32-8f1d-4773-8f85-456bb99a59ea">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Varthana Finance Private Limited (“VFPL / Company”)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="170" width="150" height="30" uuid="adb0d28b-80af-4f27-9bf2-82fa76db43db"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="170" width="330" height="30" uuid="fa175b9c-e41c-4e5a-89e7-0941939e57ae"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="172" width="145" height="24" uuid="161516a8-5c6d-45b7-907e-690f30ccdb38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Loan purpose]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="173" width="324" height="24" uuid="83400da0-d467-40c3-a2d9-df33488e721a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[The loan purpose as specified in the loan approval letter.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="200" width="150" height="30" uuid="e5707e2b-6133-4138-9a70-02fdd0adb1c1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="200" width="330" height="30" uuid="ee13318f-cfe5-4666-bc35-9a7768a7a1f7"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="204" width="145" height="24" uuid="dac61e5f-309e-48d5-8523-8f064f76be7f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Loan tenure]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="203" width="324" height="24" uuid="0b288dca-69c0-435d-8e76-67048430e729">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[The loan tenure as per loan approval letter]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="230" width="150" height="40" uuid="dd689db5-aa26-4e4d-829a-c677512c0932"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="230" width="330" height="40" uuid="98b485df-e49a-4033-9978-4950dac23c39"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="233" width="145" height="37" uuid="bdc94ec3-d905-401c-a01a-d4da6f6ba189">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Loan Processing
+(non-refundable)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="233" width="324" height="37" uuid="1ec11402-e173-4603-8276-7ecac1fd7e9c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Processing fee as per Loan approval letter of the loan applied for + Applicable Taxes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="270" width="150" height="70" uuid="403c0b61-f075-47e4-8ec3-96c5f536173e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="270" width="330" height="70" uuid="a039996e-2ea4-4a28-9863-eb21b8bf69d3"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="273" width="145" height="67" uuid="f5f3046f-4849-49aa-9654-0622e23b5df8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Rate of interest]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="273" width="324" height="67" uuid="4a55fa48-c80d-4bca-9dc9-3d4e8d726ee4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Fixed Rate of Interest - the interest rate shall remain fixed throughout the tenure of the Loan. The applicable Fixed Rate shall be the prevailing interest rate on the date of disbursement. The Interest rate is specified in the approval letter.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="340" width="150" height="40" uuid="413faa54-230c-4820-bbcf-5973d20c8628"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="340" width="330" height="40" uuid="13cbc009-d613-4eb6-9ed1-7c718a673004"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="343" width="145" height="37" uuid="cec121ad-a335-4a93-967d-2ff89474c277">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Repayment of loan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="343" width="324" height="37" uuid="3420ef8e-fb63-4f05-8485-a5ba8acdc939">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[The Loan will be repayable through the Equated Monthly Instalments (“EMIs”) payable on a monthly basis on the due date mentioned in the sanction Letter.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="380" width="150" height="100" uuid="28805fc3-e0b9-42b1-a238-91a567e99245"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="380" width="330" height="100" uuid="a6beebba-8a3d-4e69-b2bb-f6d7aac47f5a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="383" width="145" height="94" uuid="455ca5c6-26e7-4de6-b0f3-b35f98221def">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bounce and Additional Interest]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="383" width="324" height="97" uuid="c6132ed3-bd4e-4a02-b946-0a27edda57a3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[In case of delayed payment, overdue interest for the delayed period will be charged at rates as determined by the VFPL from time to time<br><br>
+<b>Additional/Penal Interest </b>For Delayed Repayment - 3% per month on overdue payment.<br><br>
+ Cheque / ECS return charges - ₹424+ GST as applicable]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="480" width="150" height="87" uuid="66647dca-0cfc-40c5-b07c-77e020e2f1ac"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="480" width="330" height="87" uuid="dafa8656-7986-47df-84c8-d89ddc4f66cc"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="483" width="145" height="77" uuid="f8e9178a-b1b2-41ca-b828-b9227bbcf6d5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Foreclosure Charges]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="483" width="307" height="84" uuid="bb42ee1d-531b-49b6-bf2f-8e9c5b02accb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>i)</b> 6 Months - 5% on Principal Outstanding + GST as applicable<br>
+<b>ii)</b>   6 Months - 3% on Principal Outstanding + GST as applicable for Own Funds<br>
+<b>iii)</b>  5% on Principal Outstanding + GST as applicable for Balance Transfer at any point of time<br>
+<b>iv</b> Part payment waiver is not applicable for foreclosure]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="567" width="150" height="63" uuid="e8eb7437-97a7-4218-9513-d95e138397e5"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="567" width="330" height="63" uuid="310efe27-252e-40f2-a4ef-aea92b29e000">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="570" width="145" height="60" uuid="d5f9d5ab-97ee-47d9-8f8b-151fe5a0a157">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Prepayment Charges]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="570" width="307" height="60" uuid="4a6a564c-e2fe-4fac-b5e8-6afb698603c6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>i)</b>  Nil upto 25% on the Principal Outstanding every year from date of disbursement.<br>
+<b>ii)</b>  Any part payment received &gt; 25% of Principal Outstanding will attract applicable Foreclosure Charges + GST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="630" width="150" height="130" uuid="df0cf010-0d24-42d6-af3e-eb1867ee2773"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="630" width="330" height="130" uuid="e5a2cf23-738d-402f-bc87-c4ddcda63d3e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="633" width="145" height="47" uuid="e6c91931-a696-45be-b60b-05e6c53a659a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Other Charges]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="633" width="307" height="137" uuid="f3fc0c47-7c67-48cc-bf36-26311fd963e5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>i) </b> Cheque Swapping: ₹500 + GST<br>
+<b>ii)</b>  Property Swapping: ₹1000 + GST<br>
+<b>iii)</b>  List of Documents: ₹750 + GST<br>
+<b>iv)</b>  Photocopy of Property Papers: ₹1000 + GST<br>
+<b>v)</b>  Stamp Duty: Actuals<br>
+<b>vi)</b>  Security/Mortgage/Hypothecation: Actuals(applicable as per state law)<br>
+<b>vii)</b>  Loan Cancelation:Nil - however client has to pay interest for interim period between loan disbursement to loan cancellation period<br>
+<b>viii)</b>  Property Swapping: Rs.5000+ GST as applicable]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

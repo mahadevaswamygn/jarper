@@ -19,13 +19,14 @@ import java.util.List;
 public class KannadaService {
 
     public void getKannadaPdf() throws JRException, IOException {
+        List<JasperPrint> prints = new ArrayList<>();
+
         HashMap<String, Object> parameters01 = new HashMap<>();
         HashMap<String, Object> parameters02 = new HashMap<>();
         HashMap<String, Object> parameters = new HashMap<>();
         parameters01.put("agreementNumber","1234dews");
         parameters02.put("loanId","Li1234sdd");
 
-        List<JasperPrint> prints = new ArrayList<>();
         JasperReport jasperReport01= JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/kannada/ka01.jrxml");
         JasperPrint jasperPrint01= JasperFillManager.fillReport(jasperReport01,parameters01,new JREmptyDataSource());
         prints.add(jasperPrint01);

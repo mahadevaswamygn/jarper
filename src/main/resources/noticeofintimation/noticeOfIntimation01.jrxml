@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="noticeOfIntimation00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0dcc645e-6c4b-4d32-9966-16b92b6798eb">
+	<parameter name="coBoorower3Name" class="java.lang.String"/>
+	<parameter name="coBoorower3Address" class="java.lang.String"/>
+	<parameter name="coBoorower3Pan" class="java.lang.String"/>
+	<parameter name="coBoorower3Contact" class="java.lang.String"/>
+	<parameter name="coBoorower3Email" class="java.lang.String"/>
+	<parameter name="propertyWonerName" class="java.lang.String"/>
+	<parameter name="propertyAddress" class="java.lang.String"/>
+	<parameter name="loanId" class="java.lang.String"/>
+	<parameter name="approvedLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<parameter name="interestRate" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -19,7 +29,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBoorower3Name}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="42" width="26" height="20" uuid="4234ab6d-684e-410e-bc9b-97e4b6f27521"/>
@@ -211,7 +221,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBoorower3Pan}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="152" width="230" height="20" uuid="0691b83a-02e2-40eb-8bb5-62ac0420a6e1"/>
@@ -223,7 +233,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBoorower3Pan}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="172" width="230" height="20" uuid="7493edfe-e662-4e8c-836f-95e1a60d9bd3"/>
@@ -235,7 +245,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBoorower3Email}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="304" y="62" width="230" height="70" uuid="e2d02fdf-d1f3-4019-b20a-02739800829b"/>
@@ -258,7 +268,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Justified"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{coBoorower3Address}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="192" width="26" height="38" uuid="d300e7d0-a12e-4d9a-b03c-4ccd6ae11dac"/>
@@ -306,7 +316,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{propertyWonerName}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="230" width="26" height="70" uuid="44ff528e-826e-4379-b113-fb8b66b7e0e5"/>
@@ -365,7 +375,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Justified"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{propertyAddress}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="300" width="26" height="70" uuid="4337259b-beba-4daf-b679-f37cf81c8d5d"/>
@@ -424,7 +434,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Justified"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{propertyAddress}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="54" y="230" width="226" height="70" uuid="00a98b87-14b4-4760-806a-ddad16e9f7a7"/>
@@ -507,7 +517,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Justified"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{loanId}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="54" y="400" width="226" height="60" uuid="46e84aaa-a2ae-40db-ad33-e1a371ba3507"/>
@@ -578,7 +588,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Justified"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" "]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="54" y="460" width="226" height="210" uuid="657dc25f-49df-4cd9-b41e-218c1c1640a3"/>
@@ -638,7 +648,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" " +$P{approvedLoanAmountIncludingInsurance}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="690" width="26" height="20" uuid="4cc02b56-d016-42ba-95fd-644f5e2608f6"/>
@@ -686,7 +696,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{interestRate}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="710" width="26" height="20" uuid="0632aa42-ede6-4233-8212-5552b1a6c43c"/>
@@ -734,7 +744,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" "]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

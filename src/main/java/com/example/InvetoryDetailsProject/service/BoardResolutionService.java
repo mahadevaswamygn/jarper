@@ -13,26 +13,25 @@ import java.util.HashMap;
 import java.util.List;
 
 @Service
-public class LeneMarketingService {
-    public void getLeneMarketingPdf() throws JRException, IOException {
-        HashMap<String, Object> parameters01 = new HashMap<>();
-        parameters01.put("date","24-04-2024");
-        parameters01.put("intentOfProperty","just for ada edthiradu");
-        parameters01.put("addressOfProperty","near Aramane mysore, kalidaasa rasthe, karnataka");
-        parameters01.put("approvedLoanAmountIncludingInsurance","240000000000");
-        parameters01.put("barrowName","siddaraju");
-        parameters01.put("wonerOfProperty","rathanakka");
+public class BoardResolutionService {
 
+    public void getBoardResolutionPdf() throws JRException, IOException {
         List<JasperPrint> prints = new ArrayList<>();
-        JasperReport jasperReport01= JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/lememarketing/leneMarketingStandard00.jrxml");
+
+        HashMap<String, Object> parameters01 = new HashMap<>();
+        parameters01.put("date","22 nd july 2024");
+        parameters01.put("trustName", "sri siddaganaga mata");
+        parameters01.put("address","near ganga water tank");
+        parameters01.put("finalLoanAmount","2400000");
+        parameters01.put("approveDate","11-07-2025");
+        parameters01.put("coBorrower1details","naganna , vice principle of the sadvidya education trust");
+        parameters01.put("coBorrower2details","santhuraj of the sadvidya education trust");
+        parameters01.put("coBorrower1Name","sagar reddy");
+        parameters01.put("coBorrower1Name","nithi readdy");
+        parameters01.put("coBorrowerInsuredPersion","jaganna");
+        JasperReport jasperReport01= JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/boardresolution/boardResolution00.jrxml");
         JasperPrint jasperPrint01= JasperFillManager.fillReport(jasperReport01,parameters01,new JREmptyDataSource());
         prints.add(jasperPrint01);
-
-        HashMap<String, Object> parameters02 = new HashMap<>();
-        JasperReport jasperReport02= JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/lememarketing/leneMarketingStandard01.jrxml");
-        JasperPrint jasperPrint02= JasperFillManager.fillReport(jasperReport02,parameters02,new JREmptyDataSource());
-        prints.add(jasperPrint02);
-
 
 
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -45,10 +44,8 @@ public class LeneMarketingService {
         exporter.setConfiguration(configuration);
         exporter.exportReport();
         byte[] bytes = byteArrayOutputStream.toByteArray();
-        OutputStream out = new FileOutputStream("/home/mahadeva/Desktop/lemeMarketing.pdf");
+        OutputStream out = new FileOutputStream("/home/mahadeva/Desktop/boardResolution.pdf");
         out.write(bytes);
         out.close();
-
-
     }
 }

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="supplymentory01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="62d07053-3e1a-4d2c-95d4-9108b0bf248e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="north" class="java.lang.String"/>
+	<parameter name="east" class="java.lang.String"/>
+	<parameter name="west" class="java.lang.String"/>
+	<parameter name="south" class="java.lang.String"/>
+	<parameter name="addressOfProperty" class="java.lang.String"/>
+	<parameter name="intentOfProperty" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="docType" class="java.lang.String"/>
+	<field name="docNumOrYear" class="java.lang.String"/>
+	<field name="originalOrPhotoCopy" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="30" width="500" height="30" uuid="33bc73fa-1f26-49a1-9622-4431e0470e3f"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PART I
+TITLE DEEDS DEPOSITED]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="80" width="50" height="30" uuid="eb11ee0a-32cb-4708-bdc0-46b9773c7fe5"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="80" width="130" height="30" uuid="bd71582e-ef13-4c63-b551-d598ed4b72e9"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="80" width="140" height="30" uuid="ad76dbae-7fb6-48f1-acb5-63e4dfb01d69"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="80" width="170" height="30" uuid="804364f8-4b49-414f-bb6a-b28ac57eac95"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="83" width="50" height="27" uuid="2182c52c-4027-49f3-857b-6190bf3aca07"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Sl No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="93" y="83" width="127" height="27" uuid="035d8cdb-795f-456b-9005-710de0644336"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<text><![CDATA[Document Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="83" width="127" height="24" uuid="b6a48f22-5086-4aa9-94e8-980be032bb19">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<text><![CDATA[Document No./Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="363" y="83" width="167" height="24" uuid="7ead62d2-9010-44c8-acba-1cbbb7f91c0f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<text><![CDATA[Original/Photocopy/Certified]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="110" width="50" height="20" uuid="8855206d-7756-4bb3-9874-4c2d6eb30918"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="110" width="130" height="20" uuid="e8096d9d-cb3e-4477-bced-bac187a0018d"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{docType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="110" width="140" height="20" uuid="b6d84ad2-3ed2-4b8b-a76b-ad678180b9db"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{docNumOrYear}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="110" width="169" height="20" uuid="32e57b75-5856-47ae-8d5c-904cb35d12f2"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{originalOrPhotoCopy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="230" width="500" height="30" uuid="c1d9056b-952e-47e3-bfd0-54e647ff9349"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PART – II
+Details/Description of the Property/ies.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="260" width="500" height="30" uuid="1bf07c60-3dd9-4206-b539-7e6f1f47297a"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["All that the Parcel and part bearing no.. " + $P{addressOfProperty} + " measuring " + $P{intentOfProperty} + " Feet and bounded as follows:-"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="80" y="290" width="70" height="20" uuid="5eac3ad9-b6ce-4ca6-8acf-31f396a6e2d3"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[North :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="310" width="70" height="20" uuid="707d11a7-8368-44f1-ba92-1ac79d78f3fa"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[South :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="330" width="70" height="20" uuid="60591e0f-6c91-4b3a-8927-aea2bdc6c2f5"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[East :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="350" width="70" height="20" uuid="79aea391-2ae8-4cd2-b008-08fb994bc38b"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[West :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="290" width="250" height="20" uuid="0feda501-79b4-4fa6-9873-8cd796e54d7a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{north}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="310" width="250" height="20" uuid="5363ad6d-7940-49f0-8535-18b6b0b1e76d"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{south}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="330" width="250" height="20" uuid="6b0e3f59-7b64-47ab-b822-433fe45b8fa0"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{east}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="350" width="250" height="20" uuid="dde5f908-23b9-414a-8d22-faafd53a6132"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{west}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="380" width="500" height="30" uuid="ed47bfd3-7552-440b-9b63-d0a83235a3c1"/>
+				<textFieldExpression><![CDATA["In witness whereof the executant has set hands the " + $P{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="430" width="130" height="40" uuid="8f4f730f-05ae-4247-97e6-53ca98d261f2"/>
+				<textElement markup="html"/>
+				<text><![CDATA[Witnesses<br> 1.<br>2.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="240" y="470" width="290" height="50" uuid="44f05f56-b2af-4a74-b7d2-a10a1a360a37"/>
+				<textElement textAlignment="Center" markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Executant(First Party) <br>" + $P{wonerOfProperty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="150" y="560" width="380" height="50" uuid="37180e8c-3575-44a0-884e-80c14e628f5d"/>
+				<textElement textAlignment="Center" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Second Party<br> <br>Varthana Finance Pvt Ltd represented by Mr._______________)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="boardResolution" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="55e96ccd-3ad9-4670-a7ba-cc49ac539382">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="trustName" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<parameter name="finalLoanAmount" class="java.lang.String"/>
+	<parameter name="approvedDate" class="java.lang.String"/>
+	<parameter name="coBorrower1Details" class="java.lang.String"/>
+	<parameter name="coBorrower2Details" class="java.lang.String"/>
+	<parameter name="coBorrowerInsuredPersion" class="java.lang.String"/>
+	<parameter name="coBorrower1Name" class="java.lang.String"/>
+	<parameter name="coBorrower2Name" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="50" width="50" height="20" uuid="0ca6cd7e-5732-4171-9d30-1974f4b8d7d9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="50" width="130" height="20" uuid="241616e0-c98b-45c3-b0a3-cc7bde0bb741"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="70" width="500" height="30" uuid="971e8d0a-5091-46f0-ade7-ebe179274eae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Board Resolution"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="100" width="500" height="60" uuid="0f8281b1-718d-4568-bbf5-4102d1ef893d"/>
+				<textElement textAlignment="Justified">
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Certified True Copy of the resolution passed by the management of the Trust " + $P{trustName} + " in meeting held on " + $P{date} + " at " + $P{address} + " where proper quorum was present and the said resolution has been passed and has not been subsequently modified."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="160" width="500" height="120" uuid="7e55680a-98ac-4f95-8c43-69b17fa97ec8"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["The Trust" + $P{trustName} + "resolved to accept the offer of Varthana Finance Private Limited, an NBFC company incorporated under the companies Act 1956, having its Registered office at Varasiddhi, 3 rd Floor, No 5 BC – 110 Service Road, 3 rd Block, HRBR Layout, Bangalore 560043 (hereinafter referred to as &quot;the Principal&quot; or &quot;the Lender&quot; which expression unless it be repugnant to the context or meaning thereof, shall mean and include its successors and assigns) to grant to the Trust, a loan of Rs." + $P{finalLoanAmount} + " (“the Facility” or ‘’the Loan”) on the terms and conditions contained in the Lender’s Sanction Letter Dated " + $P{approvedDate} + " as also the draft Loan Agreement as received from the Lender copies whereof duly signed by the Chairman/President/Secretary/Managing Trustee of the Trust " +$P{trustName} + "for the purpose of identification, have been circulated."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="27" y="300" width="500" height="80" uuid="f1504e65-52c5-4963-84ec-9821b0a19d81"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["Mr/Mrs" + $P{coBorrower1Details} + " , Mr/Mrs " +$P{coBorrower2Details} + "be and hereby authorized jointly/severally to convey to the Lender acceptance on behalf of the Trust " + $P{trustName} + "of the said offer for the Facility on the terms and conditions contained in the said sanction letter as also the draft Loan Agreement referred to above and to negotiate, discuss, settle, finalize and accept the terms and conditions of the said facility from the Lender and to take such further action as may be necessary for this purpose."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="27" y="280" width="233" height="20" uuid="3ce79699-cb4c-40f8-aa43-75dce9e0e024"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[RESOLVED FURTHER THAT]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="27" y="382" width="500" height="58" uuid="acda30c6-8b4f-471b-99f9-ad6974f364eb"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["RESOLVED FURTHER THAT the Trust " + $P{trustName} + " shall execute the Loan Agreement relating to the above Facility within the period stipulated by the Lender, the conditions being that until the Loan Agreement is executed and until and all compliances as stipulated under the Loan Agreement are met to the satisfaction of the Lender."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="27" y="440" width="500" height="60" uuid="2b199fbb-67d6-4e28-b873-f8e6a5df2027"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["FURTHER STATE THAT the Trust " + $P{trustName} + " nominate Mr./Mrs, " +$P{coBorrowerInsuredPersion} + " for availing Life and / or general Insurance Policy and hereby agree for the payment of defined Premium amount of the Life and / or general Insurance policy either from the Trust " + $P{trustName} + " account or hereby authorize Thirumeni Finance Private Limited to deduct premium amount of Life and / or general Insurance policy from the sanctioned Loan Amount."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="27" y="510" width="500" height="60" uuid="e042190e-ffa5-4f51-83fa-08dd9f99ccb2"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["FURTHER RESOLVED THAT all the applications documents, agreements, declarations and undertakings as may be necessary in connection with the facility as stipulated by the Lender, be and are hereby authorized to be signed/executed by " + $P{coBorrower1Name} + " and " + $P{coBorrower2Name} + " on behalf of the Trust " + $P{trustName} + " jointly/severally."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="27" y="580" width="500" height="30" uuid="e4effd27-400c-44f2-83bf-beb24df74aed"/>
+				<textFieldExpression><![CDATA["CERTIFIED TO BE TRUE For " + $P{trustName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="660" width="497" height="30" uuid="9448c0ba-8b96-4762-a46a-ce79377bf2e9"/>
+				<text><![CDATA[1. (President/Secretary/Managing Trustee)           2. Authorised Signatory             3. Authorised Signatory]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

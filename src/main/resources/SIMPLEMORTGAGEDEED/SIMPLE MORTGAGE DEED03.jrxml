@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SIMPLE MORTGAGE DEED03" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="cf1c82b5-98dd-4afd-a916-5cfb2649d5c5">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="propertyAddress" class="java.lang.String"/>
+	<parameter name="intentOfProperty" class="java.lang.String"/>
+	<parameter name="north" class="java.lang.String"/>
+	<parameter name="south" class="java.lang.String"/>
+	<parameter name="east" class="java.lang.String"/>
+	<parameter name="west" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="borrowerName" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<textField>
+				<reportElement x="40" y="40" width="480" height="40" uuid="e7f88c3b-1733-485c-bf18-385db36dd6cc"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PART – II<br><br>Details/Description of the Property/ies."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="88" width="480" height="40" uuid="e37aa544-f126-4552-9827-d804de545a93"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[" All that the Parcel and part bearing no.." + $P{propertyAddress} + " measuring " + $P{intentOfProperty} + " Feet and bounded as follows:- "]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="70" y="122" width="70" height="20" uuid="478517ae-5552-406b-99b1-01b44677d04c"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[North :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="142" width="70" height="20" uuid="8ba50ad3-6c64-42a8-b305-57735ed6479b"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[South :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="162" width="70" height="20" uuid="194ee25e-cb8d-41e6-8e42-4cdfd1b62467"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[East :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="182" width="70" height="20" uuid="aa5d99e8-f94c-404e-8977-d3fd5bef057f"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[West :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="140" y="122" width="250" height="20" uuid="a9fe3401-b6e2-4582-b680-9529cf4f8d54"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{north}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="142" width="250" height="20" uuid="9afef5cc-8753-4ec0-a2a2-0b09f12fb331"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{south}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="162" width="250" height="20" uuid="c8d475ca-ea49-49a7-8182-5eac1689ae6b"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{east}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="182" width="250" height="20" uuid="79a8b89f-6d6c-4bd5-a276-a1350e33084c"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{west}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="240" width="347" height="20" uuid="35cdaef5-95e4-4249-910f-2382c7007bbf"/>
+				<textFieldExpression><![CDATA["In witness whereof the executant has set hands the " +$P{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="290" width="180" height="60" uuid="df400e26-a0e9-4ba4-8a39-2aa8876b77d6"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Witnesses<br><br> 1.<br>2.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="391" width="300" height="20" uuid="e6ed30dd-9fb0-4cf1-9fae-486a56fc7519"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[First Party (Mortgagor)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="220" y="407" width="300" height="50" uuid="532da112-3293-4081-952b-50c68eaa8836"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$P{borrowerName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="220" y="477" width="300" height="120" uuid="50ce23fe-525d-4cc7-a414-ba4c9bbcae5f"/>
+				<textElement textAlignment="Center" markup="html"/>
+				<text><![CDATA[Second Party(Mortgagee)<br><br>Varthana Finance Pvt Ltd represented by Mr._______________)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

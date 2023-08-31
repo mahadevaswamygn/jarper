@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="mitc00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d8583bf-c84c-4f70-9564-7148211010c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="32" width="150" height="128" uuid="05312931-566a-43af-afeb-277fac88285b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="32" width="330" height="128" uuid="617f38bb-6d60-426d-aed4-378f3cf4ebe1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="35" width="145" height="105" uuid="c7f76f6e-1783-4f32-bde2-f5c4760facb7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Recovery of dues]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="35" width="324" height="125" uuid="89b07d32-8f1d-4773-8f85-456bb99a59ea">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[On occurrence of any event of default (“Event of Default”), all outstanding amounts owned by the Borrower to VFPL shall become payable forthwith and VFPL reserves the right to undertake such necessary processes/measures to enforce its rights under the Loan Documents including but not limited to charging Overdue Charges for the delayed payment, recovery of over dues by initiating recovery legal action in accordance with the remedy available under the Law. The actual procedure shall be determined by VFPL depending upon the circumstances of each case.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="160" width="150" height="370" uuid="adb0d28b-80af-4f27-9bf2-82fa76db43db"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="160" width="330" height="370" uuid="fa175b9c-e41c-4e5a-89e7-0941939e57ae">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="163" width="145" height="60" uuid="161516a8-5c6d-45b7-907e-690f30ccdb38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Event of default]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="163" width="324" height="457" uuid="83400da0-d467-40c3-a2d9-df33488e721a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[i. Borrower fails to pay to the VFPL any amount when due and payable under the Loan Agreement.<br>
+ii. Borrower is unable to or has admitted his/her inability to pay the dues.<br>
+iii. Any of the information provided by the Borrower/s to avail the Loan or any of their representations, warranties or declarations being found to be or becoming incorrect or untrue and / or any breach or default in complying with all or any of the covenants, conditions or undertakings during the currency of the Loan.<br>
+iv. Failure by the Borrower/s to furnish to the VFPL such information as may be required by the VFPL from time to time.<br>
+v. Breach of any terms and conditions of the Loan Agreement or any other loan documents related to the loan availed by the Borrower.<br>
+vi. Any person, other than the VFPL commencing proceedings to declare the Borrower/s or if the Borrower/s have become subject to insolvency, bankruptcy, reorganization, liquidation proceedings.<br>
+vii. Property is liable to be confiscated, attached, taken into custody by any official, authority, or is subject to any execution proceedings.<br>
+viii. Death of the Borrower or any event which is likely to have the effect of the Borrower not being able to service the Loan.<br>
+ix. An event of default howsoever described (or any event which with the giving of notice, lapse of time, determination of Materiality or fulfilment of any other applicable condition or any combination of the foregoing would constitute an event of default) occurs under any other agreement or document relating to any indebtedness of the Borrower with the VFPL or if any other lenders of the Borrower including financial institutions or banks with whom the Borrower has entered into agreements for financial assistance or any part thereof.<br>
+x. Any other event, which, in the VFPL’s sole opinion, is likely to have a material adverse effect on the ability of the Borrower to make payments under this Agreement.
+
+
+
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="530" width="150" height="220" uuid="541bbb90-f07e-4a2c-a1d7-c6b190bbc97b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="530" width="330" height="220" uuid="5d020803-4aae-40e2-a62f-51bb69517c76"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="530" width="145" height="57" uuid="833c3dfb-4783-49c3-a345-41c2f91cc593">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Remedies available upon occurrence of event of default]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="530" width="324" height="250" uuid="c6069b30-d73e-4a21-908f-32999f2185d8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[i. To recall the entire outstanding of the loan disbursed at any time at its own discretion, without any prejudice to any other rights, if it has reason to believe that the loan was procured by improper declaration/information.<br>
+ii. To stop disbursement of future tranches, if any, of the Loan.<br>
+iii. To engage person/s or agencies at the risk and cost of the Borrower to collect the Borrower outstanding dues and / or to enforce any security (ies) and may furnish to such person/s or agencies the right and authority to perform and execute all acts, deeds, matters and things connected or incidental thereto as the Company thinks fit.
+iv. To assign the debt, whether in full or part along with the underlying security, in favour of one or more entities on such terms and conditions at the Company’s discretion, without seeking consent from the Borrower.<br>
+v. To take any other action as it may deem fit for recovery of its dues.<br>
+vi. In case the Borrower/s commits any default in payment or repayment of principal amount of the loan or interest/charges due thereon, the Company and/or the Reserve Bank of India (“RBI”) will have an unqualified right to disclose or publish the details of such default along with the name of the Borrower/s and/or its directors/partners/co-applicants, as applicable, as defaulters in such manner and through such media as the company and/or RBI may, in their absolute discretion, think fit.
+
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

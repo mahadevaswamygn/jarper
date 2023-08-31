@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SIMPLE MORTGAGE DEED01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="02602860-cb92-40b9-92f5-126b28ad23d6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="finalLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<textField evaluationTime="Master">
+				<reportElement x="40" y="40" width="480" height="380" uuid="6b48b179-8d4a-4bf7-9e29-bcd99e35382f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top" markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["And this deed further witnesseth that in consideration of the aforesaid, the Mortgagor hereby mortgage his said scheduled Part II Property and described in the schedule hereunder written as a security for repayment of the said sum with interest and all other moneys due and payable hereunder with a condition that on the Mortgagor repaying the said principal sum of " + $P{finalLoanAmountIncludingInsurance} + " with all interest and other moneys due to the Mortgagee (hereinafter referred to as the Mortgage amount) the Mortgagee will redeem the said scheduled property from the mortgage security and shall if so required by the Mortgagor execute a deed of Release but at the costs of the Mortgagor <br><br> And it is further agreed and declared by the Mortgagor that in the event of the Mortgagor failing to pay the said principal sum with all interest and other moneys when the same shall become due and payable under these presents, the Mortgagee will become entitled to have the said scheduled property sold through any competent court and to realise and receive the said mortgage amount out of the net sale proceeds of the said scheduled property.<br><br> And it is further agreed and declared by the Mortgagor that he shall also be liable to pay and shall pay all the costs, charges and expenses that the Mortgagee will incur for the protection of the mortgage security and or for the realisation of the mortgage amount and the same shall be deemed to form part of the mortgage amount and the security therefor as aforesaid.<br><br> That the Mortgagors, have assured the Mortgagee that the Said Property is not subject to land acquisition proceedings and is free from all sorts of encumbrances including prior sale, agreement, lis-pendens, mortgage, attachment etc. and if it is proved otherwise, the Mortgagors shall be fully responsible and liable to indemnify and keep indemnified the Mortgagee under all circumstances against any monetary loss, harm, injury suffered or caused to be suffered to the Mortgagee on account of legal defects in the title documents of the Mortgagors in respect of the Said Property. <br><br>"
+				+ "That during the subsistence of the Registered Mortgage, the Mortgagors shall not create any third party interest in respect of the Said Property nor the Mortgagors shall transfer or part with the whole or part of the Said Property and/or any interest/right thereon in any manner whatsoever to any third party by way of sale, gift, rent, mortgage or otherwise."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="412" width="480" height="60" uuid="b7d0b8c1-c678-412a-b7cd-6d404f17a4c9"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["That in the event of default on the part of the Mortgagors as a whole to repay the amount payable by her/them to the Mortgagee under the credit facilities extended to them by the Mortgagee, the Mortgagee shall have the unconditional and unrestricted right to sell and dispose of the Said Property with or without the intervention of the Courts to liquidate the outstanding dues payable by the Mortgagors under the credit facility."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="478" width="480" height="124" uuid="c0a9dd5d-7ec2-404d-a273-867ba150cda4"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["And it is further agreed that during the pendency of the security hereby created and until repayment of the mortgage amount the Mortgagor will get insured and keep insured the buildings and structures standing on the said land against loss and damages due to fire or any other accident in the sum of at least " + $P{finalLoanAmountIncludingInsurance} + " with some Insurance Company of repute and pay all premium in the insurance policy as and when it becomes due and payable in respect thereof to such company and shall hand over the policy to the Mortgagee duly endorsed in his name as assignee and in the event of the Mortgagor failing to do so or to pay the premium, the Mortgagee will be entitled to insure the said buildings and structures and/or to pay the premium thereon and the amount paid by the Mortgagee in respect thereof will be deemed to form part of the mortgage amount."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="602" width="480" height="66" uuid="b3c5c6e6-ce08-4b36-9ce8-80c6a0dee319">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[That the Mortgagors shall at all times during the continuance of these presents and the security hereby created pay all ground rents, rates, taxes and impositions present as well as future and all dues, duties and all outgoings whatsoever payable in respect of mortgaged premises as and when the same becomes due and shall keep the security and every part thereof in good and substantial state of repairs]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="668" width="480" height="74" uuid="70851a25-cf0b-4b81-bcdf-629401af66fe"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[That Mortgagors shall permit the TFPL, its employees and agents either alone or with workmen and others, from time to time and at all reasonable times and with or without notice to Mortgagors but at the Mortgagors risk and expense and if so required, as attorney for or in the name of Mortgagors :<br> (i) to enter into and upon the mortgaged premises and inspect the same and<br> (ii) to enter the said land or any place.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="742" width="480" height="38" uuid="18acf629-4993-48a6-b858-436b1c125d39"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[And it is further agreed that in the event of the said scheduled property being destroyed or damaged by fire or any accident as aforesaid. The Mortgagee will be entitled to receive the insurance claim under such policy to the exclusion of the Mortgagor and to appropriate the same first towards all arrears of interest and then the principal amount or any part thereof as may be sufficient to pay the mortgage amount due and if any surplus remains the same only will become payable to Mortgagor]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

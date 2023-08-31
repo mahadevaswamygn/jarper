@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="noticeOfIntimation00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0dcc645e-6c4b-4d32-9966-16b92b6798eb">
+	<parameter name="borrowerName" class="java.lang.String"/>
+	<parameter name="borrowerAddress" class="java.lang.String"/>
+	<parameter name="borrowerPan" class="java.lang.String"/>
+	<parameter name="borrowerContact" class="java.lang.String"/>
+	<parameter name="borrowerEmail" class="java.lang.String"/>
+	<parameter name="coBorrower1Name" class="java.lang.String"/>
+	<parameter name="coBorrower2Name" class="java.lang.String"/>
+	<parameter name="coborrower1Address" class="java.lang.String"/>
+	<parameter name="coborrower2Address" class="java.lang.String"/>
+	<parameter name="coBorrower1Pan" class="java.lang.String"/>
+	<parameter name="coBorrower2Pan" class="java.lang.String"/>
+	<parameter name="coBorrower1Contact" class="java.lang.String"/>
+	<parameter name="coBorrower2Contact" class="java.lang.String"/>
+	<parameter name="coBorrower1Email" class="java.lang.String"/>
+	<parameter name="coBorrower2Email" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -205,7 +220,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{borrowerName}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="304" y="255" width="230" height="20" uuid="5b5de04a-cc7e-4816-a27e-85dcba448b6f"/>
@@ -529,7 +544,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{borrowerPan}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="445" width="230" height="20" uuid="0691b83a-02e2-40eb-8bb5-62ac0420a6e1"/>
@@ -541,7 +556,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" " + $P{borrowerContact}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="465" width="230" height="20" uuid="7493edfe-e662-4e8c-836f-95e1a60d9bd3"/>
@@ -553,7 +568,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{borrowerEmail}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="485" width="230" height="20" uuid="63b13379-374f-4069-b7a9-5648d68cf1ef"/>
@@ -565,7 +580,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower1Name}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="485" width="26" height="20" uuid="c7db0337-39ec-45b2-9db8-22f41164f27a"/>
@@ -757,7 +772,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower1Pan}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="595" width="230" height="20" uuid="3d508440-f856-42ac-ac27-479f0b94d08c"/>
@@ -769,7 +784,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower1Contact}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="615" width="230" height="20" uuid="d50f066d-29f6-4fbd-aaeb-d74840c55602"/>
@@ -781,7 +796,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower1Email}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="635" width="230" height="20" uuid="0ef668a0-77c8-4156-8845-452105a9d4ac"/>
@@ -793,7 +808,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower2Name}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="24" y="635" width="26" height="20" uuid="c6bd7f1a-c753-43d9-8a19-25ceec0d0e64"/>
@@ -985,7 +1000,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower2Pan}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="745" width="230" height="20" uuid="cc645685-18f0-4400-95ae-72236c7c8f09"/>
@@ -997,7 +1012,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower2Contact}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="304" y="765" width="230" height="20" uuid="9dde8af6-8ff8-458f-9fe4-fceecd3a42d1"/>
@@ -1009,7 +1024,7 @@
 					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  " + $P{coBorrower2Email}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="304" y="355" width="230" height="70" uuid="979f92d7-c58d-4e19-9e1f-225231c7ed23"/>
@@ -1053,7 +1068,7 @@
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{borrowerAddress}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="310" y="505" width="224" height="70" uuid="66c54e7f-c63c-47ec-8b54-c1f00af05598"/>
@@ -1064,7 +1079,7 @@
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{coborrower1Address}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="310" y="655" width="224" height="70" uuid="20453947-2192-4961-b30e-41f238a0b60d"/>
@@ -1075,7 +1090,7 @@
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{coborrower2Address}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

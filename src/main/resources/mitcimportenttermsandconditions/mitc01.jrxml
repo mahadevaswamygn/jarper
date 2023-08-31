@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="mitc00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9d8583bf-c84c-4f70-9564-7148211010c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="32" width="150" height="31" uuid="05312931-566a-43af-afeb-277fac88285b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="32" width="330" height="31" uuid="617f38bb-6d60-426d-aed4-378f3cf4ebe1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="35" width="145" height="28" uuid="c7f76f6e-1783-4f32-bde2-f5c4760facb7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Cooling Period/Look-up Period]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="35" width="324" height="28" uuid="89b07d32-8f1d-4773-8f85-456bb99a59ea">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Cooling off/look-up period during which borrower shall not be charged any penalty on prepayment of loan: 3 Days]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="63" width="150" height="325" uuid="adb0d28b-80af-4f27-9bf2-82fa76db43db"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="63" width="330" height="325" uuid="fa175b9c-e41c-4e5a-89e7-0941939e57ae">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="66" width="145" height="274" uuid="161516a8-5c6d-45b7-907e-690f30ccdb38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Conditions for disbursement of the loan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="66" width="324" height="322" uuid="83400da0-d467-40c3-a2d9-df33488e721a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Borrower loan applications will be processed through an authorised representative of the VFPL. Upon receipt of application with supporting information and documents, a system-generated acknowledgement email /message with reference number will be sent on registered email id / mobile number of the Applicant.<br><br>
+The loan sanction shall be communicated through email /message with reference number of the Applicant.<br><br>
+Validity of sanction: The sanction shall be available to the Borrower for a maximum period of [30)] days from date of issuing the Sanction letter.<br><br> Upon acceptance of sanction letter and execution of loan agreement by way of digital signature through Aadhar based OTP authentication, the loan amount will be disbursed in stages as per the requirement/ demand directly to the Institutions/Vendors of books/equipment/ instruments to the extent possible.<br><br>
+Submission of ECS/NACH/E-NACH, etc. any other clearing system in force for the time being towards repayment of instalments.<br><br>
+Utilisation of disbursement should be as per the end use specified.
+
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="388" width="150" height="30" uuid="e5707e2b-6133-4138-9a70-02fdd0adb1c1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="388" width="330" height="30" uuid="ee13318f-cfe5-4666-bc35-9a7768a7a1f7"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="391" width="145" height="24" uuid="dac61e5f-309e-48d5-8523-8f064f76be7f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Customer service]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="391" width="324" height="24" uuid="0b288dca-69c0-435d-8e76-67048430e729">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Customer care No - 080 – 68455777 mail ID [care@varthana.com]]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="418" width="150" height="332" uuid="dd689db5-aa26-4e4d-829a-c677512c0932"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="418" width="330" height="332" uuid="98b485df-e49a-4033-9978-4950dac23c39"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="33" y="421" width="145" height="37" uuid="bdc94ec3-d905-401c-a01a-d4da6f6ba189">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Grievance Redressal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="183" y="421" width="324" height="381" uuid="1ec11402-e173-4603-8276-7ecac1fd7e9c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[Grievance Redressal cum Nodal Officer:<br>
+Mr. Chandra Kumar CS, Varthana Finance Private Limited (Formerly known as Thirumeni Finance Private Limited) Varasiddhi, No. 5BC – 110, 3rd Floor, Service Road, 3rd Block HRBR Layout, Bangalore – 560043 Email: chandra.kumar@varthana.com Ph: 080 – 68888201<br><br>
+Escalation Matrix:<br>
+In case the complaint is not resolved within the given time (i.e. 21 working days) or if the customer is dissatisfied with the response received from the Company, the customer may escalate the complaint to the Primary Level – I as indicated below –<br><br>
+Primary Level I:<br>
+Compliance cum Principal Officer: Mr. Brajesh Mishra Varthana Finance Private Limited (Formerly Thirumeni Finance Private Limited) Varasiddhi, No. 5BC – 110, 3rd Floor, Service Road, 3rd Block HRBR Layout, Bangalore – 560043 Email: brajesh@varthana.com Ph: 080 – 6888820<br><br>
+Secondary Level II:<br>
+If the complaint/grievance is not resolved within a period of 30 working days from the receipt of escalation, the applicant/borrower may appeal to the Officer-in-Charge of the Regional Office of the Reserve Bank of India at the following address: Reserve Bank of India<br>
+Nrupathunga Road Bengaluru 560001 Karnataka, India Email: dnbsbangalore@rbi.org.in The customer can also approach the office of NBFC ombudsman, the detailed scheme i.e. “The Ombudsman Scheme for Non-Banking Financial Companies, 2018”
+
+
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="supplymentory00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a9a71497-7eb2-47ab-bfbf-b6cd973e11d6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="propertyCity" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<parameter name="addressOfProperty" class="java.lang.String"/>
+	<parameter name="varthanaOfficer" class="java.lang.String"/>
+	<parameter name="branchAddress" class="java.lang.String"/>
+	<parameter name="approvedLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<parameter name="borrowerName" class="java.lang.String"/>
+	<parameter name="purposeOfLoan" class="java.lang.String"/>
+	<parameter name="finalLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="20" y="40" width="500" height="30" uuid="81f32dc8-eb70-4527-b2c1-70fb8c57aa36"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SUPPLEMENTARY EQUITABLE MORTGAGE]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="20" y="80" width="500" height="330" uuid="a59ceff6-6b54-4c5f-aa4d-1a52d625ea2d"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["This Supplementary EM is made and executed on this the " + $P{date} + " at " + $P{propertyCity} + "<br><br> BY (FIRST PARTY): <br><br> 1. " + $P{wonerOfProperty} + " Resident at " + $P{addressOfProperty} + " Representing ownership of the PART II Property Hereinafter called the ‘FIRST PARTY which termshall wherever the context so admits shall mean and include their heirs (legal representatives, administrators and assigns) called “ First Party” and <br><br> IN FAVOUR OF (SECOND PARTY):<br><br> 2.<b>VARTHANA FINANCE PVT LTD </b>represented by <b>Mr.</b>" + $P{varthanaOfficer} + " Registered office at Varasiddhi, 3rd Floor No. 5BC-110, 3rd Block, HRBR Layout, Service Road, Near Water tank, Bangalore – 560 043. and one of its Branch Office Varthana Finance Pvt Ltd., at Navketan Complex, 62, Flat No 204, SD Road, Secunderabad Pin -500003, " + $P{branchAddress} + "hereinafter referred to as “Second Party ”also referred to as”company” which term shall wherever the context so admits shall mean and include their heirs (legal representatives, administrators and assigns) called “ Second Party”, Here in after referred to as “ The Company” <br><br><b>WITNESS AS FOLLOWS:</b><br><br> The executants have earlier mortgaged the scheduled property in favour of the Second Party to avail the credit Facilities to the extent of Rs.________________________Vide mortgage deed dated___________registered document no._________Before the Sub Registrar. Thus executants have already deposited title documents on "
+				+ $P{date} + "with the company the following documents of title(refer to PART I and II) relating to his property listed hereunder with the intent to create an equitable mortgage in favour of the company."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="390" width="500" height="100" uuid="5f88e1c2-d9fd-4660-acfb-d640a9583347"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["The company now has extended the additional credit facility of Rs. " + $P{approvedLoanAmountIncludingInsurance} + " to the borrower : " + $P{borrowerName} + " for the purpose " + $P{purposeOfLoan} + " in respect of the property to which the documents relate to and described here under for the purpose of securing repayment to the company of all amounts owing to the company. Thus the total credit facility extended to the borrower is "  + $P{finalLoanAmountIncludingInsurance} + " as of " +$P{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="472" width="500" height="170" uuid="332041e4-12d7-4875-b19b-d61621709470"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["The terms and conditions including Interest rate, schedule of charges of the credit facilities are mentioned in the loan schedule, part of the loan agreement. The same terms have been agreed and understood by the borrowers.<br><br> The First Party is part of the loan application form and loan structure, has come forward to guarantee his/her collateral mentioned in the schedule herein against the credit facility borrowed by the " + $P{borrowerName} + " The First Party further agreed that so long as any money remains owing in the second party, to pay interest thereon at the agreed rate as per Loan schedule. The First Party further agreed that until the entire loan and interest due to the second party has been discharged in full, this Deposit of Title Deeds will be kept in force and it shall continue to be security as aforesaid. The executant further declares that the documents deposited are all that were in this possession and control and that the properties are not changed or encumbered in any way whatsoever."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="621" width="500" height="170" uuid="f2de5eef-cc97-428e-acb8-1377d731433b"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>CROSS COLLATERAL:</b> The First Party acknowledges that in the event of Repayment by the First Party of the Loan and other amounts due under this Agreement but there being any outstanding by the First Party under any other financial facility availed of by the First Party from the Second Party or any outstanding dues payable to the Second Party by the First Party in his/her/its capacity as a guarantor or otherwise, then in such event, the Second Party shall not be obliged to release the security created by the First Party under this Agreement and the First Party hereby authorizes the Second Party to extend the security to cover such outstanding financial facility. Likewise, in the event of there being any outstanding by the First Party under this Agreement, the Second Party shall not be obliged to release the security created by the First Party for any other financial facility availed of by the First Party from the Second Party and the First Party undertakes to extend such security to cover the outstanding due under this Agreement.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

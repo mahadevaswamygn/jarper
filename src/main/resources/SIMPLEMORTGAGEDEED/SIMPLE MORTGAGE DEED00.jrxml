@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SIMPLE MORTGAGE DEED00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0d4be47e-598e-4079-b78f-f34e2ee72e31">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="propertyCity" class="java.lang.String"/>
+	<parameter name="addressOfProperty" class="java.lang.String"/>
+	<parameter name="wonerOfProperty" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="branchAddress" class="java.lang.String"/>
+	<parameter name="propertyAddress" class="java.lang.String"/>
+	<parameter name="borrowerName" class="java.lang.String"/>
+	<parameter name="endUse" class="java.lang.String"/>
+	<parameter name="finalLoanAmountIncludingInsurance" class="java.lang.String"/>
+	<parameter name="finalLoanAmountIncludingInsuranceInWords" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<textField>
+				<reportElement x="40" y="40" width="480" height="30" uuid="7d44e2ae-e515-43e4-acab-9101f9675988"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SIMPLE MORTGAGE DEED"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="80" width="480" height="200" uuid="d5eff8c5-b10a-4a91-a756-a417556c688b"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["This deed of Simple Mortgage is executed at" + $P{propertyCity} + " this " + $P{date} + "<br><br> BY (FIRST PARTY): <br><br> 1.<b>Mr." + $P{wonerOfProperty} + " </b> Resident at " + $P{addressOfProperty} + " Representing ownership of the Schedule PART II Property ‘hereinafter referred to as ‘the Mortgagor’ which term shall wherever the context so admits shall mean and include their heirs (legal representatives, administrators and assigns) called “ First Party” and <br><br> IN FAVOUR OF (SECOND PARTY): <br><br> 2.<b>VARTHANA FINANCE PVT LTD represented by Mr._______________.</b> Registered office at Varasiddhi, 3rd Floor No. 5BC-110, 3rd Block, HRBR Layout, Service Road, Near Water tank, Bangalore – 560 043. and one of its Branch Office " +$P{branchAddress} + "address&gt;hereinafter referred to as “Mortgagee”also referred to as”company” which term shall wherever the context so admits shall mean and include their heirs (legal representatives, administrators and assigns) called “ Secondt Party” and <br><br>"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="280" width="140" height="30" uuid="9fcc91ef-9427-4a93-b22e-30cba933a333"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[WITNESS AS FOLLOWS:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="310" width="480" height="170" uuid="cd25c5d6-87fc-49ca-9d87-0890b6efe67d"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["Whereas, the term Mortgagor and Mortgagee, unless repugnant to the context shall mean and include their representatives heirs, successors, executors, administrators, trustees, legal representatives and assigns. Whereas, the Mortgagor herein, is the sole and absolute owner of immovable property bearing No." + $P{propertyAddress} + " known as “ Schedule Part II Property” situated at morefully described in the schedule hereunder written and hereinafter called the scheduled property.<br><br> Whereas, the Mortgagor is the absolute owner, having acquired the property as per mentioned in the sale deed and since then Mortgagor has been in possession and enjoyment of the schedule property and paying taxes and levies thereon, as sole and absolute owner thereof. <br><br> The Mortgagor is part of the loan application form and loan structure, has come forward to guarantee his/her collateral mentioned in the schedule herein against the credit facility borrowed by the " + $P{borrowerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="480" width="480" height="80" uuid="0d64014f-bc4e-4280-82c5-e2f7cd3eaca7"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["Whereas Mortgagor being in need of money for the purpose of " + $P{endUse} + "Mortgagor requested the Mortgagee to lend him a sum of Rs." + $P{finalLoanAmountIncludingInsurance} + "(Rs." + $P{finalLoanAmountIncludingInsuranceInWords} + " only) which the Mortgagee has agreed to do on the Mortgagor executing these presents with a view to secure the repayment thereof with interest as hereinafter provided."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="548" width="480" height="140" uuid="b0f8d843-276e-4781-9411-3625ce0e7508"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["NOW THIS DEED WITNESSETH that pursuant to the said agreement and in consideration of the sum of Rs.<b>" + $P{finalLoanAmountIncludingInsurance} + "(Rupees. " + $P{finalLoanAmountIncludingInsuranceInWords} + "</b>only) lent and advanced by the Mortgagee to the borrower <b>" + $P{borrowerName} + "</b> by the company by way of credit facilities up to an extent of Rs. 1,71,04,500/- (One Crore Seventy One Lakh four Thousand Five Hundred Rupees Only). Upon the execution of these presents (receipt whereof the Mortgagor hereby admit) and Mortgagor hereby covenants with the Mortgagee that he the Mortgagor will pay to the Mortgagee as per loan schedule part of the loan agreement which has been signed by mortgagor and the Mortgagor further covenants with the Mortgagee that in the event of the Mortgagor failing to pay any installment of interest, he will be liable to interest on the said installment in default at the same rate as aforesaid from the date of default until payment such installment as and by way of compound interest"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="688" width="480" height="70" uuid="d82ac98e-e035-44de-9f8a-f8be13567a55"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Without prejudice to the right of the Mortgagee to take any action on default as herein under provided, and it is agreed and declared that in the event of Mortgagor committing default in payment of any installment of interest or committing a breach of any other term of this deed, the whole amount of principal then due with interest thereon will at the option of the Mortgagee become payable forthwith as if the said date had expired.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
