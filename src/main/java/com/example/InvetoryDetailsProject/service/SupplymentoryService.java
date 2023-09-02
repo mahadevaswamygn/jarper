@@ -51,11 +51,11 @@ public class SupplymentoryService {
             DocumentDto documentDto=new DocumentDto("pdf","1234","photoCopy");
             data.add(documentDto);
         }
-        System.out.println(data.size());
         JRBeanCollectionDataSource dataSource=new JRBeanCollectionDataSource(data);
+        parameters02.put("CollectionBeanParam",dataSource);
 
         JasperReport jasperReport02= JasperCompileManager.compileReport("/home/mahadeva/Downloads/InvetoryDetailsProject/jarper/src/main/resources/supplymentory/supplymentory01.jrxml");
-        JasperPrint jasperPrint02= JasperFillManager.fillReport(jasperReport02,parameters02,dataSource);
+        JasperPrint jasperPrint02= JasperFillManager.fillReport(jasperReport02,parameters02,new JREmptyDataSource());
         prints.add(jasperPrint02);
 
 
@@ -65,7 +65,6 @@ public class SupplymentoryService {
         JRPdfExporter exporter = new JRPdfExporter();
         exporter.setExporterInput(SimpleExporterInput.getInstance(prints));
         exporter.setExporterOutput(new SimpleOutputStreamExporterOutput(byteArrayOutputStream));
-
         SimplePdfExporterConfiguration configuration = new SimplePdfExporterConfiguration();
         configuration.setCreatingBatchModeBookmarks(true);
         configuration.setCompressed(true);

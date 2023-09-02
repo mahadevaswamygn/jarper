@@ -1,0 +1,66 @@
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              xmlns:jr="http://jasperreports.sourceforge.net/jasperreports"
+              name="SampleReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+    <title>
+        <band height="50">
+            <staticText>
+                <reportElement x="0" y="10" width="555" height="20"/>
+                <text><![CDATA[Static Title]]></text>
+            </staticText>
+        </band>
+    </title>
+    <detail>
+        <band height="200">
+            <componentElement>
+                <reportElement x="0" y="0" width="555" height="200"/>
+                <jr:table>
+                    <datasetRun subDataset="tableDataset">
+                        <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{tableData})]]></dataSourceExpression>
+                    </datasetRun>
+                    <jr:column width="100">
+                        <jr:tableHeader>
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="20"/>
+                                <text><![CDATA[Column 1]]></text>
+                            </staticText>
+                        </jr:tableHeader>
+                        <jr:detailCell>
+                            <textField>
+                                <reportElement x="0" y="0" width="100" height="20"/>
+                                <textFieldExpression><![CDATA[$F{field1}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="100">
+                        <jr:tableHeader>
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="20"/>
+                                <text><![CDATA[Column 2]]></text>
+                            </staticText>
+                        </jr:tableHeader>
+                        <jr:detailCell>
+                            <textField>
+                                <reportElement x="0" y="0" width="100" height="20"/>
+                                <textFieldExpression><![CDATA[$F{field2}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+    </detail>
+    <summary>
+        <band height="50">
+            <staticText>
+                <reportElement x="0" y="10" width="555" height="20"/>
+                <text><![CDATA[Static Field After Table]]></text>
+            </staticText>
+        </band>
+    </summary>
+    <subDataset name="tableDataset">
+        <field name="field1" class="java.lang.String"/>
+        <field name="field2" class="java.lang.String"/>
+    </subDataset>
+</jasperReport>

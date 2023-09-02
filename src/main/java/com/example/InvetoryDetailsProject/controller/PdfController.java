@@ -63,6 +63,9 @@ public class PdfController {
     @Autowired
     LoanScheduleService loanScheduleService;
 
+    @Autowired
+    TestingService testingService;
+
     @GetMapping("/generate-pdf")
     public String generatePdf() throws JRException, IOException {
         reportService.generateHindi();
@@ -160,6 +163,12 @@ public class PdfController {
     @GetMapping(value = "/get-loanSchedule-pdf")
     public String getloanSchedulePdf() throws JRException, IOException {
         loanScheduleService.getloanSchedulePdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-test-pdf")
+    public String getTestPdf() throws JRException, IOException {
+        testingService.getReport();
         return "success";
     }
 }

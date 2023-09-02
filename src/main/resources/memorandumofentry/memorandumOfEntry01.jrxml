@@ -9,6 +9,10 @@
 	<parameter name="borrowerAddress" class="java.lang.String"/>
 	<parameter name="finalLoanAmountIncludingInsurance" class="java.lang.String"/>
 	<parameter name="finalLoanAmountIncludingInsuranceInWords" class="java.lang.String"/>
+	<parameter name="propertyWoner" class="java.lang.String"/>
+	<parameter name="propertyWonerAddress" class="java.lang.String"/>
+	<parameter name="property2Woner" class="java.lang.String"/>
+	<parameter name="property2WonerAddress" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -214,6 +218,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$P{propertyWoner} + "  <br> " + $P{propertyWonerAddress} +  "<br> <br>"  +$P{property2Woner} +  "<br> " + $P{property2WonerAddress}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="13" y="473" width="149" height="158" uuid="0905ef75-24fc-4dd5-943e-8b76f2645ad4">
