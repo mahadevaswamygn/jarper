@@ -9,7 +9,7 @@
 	<parameter name="borrowerName" class="java.lang.String"/>
 	<parameter name="nameOfTheBorrowerInstitution" class="java.lang.String"/>
 	<parameter name="authorizedPersonName" class="java.lang.String"/>
-	<parameter name="authorisedDesignation" class="java.lang.String"/>
+	<parameter name="authorisedPersonDesignation" class="java.lang.String"/>
 	<parameter name="addressOfBorrower" class="java.lang.String"/>
 	<parameter name="coBorrower1Type" class="java.lang.String"/>
 	<parameter name="coBorrower2Type" class="java.lang.String"/>
@@ -457,7 +457,7 @@
 				<reportElement x="223" y="343" width="304" height="16" uuid="f26d88d4-a849-41a1-b5b0-c99a107fa1c9">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<textFieldExpression><![CDATA[$P{authorisedDesignation}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{authorisedPersonDesignation}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="226" y="364" width="301" height="45" uuid="289f004e-08c2-46b2-8a8e-91a8b448ea35">
@@ -465,63 +465,63 @@
 				</reportElement>
 				<textFieldExpression><![CDATA[$P{addressOfBorrower}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="434" width="310" height="17" uuid="97169ea5-c61d-4c74-b8ed-a6976b2cfc0a"/>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$P{coBorrower1Type}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="454" width="301" height="15" uuid="e8f4897b-4af6-4194-8733-0f4a98df378c">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$P{nameOfCoBorrower1}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="564" width="301" height="15" uuid="e2ee7c2b-bb94-4ba2-b13a-939b06dc0eab">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$P{nameOfCoBorrower2}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="674" width="301" height="15" uuid="f7eebb95-01b6-476b-a3c7-9c4e03ecc45d">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$P{nameOfCoBorrower3}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="544" width="310" height="17" uuid="120f52a3-1b2e-4be5-bb4d-ec1af5954a63"/>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$P{coBorrower2Type}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="226" y="474" width="298" height="45" uuid="5f648921-d468-4c13-8294-fce070b7c439">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Justified"/>
 				<textFieldExpression><![CDATA[$P{addressOfCoBorrower1}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="584" width="298" height="45" uuid="3e439955-abbe-43dc-b605-5969662aaca4">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Justified"/>
 				<textFieldExpression><![CDATA[$P{addressOfCoBorrower2}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="694" width="298" height="45" uuid="7ccffc86-5af6-4604-99fe-048bde851b46">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Justified"/>
 				<textFieldExpression><![CDATA[$P{addressOfCoBorrower3}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField isBlankWhenNull="true">
 				<reportElement x="223" y="654" width="310" height="15" uuid="443d0f3a-200f-4467-9fe1-bc5c60d79af4">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$P{coBorrower2Type}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{coBorrower3Type}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="40" y="750" width="490" height="40" uuid="b80cc7df-f6e4-4d07-9564-fdf148c867df"/>

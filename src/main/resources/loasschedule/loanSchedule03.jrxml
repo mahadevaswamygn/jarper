@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanSchedule03" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f96622ca-7891-46be-a5ed-51b1895cfcc4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="750" width="490" height="40" uuid="f97c6392-3d81-42af-8c54-55636a6e1eb4"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Registered Office: ‘Varasiddhi’, 5BC-110 Service Road, Outer Ring Road, HRBR Layout 3rd Block, Kalyan Nagar Bangalore 560043 www.varthana.com Email: care@varthana.com Phone: 080-68455777]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="420" y="20" width="110" height="60" uuid="16bc5d88-a4ed-4f8e-a502-68860a19b5a3"/>
+				<imageExpression><![CDATA["https://s3.ap-south-1.amazonaws.com/com.rbi.circular/test/Varthana+Logo+2022+-+White_1.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="40" y="226" width="490" height="40" uuid="174a7d21-4398-4472-862f-60cc859ce982"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["11) In case of Moratorium opted for EMIs, the interest will be accrued till the moratorium period and the accrued interest will be capitalized on the Principal outstanding amount, the revised repayment schedule will be shared post completion of moratorium period."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="271" width="490" height="30" uuid="714aa101-b872-4ae4-b8f9-4f5e4942409f"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[The EMI mentioned in the approval letter and loan schedule are indicative EMI, not applicable for loans taken under moratorium option.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="304" width="490" height="42" uuid="0cc6c25a-fa30-44b2-b1eb-36db45d9f561"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[<b>12) SMA/NPA Classification: </b> <br>
+Please refer to the below table for the understanding of various subcategories under SMA and the basis of the classification under these categories.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="356" width="350" height="40" uuid="097a1667-cdda-457f-bd14-f6e3febaedaa"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="356" width="140" height="40" uuid="930f98cd-3fb7-4391-ac92-bd6aa38ea3e0"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="359" width="347" height="37" uuid="c9ffd58d-76ec-4ff2-9b96-3058655a5e5b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[Principal or Interest or any other amount( Overdue Interest/Bounce
+Charges) remaining wholly or partly overdue]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="359" width="137" height="37" uuid="799308c6-ca95-4512-8811-89497b22024b"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[SMA-sub-categories]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="396" width="350" height="30" uuid="94938be9-4b15-4e7b-ad92-a148fb3985b3"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="396" width="140" height="30" uuid="bb15465d-dc92-42ea-ba72-3d02ca680898"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="399" width="347" height="27" uuid="20622ca7-643f-493c-ac93-57f5b8585c92"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Between 1 to 30 days (both days inclusive)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="399" width="137" height="27" uuid="26f5c1f1-9b4f-4dd8-8342-f3e2a5bb07eb"/>
+				<text><![CDATA[SMA-0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="426" width="350" height="30" uuid="2a811fb4-a24b-47c7-8dc3-2136088abad3"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="426" width="140" height="30" uuid="e14192ff-df1c-48b9-8d3a-77c95dc28e8a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="429" width="347" height="27" uuid="24ccf38f-78df-43c8-8f81-68b4205607b5"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Between 31 to 60 days (both days inclusive)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="429" width="137" height="27" uuid="c3480733-c608-44a7-8db5-5b5bcd53bdfc"/>
+				<text><![CDATA[SMA-1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="456" width="350" height="30" uuid="af0d65fe-d34e-4ee4-97d1-11c4ac5b801f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="456" width="140" height="30" uuid="401a1ebc-c6c2-42c6-96f8-e74e951764ea"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="459" width="347" height="27" uuid="4a5acd4b-0eb7-46d3-a799-6c026684ae37"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Between 61 to 90 days (both days inclusive)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="459" width="137" height="27" uuid="68312094-fec1-4d36-951a-15f0364cbf90"/>
+				<text><![CDATA[SMA-2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="486" width="350" height="30" uuid="5d83da4b-3d55-432c-bbee-f46d4c02a9f8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="486" width="140" height="30" uuid="634e5ac3-f8a5-4426-96f6-ffcd2d0809ca"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="489" width="347" height="27" uuid="ceb81428-1bbe-49b9-9427-c53bec2ba593"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[91 Days and above]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="489" width="137" height="27" uuid="fde2c311-e977-47cd-81b9-0dfcd936943a"/>
+				<text><![CDATA[NPA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="536" width="490" height="80" uuid="7949da9c-8f66-45bf-bdfc-c9b06452eef1"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[If your loan account turns into NPA then the entire overdue including principal/interest / penal charges to be paid in order to bring the loan account back to current/standard. Further, if you have multiple loan accounts with us then all such accounts will also be classified as NPA irrespective of the SMA category.<br>The loan account will be classified under SMA sub-categories depending upon the number of days for which the installment has remained overdue from the date of the due date.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="150" width="34" height="20" uuid="3477bd1f-1d69-479c-acdd-c5bdb0a6c0ba"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ 10.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="150" width="176" height="20" uuid="bc002427-8386-4ab0-b14b-7b5bb7bf1604"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Security/Mortgage/Hypothecation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="150" width="280" height="20" uuid="ac3af249-92dc-4be7-a834-903f1448b5ee"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Actuals(applicable as per state law)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="170" width="34" height="40" uuid="eb251541-720f-4045-acad-5710ddca580e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ 11.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="170" width="176" height="40" uuid="b10d17fa-0546-4a52-ae55-b587de18792c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Loan Cancelation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="170" width="280" height="40" uuid="20047253-85e0-455b-b2de-de3e0ed94e6b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="173" width="277" height="37" uuid="2784618a-9c58-4dfa-ad45-88827032fe80"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[Nil - however client has to pay interest for interim period between loan disbursement to loan cancellation period]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="110" width="34" height="20" uuid="28b736b7-7a26-4ee2-b095-122acaf4e4c5"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ 8.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="110" width="176" height="20" uuid="15aab999-c14f-47b3-a866-eb8ac6c83579"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Photocopy of Property Papers]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="110" width="280" height="20" uuid="3f815d90-46a4-4e40-a866-12ffd0b3400d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ ₹1000 + GST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="130" width="34" height="20" uuid="e72140bd-08bd-425a-a66d-30acbb4dc8b1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ 9.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="130" width="176" height="20" uuid="2fc483cd-8d43-4cbe-ac51-e65ca269ef38"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Stamp Duty]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="130" width="280" height="20" uuid="7d0385a9-016b-4eb2-a748-f5340114ff07"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ Actuals]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="90" width="34" height="20" uuid="1d80afac-b6e5-4873-80a3-7d94e0268c7b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ 7.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="90" width="176" height="20" uuid="0210898a-b3c4-4a74-9616-1f0070f54b0a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ List of Documents]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="90" width="280" height="20" uuid="6bbcec86-d61a-4196-8ca9-a091e6d6cfc1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ ₹750 + GST]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

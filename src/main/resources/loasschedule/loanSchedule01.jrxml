@@ -13,13 +13,13 @@
 	<parameter name="interestType" class="java.lang.String"/>
 	<parameter name="emiAmount" class="java.lang.String"/>
 	<parameter name="emiDueDate" class="java.lang.String"/>
-	<parameter name="dateOfFirstIntsallment" class="java.lang.String"/>
-	<parameter name="dateOfLastIntsallment" class="java.lang.String"/>
+	<parameter name="dateOfFirstInstallment" class="java.lang.String"/>
+	<parameter name="dateOfLastInstallment" class="java.lang.String"/>
 	<parameter name="sumOfAdvanceEMI" class="java.lang.String"/>
-	<parameter name="legalAndAmpTechnicalIGST" class="java.lang.String"/>
-	<parameter name="legalAndAmpTechnicalSGST" class="java.lang.String"/>
-	<parameter name="lrgalAndTechnicalCharge" class="java.lang.String"/>
-	<parameter name="legalAndAmpTechnicalCGST" class="java.lang.String"/>
+	<parameter name="sumOfLegalAndAmpTechnicalIGST" class="java.lang.String"/>
+	<parameter name="sumOfLegalAndAmpTechnicalSGST" class="java.lang.String"/>
+	<parameter name="sumOfLegalAndTechnicalCharge" class="java.lang.String"/>
+	<parameter name="sumOfLegalAndAmpTechnicalCGST" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -412,7 +412,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$P{dateOfFirstIntsallment}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{dateOfFirstInstallment}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="213" y="483" width="313" height="15" uuid="c644a560-40ac-4844-8b1b-d3086b4840cb">
@@ -420,7 +420,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$P{dateOfLastIntsallment}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{dateOfLastInstallment}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="40" y="510" width="164" height="20" uuid="b18d6181-c7af-4f53-9c5c-c74567aafed9"/>
@@ -726,19 +726,19 @@
 			<textField>
 				<reportElement x="393" y="533" width="138" height="27" uuid="7915a8c6-370a-4909-90a1-f6a2b3d112b8"/>
 				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$P{lrgalAndTechnicalCharge}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{sumOfLegalAndTechnicalCharge}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="393" y="563" width="138" height="27" uuid="5261bd0f-2164-47a1-9d45-7c801e2c5db7"/>
-				<textFieldExpression><![CDATA[$P{legalAndAmpTechnicalCGST}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{sumOfLegalAndAmpTechnicalCGST}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="392" y="593" width="139" height="27" uuid="189b00b9-0e73-422e-8fc5-7b9eeb8c6724"/>
-				<textFieldExpression><![CDATA[$P{legalAndAmpTechnicalSGST}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{sumOfLegalAndAmpTechnicalSGST}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="393" y="622" width="138" height="27" uuid="7498dd27-aa40-4139-9006-1d8c9155c59b"/>
-				<textFieldExpression><![CDATA[$P{legalAndAmpTechnicalIGST}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{sumOfLegalAndAmpTechnicalIGST}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="40" y="750" width="490" height="40" uuid="c942469a-e198-46de-adf9-3f5a0f4112ab"/>

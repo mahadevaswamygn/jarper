@@ -3,6 +3,42 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="disbursementRequest00" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2518518b-03db-4ff1-8020-fb331856338e">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<parameter name="loanId" class="java.lang.String"/>
+	<parameter name="accountHolderName" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BTorSellerAccountHolderName" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="VendorAccountHolderName" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BankAccountNumber" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BTorSellerBankAccountNumber" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="VendorBankAccountNumber" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="IFSCCode" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BTorSellerIFSCCode" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="Amount" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BTorSellerAmount" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="VendorAmount" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<parameter name="VendorIFSCCode" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -32,7 +68,7 @@
 				<text><![CDATA[Sub: Request for disbursement of loan amount for the loan account Number:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="374" y="179" width="100" height="30" uuid="19c12eae-5247-44b5-be9b-9f82bc1c78fe"/>
+				<reportElement x="361" y="179" width="100" height="30" uuid="19c12eae-5247-44b5-be9b-9f82bc1c78fe"/>
 				<textFieldExpression><![CDATA[$P{loanId}]]></textFieldExpression>
 			</textField>
 			<staticText>
@@ -87,37 +123,40 @@
 				<text><![CDATA[]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="178" y="336" width="232" height="20" uuid="8f4a0e8b-248b-4508-a60f-0e3fb020b2b9"/>
+				<reportElement x="182" y="337" width="230" height="20" uuid="8f4a0e8b-248b-4508-a60f-0e3fb020b2b9"/>
 				<box>
 					<pen lineWidth="0.25"/>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{accountHolderName}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="178" y="356" width="232" height="20" uuid="4d0cf164-5fd0-41d9-9c8f-bb1f24c1a8ec"/>
+				<reportElement x="182" y="357" width="230" height="20" uuid="4d0cf164-5fd0-41d9-9c8f-bb1f24c1a8ec"/>
 				<box>
 					<pen lineWidth="0.25"/>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{BankAccountNumber}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="178" y="376" width="232" height="20" uuid="26ffcea1-8ecd-4a3c-8825-1c7fd7c8cf40"/>
+				<reportElement x="182" y="377" width="230" height="20" uuid="26ffcea1-8ecd-4a3c-8825-1c7fd7c8cf40"/>
 				<box>
 					<pen lineWidth="0.25"/>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{IFSCCode}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="33" y="299" width="370" height="34" uuid="2884cf47-385a-4a00-83fc-2f4d00eb5bb3">
@@ -138,6 +177,7 @@
 				<reportElement x="33" y="358" width="145" height="13" uuid="fd3bb823-a77e-425d-9b30-890ff6756848">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
 				<text><![CDATA[Bank Account Number]]></text>
 			</staticText>
 			<staticText>
@@ -158,15 +198,16 @@
 				<text><![CDATA[]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="178" y="396" width="232" height="20" uuid="b243e510-c25f-4c93-965c-5c51d4d2cc60"/>
+				<reportElement x="182" y="397" width="230" height="20" uuid="b243e510-c25f-4c93-965c-5c51d4d2cc60"/>
 				<box>
 					<pen lineWidth="0.25"/>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{Amount}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="33" y="399" width="145" height="13" uuid="0d8719a8-ce7c-4541-ba1a-f67422fa8d4f">
@@ -227,7 +268,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{BTorSellerAccountHolderName}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="178" y="535" width="232" height="20" uuid="06a89295-6be9-49a8-9b31-907e95e46eab"/>
@@ -238,7 +280,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{BTorSellerBankAccountNumber}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="178" y="555" width="232" height="20" uuid="0226bec7-8c67-4926-bb4e-95846802b66b"/>
@@ -249,7 +292,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{BTorSellerIFSCCode}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="33" y="478" width="370" height="34" uuid="c55b7535-7790-43b7-9a21-4a01f8c2d831">
@@ -298,7 +342,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{BTorSellerAmount}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="33" y="578" width="145" height="13" uuid="75584181-1abb-46d9-ae7f-497fcb6a4a13">
@@ -364,7 +409,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{VendorAccountHolderName}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="180" y="717" width="232" height="20" uuid="cee1d29f-68e1-4ff0-a937-1603477a51a1"/>
@@ -375,7 +421,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{VendorBankAccountNumber}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="180" y="737" width="232" height="20" uuid="cc8476aa-70e1-400a-a264-ee8ee15be94c"/>
@@ -386,7 +433,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{VendorIFSCCode}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="35" y="660" width="370" height="34" uuid="e413e785-36bf-43cc-8eef-e8482842ea6d">
@@ -435,7 +483,8 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{VendorAmount}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="35" y="760" width="145" height="13" uuid="6da92b02-2609-4a7f-a0c7-83a3cdf939f6">
@@ -446,7 +495,47 @@
 			<staticText>
 				<reportElement x="42" y="616" width="480" height="27" uuid="cd967068-7dfb-42c6-a81f-451c615fba35"/>
 				<textElement textAlignment="Justified"/>
-				<text><![CDATA[We confirm that below mentioned account details will be used for the transfer of BT/Seller account.]]></text>
+				<text><![CDATA[We confirm that below mentioned account details will be used for the transfer of Vendor account.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="178" y="336" width="232" height="20" uuid="fc05efc4-e0f6-4120-bd41-9c1f9fbf6502"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="178" y="356" width="232" height="20" uuid="faad583e-d182-426f-9743-2e1165d97dbc"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="178" y="376" width="232" height="20" uuid="897e1787-563d-4fde-a530-2e72c2d32939"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="178" y="396" width="232" height="20" uuid="b2f2a2da-46bc-4c1f-b32c-9057e60b195b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[]]></text>
 			</staticText>
 		</band>
 	</detail>

@@ -66,6 +66,15 @@ public class PdfController {
     @Autowired
     TestingService testingService;
 
+    @Autowired
+    DemandPolicyService demandPolicyService;
+
+    @Autowired
+    InsuranceForm1Service insuranceForm1Service;
+
+    @Autowired
+    InsuranceForm2Service insuranceForm2Service;
+
     @GetMapping("/generate-pdf")
     public String generatePdf() throws JRException, IOException {
         reportService.generateHindi();
@@ -169,6 +178,24 @@ public class PdfController {
     @GetMapping(value = "/get-test-pdf")
     public String getTestPdf() throws JRException, IOException {
         testingService.getReport();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-DemandPolicy-pdf")
+    public String getDemandPolicyPdf() throws JRException, IOException {
+        demandPolicyService.getDemandPolicyPdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-InsuranceForm1-pdf")
+    public String getInsuranceForm1Pdf() throws JRException, IOException {
+       insuranceForm1Service.getInsuranceForm1Pdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-InsuranceForm2-pdf")
+    public String getInsuranceForm2Pdf() throws JRException, IOException {
+        insuranceForm2Service.getInsuranceForm2Pdf();
         return "success";
     }
 }
