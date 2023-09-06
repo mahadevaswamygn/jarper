@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanApproval5" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e1bd6910-a966-45d7-bc7b-6f77254a5155">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="date" class="java.lang.String">
+		<defaultValueExpression><![CDATA[" "]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="67" splitType="Stretch">
+			<image>
+				<reportElement x="460" y="14" width="58" height="50" uuid="23f5fec2-9ae8-41e2-b2f9-0516de738678"/>
+				<imageExpression><![CDATA["https://s3.ap-south-1.amazonaws.com/com.rbi.circular/test/Varthana+Logo+2022+-+White_1.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="748" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="59" width="180" height="30" uuid="0700d375-2767-40f6-a04f-9006dd3b76ad"/>
+				<text><![CDATA[(Authorized Signatory)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="119" width="180" height="20" uuid="9ae32cf1-0f36-4317-80e4-695a6f6b6ed8"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Declaration:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="139" width="488" height="20" uuid="fdacd6ba-6a8d-46ef-9f66-5c1354202d42"/>
+				<text><![CDATA[I/we have read this loan approval letter and hereby accept the offer made]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="10" width="210" height="20" uuid="58a7408d-db67-480a-b0f2-5bf3be0e278e"/>
+				<textElement markup="html"/>
+				<text><![CDATA[For <b>Varthana Finance Pvt Ltd</b>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="200" width="250" height="30" uuid="3fec4205-3f71-4e6c-8c59-7063858cf804"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[____________________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="200" width="238" height="30" uuid="a9f16ea6-0f83-426f-979a-977365fd5757"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[____________________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="220" width="181" height="30" uuid="5d3a25e8-96a1-4549-906c-0924757efb22"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[(Borrower Signature, Name, Seal)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="220" width="220" height="30" uuid="abbb0cab-1637-4b87-9452-1aab3cd957a8"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[(Co-Borrower Signature and Name)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="250" width="100" height="20" uuid="4a92002e-affc-4ef7-8cc1-ff04f75528cb"/>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="270" width="100" height="30" uuid="c8ed4d44-54df-4828-8732-4248a5ee46c9"/>
+				<text><![CDATA[Place :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="250" width="100" height="20" uuid="9cff775c-14e6-4959-b4b8-46356d7af410"/>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="270" width="100" height="30" uuid="6e1f935c-2bf9-450e-832b-841e03699203"/>
+				<text><![CDATA[Place :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="340" width="140" height="30" uuid="0f883263-3bac-4256-afa3-9eefb660c2b9"/>
+				<text><![CDATA[Document Generated Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="170" y="340" width="160" height="30" uuid="fb773ceb-5fd7-416d-902a-a66562ef91df"/>
+				<textFieldExpression><![CDATA[$P{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<line>
+				<reportElement x="29" y="8" width="502" height="1" uuid="8167a290-f687-47d0-968c-892f644c1458"/>
+			</line>
+			<staticText>
+				<reportElement x="30" y="15" width="501" height="30" uuid="be0aeb86-1d78-4620-a752-a290eacc819e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Registered Office: ‘Varasiddhi’, 5BC-110 Service Road, Outer Ring Road, HRBR Layout 3rd Block, Kalyan Nagar Bangalore 560043 www.varthana.com Email: care@varthana.com Phone: 080-68455777
+]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

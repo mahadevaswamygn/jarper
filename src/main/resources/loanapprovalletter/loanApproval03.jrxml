@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="loanApproval03" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="714f1d4e-6a94-4a6e-8517-8cacf16a06cb">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="748" splitType="Stretch">
+			<image>
+				<reportElement x="473" y="8" width="58" height="50" uuid="9a961191-b569-457a-a12e-ce2688da77dc"/>
+				<imageExpression><![CDATA["https://s3.ap-south-1.amazonaws.com/com.rbi.circular/test/Varthana+Logo+2022+-+White_1.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="70" width="170" height="20" uuid="e3bae744-3315-4b11-aa7e-616d32ae5ffd"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Terms and Conditions:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="90" width="481" height="658" uuid="150f2b37-1c51-40e5-9b6d-9b85094a54e2"/>
+				<textElement textAlignment="Justified" markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. The disbursement of loan shall be at the absolute and sole discretion of Varthana Finance Private Limited (VFPL). The Company reserves the right to amend or altogether cancel the loan approval before disbursement at its sole discretion.<br>
+2. This approval is subject to execution of a loan agreement and connected loan documents in the prescribed format of VFPL. For Secured loans, Original property papers to be submitted and charge to be created in the name of the Company. In case Terms and Conditions of security being vehicle, disbursement will be done after hypothecation is completed. The approval letter is valid for 45 days from the date of Approval.<br>
+3. VFPL may request such other additional documents other than those collected from the applicant / co- applicant / with the application or at any point in time, later.<br>
+4. The processing fee, credit shield insurance, legal and technical charges will be deducted from the loan amount at the time of disbursement. Disbursement would be released in tranches for Construction related loans.<br>
+5. All payments shall be made in favor of (VFPL) vide ACH / ECS / Cheque or such other mode at the discretion of the Company against a receipt acknowledging the payment.<br>
+6. Additional charges including but not limited to service charge, documentation charge, outstation cheque charge etc., may be levied by VFPL as may be applicable to the applicant / borrower / customer.<br>
+7. All indirect taxes, duties, levies including but not limited to interest tax, service tax, education cess as may be applicable and amended from time to time by the Government will be additionally levied on the charges payable by the borrower in connection with the loan.<br>
+8. The rates of interest will be different for different categories of borrowers based on the individual credit and risk profiles assessed by the Company.<br>
+9. Interest rate is Fixed Rate and is calculated on 30/360 days with daily rests on reducing balance method.<br>
+10. In case of any queries on your loan agreement, you may contact either our branch or write to care@varthana.com, to help us serve you better.<br>
+11. This loan approval letter and the repayment schedule annexed to it supersede all the previous loan approval letters &amp; schedules annexed, in connection with this repeat loan, issued to the borrower.<br>
+12. Disbursement of the loan is also subject to legal and technical clearance of the collateral offered and The LTV( Loan to value) would be considered at sole discretion of TFPL.<br>
+13. In case of Moratorium opted for EMIs, the interest will be accrued till the moratorium period and the accrued interest will be capitalized on the Principal outstanding amount, the revised repayment schedule will be shared post completion of moratorium period.<br>
+14. The EMI mentioned in the approval letter and loan schedule are indicative EMI, not applicable forloans taken under moratorium option.<br>
+15. The interest rate offered to you —---<br>
+16. In case of property swap for multiple properties, then property swapping charges will vary and to be borne by customer as per actuals]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="22" y="15" width="511" height="30" uuid="0ebba0a3-37c8-4fd7-bc4c-1c5dc522a2fc"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Registered Office: ‘Varasiddhi’, 5BC-110 Service Road, Outer Ring Road, HRBR Layout 3rd Block, Kalyan Nagar Bangalore 560043 www.varthana.com Email: care@varthana.com Phone: 080-68455777
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="24" y="9" width="511" height="1" uuid="79f89300-e63c-485e-a950-9baa93b89243"/>
+			</line>
+			<staticText>
+				<reportElement x="490" y="34" width="40" height="20" uuid="211d25ca-ac90-4c68-943d-ccd9a54791ff"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

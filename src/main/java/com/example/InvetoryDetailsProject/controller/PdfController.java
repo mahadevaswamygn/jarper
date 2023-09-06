@@ -75,6 +75,9 @@ public class PdfController {
     @Autowired
     InsuranceForm2Service insuranceForm2Service;
 
+    @Autowired
+    LoanApprovalServivce loanApprovalServivce;
+
     @GetMapping("/generate-pdf")
     public String generatePdf() throws JRException, IOException {
         reportService.generateHindi();
@@ -196,6 +199,12 @@ public class PdfController {
     @GetMapping(value = "/get-InsuranceForm2-pdf")
     public String getInsuranceForm2Pdf() throws JRException, IOException {
         insuranceForm2Service.getInsuranceForm2Pdf();
+        return "success";
+    }
+
+    @GetMapping(value = "/get-loanApprovalLetter-pdf")
+    public String getloanApprovalLetterPdf() throws JRException, IOException {
+        loanApprovalServivce.getLoanProovelaLetter();
         return "success";
     }
 }
